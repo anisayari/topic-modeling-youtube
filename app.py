@@ -152,9 +152,11 @@ def get_channel_info():
 def save_progress(filepath, data, lock):
     """Save current progress to JSON file (thread-safe)."""
     with lock:
-        # Update total comments before saving
+        # Update stats before saving
         data['total_comments'] = sum(v.get('comment_count', 0) for v in data['videos'])
+        data['total_videos'] = len(data['videos'])
         data['videos_completed'] = len(data['videos'])
+        data['last_updated'] = datetime.now().isoformat()
         with open(filepath, 'w', encoding='utf-8') as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
 
@@ -187,27 +189,58 @@ def scrape_comments():
         if limit and limit > 0:
             videos = videos[:limit]
 
-        # Prepare filename early for progressive saving
+        # Prepare filename - just channel name, no timestamp
         safe_channel_name = "".join(c for c in channel_name if c.isalnum() or c in (' ', '-', '_')).strip()
-        filename = f"{safe_channel_name}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
+        filename = f"{safe_channel_name}.json"
         filepath = os.path.join(app.config['OUTPUT_DIR'], filename)
+        
+        # If file already exists, load existing videos to merge
+        existing_videos = []
+        existing_video_ids = set()
+        if os.path.exists(filepath):
+            try:
+                with open(filepath, 'r', encoding='utf-8') as f:
+                    existing_data = json.load(f)
+                    existing_videos = existing_data.get('videos', [])
+                    existing_video_ids = {v.get('video_id') for v in existing_videos}
+                    print(f"Found existing file with {len(existing_videos)} videos, will merge new data")
+            except Exception:
+                pass
+
+        # Filter out videos that are already in the existing file
+        videos = [v for v in videos if v['id'] not in existing_video_ids]
+        
+        if len(videos) == 0:
+            print("All videos already extracted, nothing new to do")
+            total_comments = sum(v.get('comment_count', 0) for v in existing_videos)
+            return jsonify({
+                'success': True,
+                'channel_name': channel_name,
+                'total_videos': len(existing_videos),
+                'total_available': total_available,
+                'skipped_existing': skipped_count + len(existing_video_ids),
+                'total_comments': total_comments,
+                'filename': filename,
+                'filepath': filepath,
+                'message': 'All videos already extracted'
+            })
 
         all_comments = {
             'channel_name': channel_name,
-            'scraped_at': datetime.now().isoformat(),
-            'total_videos': len(videos),
-            'videos_completed': 0,
-            'total_comments': 0,
-            'videos': []
+            'last_updated': datetime.now().isoformat(),
+            'total_videos': len(existing_videos) + len(videos),
+            'videos_completed': len(existing_videos),
+            'total_comments': sum(v.get('comment_count', 0) for v in existing_videos),
+            'videos': existing_videos.copy()
         }
 
         # Lock for thread-safe file writing
         file_lock = threading.Lock()
 
-        # Save initial empty file
+        # Save initial file with existing data
         save_progress(filepath, all_comments, file_lock)
 
-        print(f"Starting parallel extraction for {len(videos)} videos with {MAX_WORKERS} workers...")
+        print(f"Starting parallel extraction for {len(videos)} NEW videos with {MAX_WORKERS} workers...")
         print(f"Progress will be saved to: {filename}")
 
         # Parallel extraction using ThreadPoolExecutor
@@ -326,7 +359,7 @@ def list_files_with_stats():
                         file_info['channel_name'] = data.get('channel_name', '')
                         file_info['video_count'] = data.get('total_videos', 0)
                         file_info['comment_count'] = data.get('total_comments', 0)
-                        file_info['scraped_at'] = data.get('scraped_at', '')
+                        file_info['last_updated'] = data.get('last_updated', data.get('scraped_at', ''))
 
                         # Accumuler les stats globales
                         if file_info['channel_name']:
@@ -338,8 +371,8 @@ def list_files_with_stats():
 
                 files.append(file_info)
 
-    # Trier par date de scraping (plus récent en premier)
-    files.sort(key=lambda x: x.get('scraped_at', ''), reverse=True)
+    # Trier par date de mise à jour (plus récent en premier)
+    files.sort(key=lambda x: x.get('last_updated', ''), reverse=True)
 
     return jsonify({
         'files': files,

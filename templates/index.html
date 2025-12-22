@@ -1038,7 +1038,7 @@
                     </td>
                     <td>${file.video_count || '-'}</td>
                     <td>${file.comment_count ? file.comment_count.toLocaleString() : '-'}</td>
-                    <td>${file.scraped_at ? formatDate(file.scraped_at) : '-'}</td>
+                    <td>${file.last_updated ? formatDate(file.last_updated) : '-'}</td>
                     <td>${file.size || '-'}</td>
                     <td>
                         <button class="btn btn-secondary btn-sm" onclick="viewFileDetail('${file.name}')">
@@ -1090,7 +1090,7 @@
 
             // Update header
             document.getElementById('detailChannelName').textContent = data.channel_name || 'Unknown Channel';
-            document.getElementById('detailDate').textContent = data.scraped_at ? `Extracted on ${formatDate(data.scraped_at)}` : '';
+            document.getElementById('detailDate').textContent = data.last_updated ? `Last updated: ${formatDate(data.last_updated)}` : '';
 
             // Update stats
             const totalComments = data.total_comments || 0;
