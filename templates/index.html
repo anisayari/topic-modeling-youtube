@@ -692,40 +692,48 @@
                     </label>
                 </div>
 
-                <div style="display: flex; gap: 12px;">
-                    <button class="btn btn-primary" id="scrapeBtn" onclick="scrapeComments()">
-                        Start Extraction
-                    </button>
-                    <button class="btn btn-secondary" id="stopBtn" onclick="stopExtraction()" style="display: none;">
-                        ⏹ Stop
-                    </button>
-                </div>
+                <button class="btn btn-primary" id="scrapeBtn" onclick="addToQueue()">
+                    Add to Queue
+                </button>
+            </div>
 
-                <div class="progress-container" id="progressContainer">
+            <!-- Queue section with real progress -->
+            <div class="card" id="queueCard">
+                <div class="card-header">
+                    <h2 class="card-title">Extraction Queue</h2>
+                    <div style="display: flex; gap: 8px;">
+                        <button class="btn btn-secondary btn-sm" id="stopBtn" onclick="stopExtraction()" style="display: none;">
+                            ⏹ Stop
+                        </button>
+                        <button class="btn btn-secondary btn-sm" onclick="clearQueue()">Clear completed</button>
+                    </div>
+                </div>
+                
+                <!-- Current extraction progress -->
+                <div class="progress-container" id="progressContainer" style="display: none; margin-bottom: 20px;">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+                        <span id="progressChannel" style="font-weight: 500;"></span>
+                        <span id="progressPercent" style="color: var(--accent); font-size: 14px;"></span>
+                    </div>
                     <div class="progress-bar">
                         <div class="progress-fill" id="progressFill"></div>
                     </div>
-                    <p class="progress-text" id="progressText">Extraction in progress...</p>
-                    <p class="progress-detail" id="progressDetail" style="color: var(--text-muted); font-size: 12px; margin-top: 8px;"></p>
+                    <p class="progress-text" id="progressText" style="margin-top: 8px;"></p>
+                    <p class="progress-detail" id="progressDetail" style="color: var(--text-muted); font-size: 12px; margin-top: 4px;"></p>
                 </div>
-
-                <div class="result-box" id="resultBox">
+                
+                <!-- Queue list -->
+                <div id="queueList" style="color: var(--text-secondary); font-size: 14px;">
+                    No extractions in queue
+                </div>
+                
+                <!-- Result box -->
+                <div class="result-box" id="resultBox" style="display: none; margin-top: 16px;">
                     <div class="result-title" id="resultTitle">Extraction Complete</div>
                     <p class="result-text" id="resultText"></p>
                     <a href="#" id="downloadLink" class="btn btn-success btn-sm" style="display: none; margin-top: 12px; text-decoration: none;">
                         Download JSON
                     </a>
-                </div>
-            </div>
-
-            <!-- Queue section -->
-            <div class="card" id="queueCard">
-                <div class="card-header">
-                    <h2 class="card-title">Extraction Queue</h2>
-                    <button class="btn btn-secondary btn-sm" onclick="clearQueue()">Clear completed</button>
-                </div>
-                <div id="queueList" style="color: var(--text-secondary); font-size: 14px;">
-                    No extractions in queue
                 </div>
             </div>
         </div>
@@ -922,24 +930,17 @@
 
         let pollingInterval = null;
 
-        async function scrapeComments() {
+        async function addToQueue() {
             const channelInput = document.getElementById('channelInput').value.trim();
             if (!channelInput) {
                 alert('Please search for a channel first');
                 return;
             }
-
-            const scrapeBtn = document.getElementById('scrapeBtn');
-            const stopBtn = document.getElementById('stopBtn');
-            const progressContainer = document.getElementById('progressContainer');
-            const resultBox = document.getElementById('resultBox');
             
             // Get options
             const limitInput = document.getElementById('videoLimit').value;
             const limit = limitInput ? parseInt(limitInput) : null;
             const skipExisting = document.getElementById('skipExisting').checked;
-
-            resultBox.style.display = 'none';
 
             try {
                 const response = await fetch('/api/scrape-comments', {
@@ -957,6 +958,8 @@
                 if (data.error) {
                     alert('Error: ' + data.error);
                 } else {
+                    // Hide result box for new extractions
+                    document.getElementById('resultBox').style.display = 'none';
                     // Start polling for progress
                     startPolling();
                 }
@@ -968,12 +971,6 @@
         function startPolling() {
             if (pollingInterval) return;
             
-            const progressContainer = document.getElementById('progressContainer');
-            const stopBtn = document.getElementById('stopBtn');
-            
-            progressContainer.style.display = 'block';
-            stopBtn.style.display = 'inline-flex';
-            
             pollingInterval = setInterval(updateProgress, 1000);
             updateProgress(); // Initial call
         }
@@ -983,7 +980,6 @@
                 clearInterval(pollingInterval);
                 pollingInterval = null;
             }
-            document.getElementById('stopBtn').style.display = 'none';
         }
 
         async function updateProgress() {
@@ -991,33 +987,44 @@
                 const response = await fetch('/api/extraction-status');
                 const status = await response.json();
                 
-                // Update queue display
-                updateQueueDisplay(status.queue || []);
+                const progressContainer = document.getElementById('progressContainer');
+                const stopBtn = document.getElementById('stopBtn');
+                
+                // Update queue display (filter out running item, it's shown in progress)
+                const queueItems = (status.queue || []).filter(q => q.status !== 'running');
+                updateQueueDisplay(queueItems);
                 
                 if (status.active) {
+                    progressContainer.style.display = 'block';
+                    stopBtn.style.display = 'inline-flex';
+                    
                     const progress = status.videos_total > 0 
                         ? (status.videos_completed / status.videos_total) * 100 
                         : 0;
                     
+                    document.getElementById('progressChannel').textContent = status.current_channel || 'Starting...';
+                    document.getElementById('progressPercent').textContent = Math.round(progress) + '%';
                     document.getElementById('progressFill').style.width = progress + '%';
                     document.getElementById('progressText').textContent = 
-                        `Extracting ${status.current_channel || '...'}: ${status.videos_completed}/${status.videos_total} videos`;
+                        `${status.videos_completed}/${status.videos_total} videos processed`;
                     document.getElementById('progressDetail').textContent = 
-                        `Current: ${status.current_video || '...'} | ${status.comments_extracted.toLocaleString()} comments extracted`;
-                    
-                    document.getElementById('stopBtn').style.display = 'inline-flex';
+                        status.current_video 
+                            ? `Current: ${status.current_video} | ${status.comments_extracted.toLocaleString()} comments`
+                            : `${status.comments_extracted.toLocaleString()} comments extracted`;
                 } else {
+                    progressContainer.style.display = 'none';
+                    stopBtn.style.display = 'none';
+                    
                     // Check if there are completed items in queue
                     const completedItems = (status.queue || []).filter(q => q.status === 'completed');
                     if (completedItems.length > 0) {
                         showCompletionResult(completedItems[completedItems.length - 1]);
                     }
                     
-                    // Check if queue is empty
-                    const activeItems = (status.queue || []).filter(q => q.status === 'queued' || q.status === 'running');
-                    if (activeItems.length === 0) {
+                    // Check if queue has pending items
+                    const pendingItems = (status.queue || []).filter(q => q.status === 'queued');
+                    if (pendingItems.length === 0 && completedItems.length === 0) {
                         stopPolling();
-                        document.getElementById('progressContainer').style.display = 'none';
                     }
                 }
             } catch (error) {
@@ -1043,7 +1050,7 @@
                 document.getElementById('resultTitle').textContent = 
                     result.stopped ? 'Extraction Stopped' : 'Extraction Complete';
                 document.getElementById('resultText').textContent = 
-                    `${result.total_videos} videos, ${result.total_comments?.toLocaleString() || 0} comments`;
+                    `${result.channel_name}: ${result.total_videos} videos, ${result.total_comments?.toLocaleString() || 0} comments`;
                 
                 if (result.filename) {
                     const downloadLink = document.getElementById('downloadLink');
@@ -1066,7 +1073,6 @@
                 let statusColor = '';
                 switch(item.status) {
                     case 'queued': statusIcon = '⏳'; statusColor = 'var(--text-muted)'; break;
-                    case 'running': statusIcon = '🔄'; statusColor = 'var(--accent)'; break;
                     case 'completed': statusIcon = '✅'; statusColor = 'var(--success)'; break;
                     case 'error': statusIcon = '❌'; statusColor = 'var(--error)'; break;
                 }
@@ -1093,6 +1099,7 @@
         async function clearQueue() {
             try {
                 await fetch('/api/clear-queue', { method: 'POST' });
+                document.getElementById('resultBox').style.display = 'none';
                 updateProgress();
             } catch (error) {
                 console.error('Clear queue error:', error);
