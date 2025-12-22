@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,66 +12,136 @@
             box-sizing: border-box;
         }
 
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
-            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
-            min-height: 100vh;
-            color: #fff;
+        :root {
+            --bg-primary: #0a0a0a;
+            --bg-secondary: #141414;
+            --bg-card: #1a1a1a;
+            --bg-hover: #242424;
+            --border-color: #2a2a2a;
+            --text-primary: #ffffff;
+            --text-secondary: #888888;
+            --text-muted: #555555;
+            --accent: #3b82f6;
+            --accent-hover: #2563eb;
+            --success: #22c55e;
+            --warning: #f59e0b;
+            --error: #ef4444;
         }
 
-        /* Navigation */
-        .navbar {
-            background: rgba(0, 0, 0, 0.3);
-            padding: 15px 40px;
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            min-height: 100vh;
             display: flex;
-            align-items: center;
-            justify-content: space-between;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        /* Sidebar */
+        .sidebar {
+            width: 240px;
+            background: var(--bg-secondary);
+            border-right: 1px solid var(--border-color);
+            padding: 24px 16px;
+            display: flex;
+            flex-direction: column;
+            position: fixed;
+            height: 100vh;
         }
 
         .logo {
-            font-size: 1.5rem;
-            font-weight: 700;
-            background: linear-gradient(90deg, #ff6b6b, #feca57);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-
-        .nav-tabs {
+            font-size: 18px;
+            font-weight: 600;
+            padding: 0 12px;
+            margin-bottom: 32px;
             display: flex;
-            gap: 5px;
+            align-items: center;
+            gap: 10px;
         }
 
-        .nav-tab {
-            padding: 12px 24px;
-            background: transparent;
-            border: none;
-            color: #888;
-            font-size: 15px;
-            font-weight: 500;
-            cursor: pointer;
+        .logo-icon {
+            width: 32px;
+            height: 32px;
+            background: var(--accent);
             border-radius: 8px;
-            transition: all 0.3s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
         }
 
-        .nav-tab:hover {
-            color: #fff;
-            background: rgba(255, 255, 255, 0.05);
+        .nav-section {
+            margin-bottom: 24px;
         }
 
-        .nav-tab.active {
-            color: #fff;
-            background: rgba(255, 107, 107, 0.2);
-            border: 1px solid rgba(255, 107, 107, 0.3);
+        .nav-label {
+            font-size: 11px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--text-muted);
+            padding: 0 12px;
+            margin-bottom: 8px;
+        }
+
+        .nav-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 10px 12px;
+            border-radius: 8px;
+            color: var(--text-secondary);
+            cursor: pointer;
+            transition: all 0.15s;
+            font-size: 14px;
+            border: none;
+            background: none;
+            width: 100%;
+            text-align: left;
+        }
+
+        .nav-item:hover {
+            background: var(--bg-hover);
+            color: var(--text-primary);
+        }
+
+        .nav-item.active {
+            background: var(--accent);
+            color: white;
+        }
+
+        .nav-icon {
+            width: 20px;
+            height: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
         }
 
         /* Main content */
-        .main-content {
-            padding: 40px;
-            max-width: 1400px;
-            margin: 0 auto;
+        .main {
+            flex: 1;
+            margin-left: 240px;
+            padding: 32px;
+            min-height: 100vh;
         }
 
+        .page-header {
+            margin-bottom: 32px;
+        }
+
+        .page-title {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+
+        .page-subtitle {
+            color: var(--text-secondary);
+            font-size: 14px;
+        }
+
+        /* Tab content */
         .tab-content {
             display: none;
         }
@@ -82,98 +152,169 @@
 
         /* Cards */
         .card {
-            background: rgba(255, 255, 255, 0.05);
-            border-radius: 16px;
-            padding: 30px;
-            margin-bottom: 20px;
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(255, 255, 255, 0.1);
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 24px;
         }
 
-        .card h2 {
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
             margin-bottom: 20px;
-            font-size: 1.3rem;
+        }
+
+        .card-title {
+            font-size: 16px;
+            font-weight: 600;
         }
 
         .card-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 20px;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 24px;
+        }
+
+        /* Stats cards */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 16px;
+            margin-bottom: 32px;
+        }
+
+        .stat-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 20px;
+        }
+
+        .stat-label {
+            font-size: 13px;
+            color: var(--text-secondary);
+            margin-bottom: 8px;
+        }
+
+        .stat-value {
+            font-size: 28px;
+            font-weight: 600;
+        }
+
+        .stat-change {
+            font-size: 12px;
+            color: var(--success);
+            margin-top: 4px;
         }
 
         /* Form elements */
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-label {
+            display: block;
+            font-size: 13px;
+            font-weight: 500;
+            color: var(--text-secondary);
+            margin-bottom: 8px;
+        }
+
         .input-group {
             display: flex;
-            gap: 10px;
-            margin-bottom: 20px;
+            gap: 12px;
         }
 
         input[type="text"], select {
             flex: 1;
-            padding: 15px 20px;
-            border: none;
-            border-radius: 10px;
-            background: rgba(255, 255, 255, 0.1);
-            color: #fff;
-            font-size: 16px;
+            padding: 12px 16px;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            color: var(--text-primary);
+            font-size: 14px;
             outline: none;
-            transition: all 0.3s;
+            transition: border-color 0.15s;
         }
 
         input[type="text"]:focus, select:focus {
-            background: rgba(255, 255, 255, 0.15);
-            box-shadow: 0 0 0 2px rgba(255, 107, 107, 0.5);
+            border-color: var(--accent);
         }
 
         input[type="text"]::placeholder {
-            color: #666;
+            color: var(--text-muted);
         }
 
-        button {
-            padding: 15px 30px;
+        /* Buttons */
+        .btn {
+            padding: 12px 20px;
             border: none;
-            border-radius: 10px;
-            background: linear-gradient(90deg, #ff6b6b, #ee5a24);
-            color: #fff;
-            font-size: 16px;
-            font-weight: 600;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 500;
             cursor: pointer;
-            transition: all 0.3s;
+            transition: all 0.15s;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
         }
 
-        button:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 5px 20px rgba(255, 107, 107, 0.4);
+        .btn-primary {
+            background: var(--accent);
+            color: white;
         }
 
-        button:disabled {
+        .btn-primary:hover {
+            background: var(--accent-hover);
+        }
+
+        .btn-secondary {
+            background: var(--bg-hover);
+            color: var(--text-primary);
+            border: 1px solid var(--border-color);
+        }
+
+        .btn-secondary:hover {
+            background: var(--border-color);
+        }
+
+        .btn-success {
+            background: var(--success);
+            color: white;
+        }
+
+        .btn-sm {
+            padding: 8px 12px;
+            font-size: 13px;
+        }
+
+        .btn:disabled {
             opacity: 0.5;
             cursor: not-allowed;
-            transform: none;
         }
 
-        button.secondary {
-            background: rgba(255, 255, 255, 0.1);
+        /* Help text */
+        .help-text {
+            font-size: 13px;
+            color: var(--text-muted);
+            margin-top: 8px;
         }
 
-        button.secondary:hover {
-            background: rgba(255, 255, 255, 0.2);
-            box-shadow: none;
-        }
-
-        /* Info boxes */
+        /* Info box */
         .info-box {
-            background: rgba(255, 255, 255, 0.05);
-            border-radius: 10px;
-            padding: 20px;
+            background: var(--bg-secondary);
+            border-radius: 8px;
+            padding: 16px;
             margin-top: 20px;
         }
 
         .info-row {
             display: flex;
             justify-content: space-between;
-            padding: 10px 0;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 8px 0;
+            border-bottom: 1px solid var(--border-color);
         }
 
         .info-row:last-child {
@@ -181,12 +322,13 @@
         }
 
         .info-label {
-            color: #888;
+            color: var(--text-secondary);
+            font-size: 14px;
         }
 
         .info-value {
-            font-weight: 600;
-            color: #feca57;
+            font-weight: 500;
+            color: var(--accent);
         }
 
         /* Progress */
@@ -196,103 +338,110 @@
         }
 
         .progress-bar {
-            height: 6px;
-            background: rgba(255, 255, 255, 0.1);
-            border-radius: 3px;
+            height: 4px;
+            background: var(--bg-secondary);
+            border-radius: 2px;
             overflow: hidden;
         }
 
         .progress-fill {
             height: 100%;
-            background: linear-gradient(90deg, #ff6b6b, #feca57);
+            background: var(--accent);
             width: 0%;
             transition: width 0.3s;
         }
 
         .progress-text {
             text-align: center;
-            margin-top: 10px;
-            color: #888;
+            margin-top: 12px;
+            color: var(--text-secondary);
+            font-size: 13px;
         }
 
         /* Result box */
         .result-box {
             display: none;
             margin-top: 20px;
-            padding: 20px;
-            background: rgba(46, 213, 115, 0.1);
-            border-radius: 10px;
-            border: 1px solid rgba(46, 213, 115, 0.3);
+            padding: 16px;
+            background: rgba(34, 197, 94, 0.1);
+            border: 1px solid rgba(34, 197, 94, 0.2);
+            border-radius: 8px;
         }
 
         .result-box.error {
-            background: rgba(255, 71, 87, 0.1);
-            border-color: rgba(255, 71, 87, 0.3);
+            background: rgba(239, 68, 68, 0.1);
+            border-color: rgba(239, 68, 68, 0.2);
         }
 
-        .download-btn {
-            display: inline-block;
-            margin-top: 15px;
-            background: linear-gradient(90deg, #2ed573, #1e90ff);
-            text-decoration: none;
+        .result-title {
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+
+        .result-text {
+            font-size: 14px;
+            color: var(--text-secondary);
         }
 
         /* Spinner */
         .spinner {
             display: inline-block;
-            width: 20px;
-            height: 20px;
-            border: 2px solid #fff;
+            width: 16px;
+            height: 16px;
+            border: 2px solid var(--border-color);
             border-radius: 50%;
-            border-top-color: transparent;
-            animation: spin 1s linear infinite;
-            margin-right: 10px;
-            vertical-align: middle;
+            border-top-color: var(--accent);
+            animation: spin 0.8s linear infinite;
         }
 
         @keyframes spin {
             to { transform: rotate(360deg); }
         }
 
-        .help-text {
-            color: #666;
+        /* Data table */
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .data-table th {
+            text-align: left;
+            padding: 12px 16px;
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--text-muted);
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .data-table td {
+            padding: 16px;
+            border-bottom: 1px solid var(--border-color);
             font-size: 14px;
-            margin-top: 10px;
         }
 
-        /* Pipeline steps */
-        .pipeline {
-            display: flex;
-            gap: 15px;
-            margin-bottom: 30px;
-            flex-wrap: wrap;
+        .data-table tr:hover {
+            background: var(--bg-hover);
         }
 
-        .pipeline-step {
+        .data-table tr:last-child td {
+            border-bottom: none;
+        }
+
+        /* Channel row */
+        .channel-name {
+            font-weight: 500;
             display: flex;
             align-items: center;
-            gap: 10px;
-            padding: 12px 20px;
-            background: rgba(255, 255, 255, 0.05);
-            border-radius: 10px;
-            border: 1px solid rgba(255, 255, 255, 0.1);
+            gap: 12px;
         }
 
-        .pipeline-step.completed {
-            border-color: rgba(46, 213, 115, 0.5);
-            background: rgba(46, 213, 115, 0.1);
-        }
-
-        .pipeline-step.active {
-            border-color: rgba(255, 107, 107, 0.5);
-            background: rgba(255, 107, 107, 0.1);
-        }
-
-        .step-number {
-            width: 28px;
-            height: 28px;
-            border-radius: 50%;
-            background: rgba(255, 255, 255, 0.1);
+        .channel-avatar {
+            width: 36px;
+            height: 36px;
+            background: var(--accent);
+            border-radius: 8px;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -300,322 +449,387 @@
             font-size: 14px;
         }
 
-        .pipeline-step.completed .step-number {
-            background: #2ed573;
+        /* Badge */
+        .badge {
+            display: inline-flex;
+            align-items: center;
+            padding: 4px 10px;
+            border-radius: 100px;
+            font-size: 12px;
+            font-weight: 500;
         }
 
-        .pipeline-step.active .step-number {
-            background: #ff6b6b;
+        .badge-success {
+            background: rgba(34, 197, 94, 0.1);
+            color: var(--success);
         }
 
-        /* Visualization container */
-        .viz-container {
-            background: rgba(0, 0, 0, 0.2);
-            border-radius: 12px;
-            padding: 20px;
-            min-height: 500px;
-        }
-
-        #plot3d {
-            width: 100%;
-            height: 600px;
-        }
-
-        /* Parameter group */
-        .param-group {
-            margin-bottom: 20px;
-        }
-
-        .param-group label {
-            display: block;
-            margin-bottom: 8px;
-            color: #888;
-            font-size: 14px;
-        }
-
-        .param-row {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 15px;
+        .badge-warning {
+            background: rgba(245, 158, 11, 0.1);
+            color: var(--warning);
         }
 
         /* Empty state */
         .empty-state {
             text-align: center;
             padding: 60px 20px;
-            color: #666;
         }
 
-        .empty-state-icon {
+        .empty-icon {
             font-size: 48px;
+            margin-bottom: 16px;
+            opacity: 0.3;
+        }
+
+        .empty-title {
+            font-size: 16px;
+            font-weight: 500;
+            margin-bottom: 8px;
+            color: var(--text-secondary);
+        }
+
+        .empty-text {
+            font-size: 14px;
+            color: var(--text-muted);
+        }
+
+        /* Charts container */
+        .charts-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 24px;
+        }
+
+        .chart-container {
+            background: var(--bg-secondary);
+            border-radius: 8px;
+            padding: 20px;
+            height: 300px;
+        }
+
+        /* File detail view */
+        .file-detail {
+            display: none;
+        }
+
+        .file-detail.active {
+            display: block;
+        }
+
+        .back-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--text-secondary);
+            font-size: 14px;
+            cursor: pointer;
             margin-bottom: 20px;
-            opacity: 0.5;
+            padding: 8px 0;
         }
 
-        .empty-state h3 {
-            color: #888;
-            margin-bottom: 10px;
+        .back-btn:hover {
+            color: var(--text-primary);
         }
 
-        /* File list */
-        .file-list {
-            max-height: 200px;
+        /* Video list */
+        .video-list {
+            max-height: 400px;
             overflow-y: auto;
-            margin-top: 15px;
         }
 
-        .file-item {
+        .video-item {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 10px 15px;
-            background: rgba(255, 255, 255, 0.05);
-            border-radius: 8px;
-            margin-bottom: 8px;
-            cursor: pointer;
-            transition: all 0.2s;
+            padding: 12px 16px;
+            border-bottom: 1px solid var(--border-color);
         }
 
-        .file-item:hover {
-            background: rgba(255, 255, 255, 0.1);
+        .video-item:last-child {
+            border-bottom: none;
         }
 
-        .file-item.selected {
-            background: rgba(255, 107, 107, 0.2);
-            border: 1px solid rgba(255, 107, 107, 0.3);
+        .video-title {
+            font-size: 14px;
+            flex: 1;
+            margin-right: 16px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .video-comments {
+            font-size: 13px;
+            color: var(--text-secondary);
+            white-space: nowrap;
+        }
+
+        /* Scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: var(--bg-secondary);
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: var(--border-color);
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: var(--text-muted);
+        }
+
+        /* Responsive */
+        @media (max-width: 1024px) {
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .charts-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .sidebar {
+                width: 60px;
+                padding: 16px 8px;
+            }
+            .logo span, .nav-label, .nav-item span:not(.nav-icon) {
+                display: none;
+            }
+            .main {
+                margin-left: 60px;
+            }
+            .stats-grid {
+                grid-template-columns: 1fr;
+            }
         }
     </style>
 </head>
 <body>
-    <nav class="navbar">
-        <div class="logo">YouTube Topic Modeling</div>
-        <div class="nav-tabs">
-            <button class="nav-tab active" onclick="showTab('extraction')">Extraction</button>
-            <button class="nav-tab" onclick="showTab('modeling')">Modelisation</button>
-            <button class="nav-tab" onclick="showTab('visualization')">Visualisation</button>
+    <nav class="sidebar">
+        <div class="logo">
+            <div class="logo-icon">YT</div>
+            <span>Topic Modeling</span>
+        </div>
+
+        <div class="nav-section">
+            <div class="nav-label">Menu</div>
+            <button class="nav-item active" onclick="showTab('extraction')">
+                <span class="nav-icon">+</span>
+                <span>Extraction</span>
+            </button>
+            <button class="nav-item" onclick="showTab('data')">
+                <span class="nav-icon">&#9776;</span>
+                <span>Data</span>
+            </button>
+            <button class="nav-item" onclick="showTab('modeling')">
+                <span class="nav-icon">&#9881;</span>
+                <span>Modeling</span>
+            </button>
         </div>
     </nav>
 
-    <div class="main-content">
+    <main class="main">
         <!-- TAB: Extraction -->
         <div id="tab-extraction" class="tab-content active">
+            <div class="page-header">
+                <h1 class="page-title">Extraction</h1>
+                <p class="page-subtitle">Search for a YouTube channel and extract all comments</p>
+            </div>
+
             <div class="card">
-                <h2>1. Rechercher une chaine YouTube</h2>
-                <div class="input-group">
-                    <input type="text" id="channelInput" placeholder="@nomchaine ou ID de la chaine">
-                    <button id="searchBtn" onclick="getChannelInfo()">Rechercher</button>
+                <div class="card-header">
+                    <h2 class="card-title">Search Channel</h2>
                 </div>
-                <p class="help-text">Exemples: @MrBeast, UCX6OQ3DkcsbYNE6H8uQQuVA</p>
+
+                <div class="form-group">
+                    <label class="form-label">Channel name or ID</label>
+                    <div class="input-group">
+                        <input type="text" id="channelInput" placeholder="@channelname or channel ID">
+                        <button class="btn btn-primary" id="searchBtn" onclick="getChannelInfo()">
+                            Search
+                        </button>
+                    </div>
+                    <p class="help-text">Examples: @MrBeast, @Fireship, UCX6OQ3DkcsbYNE6H8uQQuVA</p>
+                </div>
 
                 <div id="channelInfo" class="info-box" style="display: none;">
                     <div class="info-row">
-                        <span class="info-label">Nom de la chaine</span>
+                        <span class="info-label">Channel name</span>
                         <span class="info-value" id="channelName">-</span>
                     </div>
                     <div class="info-row">
-                        <span class="info-label">Nombre de videos</span>
+                        <span class="info-label">Number of videos</span>
                         <span class="info-value" id="videoCount">-</span>
                     </div>
                 </div>
             </div>
 
             <div class="card" id="scrapeCard" style="display: none;">
-                <h2>2. Extraire les commentaires</h2>
-                <p style="color: #888; margin-bottom: 20px;">
-                    Cliquez sur le bouton ci-dessous pour extraire tous les commentaires de toutes les videos.
-                    Cette operation peut prendre du temps selon le nombre de videos.
+                <div class="card-header">
+                    <h2 class="card-title">Extract Comments</h2>
+                </div>
+
+                <p style="color: var(--text-secondary); margin-bottom: 20px; font-size: 14px;">
+                    This will extract all comments from all videos on the channel.
+                    Execution time depends on the number of videos and comments.
                 </p>
-                <button id="scrapeBtn" onclick="scrapeComments()">
-                    Extraire tous les commentaires
+
+                <button class="btn btn-primary" id="scrapeBtn" onclick="scrapeComments()">
+                    Start Extraction
                 </button>
 
                 <div class="progress-container" id="progressContainer">
                     <div class="progress-bar">
                         <div class="progress-fill" id="progressFill"></div>
                     </div>
-                    <p class="progress-text" id="progressText">Extraction en cours...</p>
+                    <p class="progress-text" id="progressText">Extraction in progress...</p>
                 </div>
 
                 <div class="result-box" id="resultBox">
-                    <h3 id="resultTitle">Extraction terminee!</h3>
-                    <p id="resultText"></p>
-                    <a href="#" id="downloadLink" class="download-btn" style="display: none;">
-                        Telecharger le fichier JSON
+                    <div class="result-title" id="resultTitle">Extraction Complete</div>
+                    <p class="result-text" id="resultText"></p>
+                    <a href="#" id="downloadLink" class="btn btn-success btn-sm" style="display: none; margin-top: 12px; text-decoration: none;">
+                        Download JSON
                     </a>
                 </div>
             </div>
         </div>
 
-        <!-- TAB: Modelisation -->
+        <!-- TAB: Data -->
+        <div id="tab-data" class="tab-content">
+            <div id="dataListView">
+                <div class="page-header">
+                    <h1 class="page-title">Data</h1>
+                    <p class="page-subtitle">View and manage your extracted data</p>
+                </div>
+
+                <div class="stats-grid" id="globalStats">
+                    <div class="stat-card">
+                        <div class="stat-label">Channels</div>
+                        <div class="stat-value" id="statChannels">0</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-label">Videos</div>
+                        <div class="stat-value" id="statVideos">0</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-label">Comments</div>
+                        <div class="stat-value" id="statComments">0</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-label">Files</div>
+                        <div class="stat-value" id="statFiles">0</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <h2 class="card-title">Extracted Files</h2>
+                        <button class="btn btn-secondary btn-sm" onclick="loadDataFiles()">
+                            Refresh
+                        </button>
+                    </div>
+
+                    <div id="dataTableContainer">
+                        <table class="data-table" id="dataTable">
+                            <thead>
+                                <tr>
+                                    <th>Channel</th>
+                                    <th>Videos</th>
+                                    <th>Comments</th>
+                                    <th>Date</th>
+                                    <th>Size</th>
+                                    <th>Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody id="dataTableBody">
+                            </tbody>
+                        </table>
+
+                        <div class="empty-state" id="dataEmptyState" style="display: none;">
+                            <div class="empty-icon">&#128194;</div>
+                            <div class="empty-title">No data</div>
+                            <div class="empty-text">Extract comments from the Extraction tab first</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- File detail view -->
+            <div id="dataDetailView" class="file-detail">
+                <div class="back-btn" onclick="hideFileDetail()">
+                    &#8592; Back to list
+                </div>
+
+                <div class="page-header">
+                    <h1 class="page-title" id="detailChannelName">-</h1>
+                    <p class="page-subtitle" id="detailDate">-</p>
+                </div>
+
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-label">Videos</div>
+                        <div class="stat-value" id="detailVideos">0</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-label">Comments</div>
+                        <div class="stat-value" id="detailComments">0</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-label">Avg. per video</div>
+                        <div class="stat-value" id="detailAvg">0</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-label">Replies</div>
+                        <div class="stat-value" id="detailReplies">0</div>
+                    </div>
+                </div>
+
+                <div class="charts-grid">
+                    <div class="card">
+                        <div class="card-header">
+                            <h2 class="card-title">Comments per Video</h2>
+                        </div>
+                        <div class="chart-container" id="chartVideos"></div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <h2 class="card-title">Comments Timeline</h2>
+                        </div>
+                        <div class="chart-container" id="chartTimeline"></div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <h2 class="card-title">Video List</h2>
+                    </div>
+                    <div class="video-list" id="videoList"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- TAB: Modeling -->
         <div id="tab-modeling" class="tab-content">
-            <div class="pipeline">
-                <div class="pipeline-step" id="step-load">
-                    <span class="step-number">1</span>
-                    <span>Charger les donnees</span>
-                </div>
-                <div class="pipeline-step" id="step-preprocess">
-                    <span class="step-number">2</span>
-                    <span>Pre-traitement</span>
-                </div>
-                <div class="pipeline-step" id="step-vectorize">
-                    <span class="step-number">3</span>
-                    <span>Vectorisation</span>
-                </div>
-                <div class="pipeline-step" id="step-model">
-                    <span class="step-number">4</span>
-                    <span>Topic Modeling</span>
-                </div>
-                <div class="pipeline-step" id="step-reduce">
-                    <span class="step-number">5</span>
-                    <span>Reduction dimensionnelle</span>
-                </div>
+            <div class="page-header">
+                <h1 class="page-title">Modeling</h1>
+                <p class="page-subtitle">Topic modeling and comment analysis</p>
             </div>
 
-            <div class="card-grid">
-                <div class="card">
-                    <h2>Donnees source</h2>
-                    <p class="help-text" style="margin-bottom: 15px;">Selectionnez un fichier JSON extrait precedemment</p>
-
-                    <div id="fileList" class="file-list">
-                        <div class="empty-state">
-                            <p>Aucun fichier disponible</p>
-                            <p class="help-text">Extrayez d'abord des commentaires dans l'onglet Extraction</p>
-                        </div>
-                    </div>
-
-                    <button class="secondary" style="margin-top: 15px;" onclick="loadFiles()">
-                        Rafraichir la liste
-                    </button>
-                </div>
-
-                <div class="card">
-                    <h2>Parametres de pre-traitement</h2>
-
-                    <div class="param-group">
-                        <label>Langue</label>
-                        <select id="paramLang">
-                            <option value="french">Francais</option>
-                            <option value="english">Anglais</option>
-                            <option value="auto">Detection automatique</option>
-                        </select>
-                    </div>
-
-                    <div class="param-group">
-                        <label>Options</label>
-                        <div style="display: flex; flex-direction: column; gap: 10px;">
-                            <label style="display: flex; align-items: center; gap: 10px; cursor: pointer;">
-                                <input type="checkbox" id="paramLowercase" checked> Minuscules
-                            </label>
-                            <label style="display: flex; align-items: center; gap: 10px; cursor: pointer;">
-                                <input type="checkbox" id="paramStopwords" checked> Supprimer stopwords
-                            </label>
-                            <label style="display: flex; align-items: center; gap: 10px; cursor: pointer;">
-                                <input type="checkbox" id="paramLemmatize" checked> Lemmatisation
-                            </label>
-                            <label style="display: flex; align-items: center; gap: 10px; cursor: pointer;">
-                                <input type="checkbox" id="paramEmojis"> Conserver les emojis
-                            </label>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <h2>Parametres du modele</h2>
-
-                    <div class="param-group">
-                        <label>Algorithme</label>
-                        <select id="paramAlgo">
-                            <option value="lda">LDA (Latent Dirichlet Allocation)</option>
-                            <option value="nmf">NMF (Non-negative Matrix Factorization)</option>
-                            <option value="bertopic">BERTopic</option>
-                            <option value="top2vec">Top2Vec</option>
-                        </select>
-                    </div>
-
-                    <div class="param-group">
-                        <label>Nombre de topics</label>
-                        <input type="text" id="paramTopics" value="10" style="flex: none; width: 100%;">
-                    </div>
-
-                    <div class="param-group">
-                        <label>Reduction dimensionnelle</label>
-                        <select id="paramReduction">
-                            <option value="umap">UMAP</option>
-                            <option value="tsne">t-SNE</option>
-                            <option value="pca">PCA</option>
-                        </select>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <h2>Execution</h2>
-
-                    <div class="empty-state">
-                        <div class="empty-state-icon">🚧</div>
-                        <h3>En construction</h3>
-                        <p>Le pipeline de modelisation sera disponible prochainement</p>
-                    </div>
-
-                    <button disabled style="width: 100%; margin-top: 20px;">
-                        Lancer le pipeline
-                    </button>
-                </div>
-            </div>
-        </div>
-
-        <!-- TAB: Visualisation -->
-        <div id="tab-visualization" class="tab-content">
             <div class="card">
-                <h2>Visualisation 3D des Topics</h2>
-                <p class="help-text" style="margin-bottom: 20px;">
-                    Representation 3D des commentaires dans l'espace des embeddings, colores par topic.
-                </p>
-
-                <div class="viz-container">
-                    <div id="plot3d"></div>
-                </div>
-            </div>
-
-            <div class="card-grid">
-                <div class="card">
-                    <h2>Options d'affichage</h2>
-
-                    <div class="param-group">
-                        <label>Coloration</label>
-                        <select id="vizColor">
-                            <option value="topic">Par topic</option>
-                            <option value="sentiment">Par sentiment</option>
-                            <option value="video">Par video</option>
-                            <option value="date">Par date</option>
-                        </select>
-                    </div>
-
-                    <div class="param-group">
-                        <label>Taille des points</label>
-                        <select id="vizSize">
-                            <option value="uniform">Uniforme</option>
-                            <option value="likes">Par nombre de likes</option>
-                            <option value="length">Par longueur du commentaire</option>
-                        </select>
-                    </div>
-
-                    <button class="secondary" onclick="updateVisualization()" style="width: 100%;">
-                        Mettre a jour
-                    </button>
-                </div>
-
-                <div class="card">
-                    <h2>Statistiques</h2>
-
-                    <div class="empty-state">
-                        <div class="empty-state-icon">📊</div>
-                        <h3>Aucune donnee</h3>
-                        <p>Lancez d'abord le pipeline de modelisation</p>
-                    </div>
+                <div class="empty-state">
+                    <div class="empty-icon">&#128736;</div>
+                    <div class="empty-title">Coming Soon</div>
+                    <div class="empty-text">The topic modeling pipeline will be available soon</div>
                 </div>
             </div>
         </div>
-    </div>
+    </main>
 
     <script>
         // Navigation
@@ -623,92 +837,31 @@
             document.querySelectorAll('.tab-content').forEach(tab => {
                 tab.classList.remove('active');
             });
-            document.querySelectorAll('.nav-tab').forEach(btn => {
+            document.querySelectorAll('.nav-item').forEach(btn => {
                 btn.classList.remove('active');
             });
 
             document.getElementById('tab-' + tabName).classList.add('active');
-            event.target.classList.add('active');
+            event.target.closest('.nav-item').classList.add('active');
 
-            if (tabName === 'visualization') {
-                initPlot3D();
+            if (tabName === 'data') {
+                loadDataFiles();
             }
         }
 
-        // Initialize empty 3D plot
-        function initPlot3D() {
-            const data = [{
-                x: [],
-                y: [],
-                z: [],
-                mode: 'markers',
-                type: 'scatter3d',
-                marker: {
-                    size: 5,
-                    color: [],
-                    colorscale: 'Viridis',
-                    opacity: 0.8
-                },
-                text: [],
-                hoverinfo: 'text'
-            }];
-
-            const layout = {
-                paper_bgcolor: 'rgba(0,0,0,0)',
-                plot_bgcolor: 'rgba(0,0,0,0)',
-                font: { color: '#888' },
-                scene: {
-                    xaxis: {
-                        title: 'Dimension 1',
-                        gridcolor: 'rgba(255,255,255,0.1)',
-                        zerolinecolor: 'rgba(255,255,255,0.1)'
-                    },
-                    yaxis: {
-                        title: 'Dimension 2',
-                        gridcolor: 'rgba(255,255,255,0.1)',
-                        zerolinecolor: 'rgba(255,255,255,0.1)'
-                    },
-                    zaxis: {
-                        title: 'Dimension 3',
-                        gridcolor: 'rgba(255,255,255,0.1)',
-                        zerolinecolor: 'rgba(255,255,255,0.1)'
-                    },
-                    bgcolor: 'rgba(0,0,0,0.2)'
-                },
-                margin: { l: 0, r: 0, t: 30, b: 0 },
-                title: {
-                    text: 'En attente des donnees...',
-                    font: { color: '#666', size: 14 }
-                }
-            };
-
-            const config = {
-                responsive: true,
-                displayModeBar: true,
-                modeBarButtonsToRemove: ['toImage', 'sendDataToCloud']
-            };
-
-            Plotly.newPlot('plot3d', data, layout, config);
-        }
-
-        function updateVisualization() {
-            // TODO: Implement visualization update
-            console.log('Update visualization with new parameters');
-        }
-
-        // Extraction functions
+        // Extraction
         let channelData = null;
 
         async function getChannelInfo() {
             const channelInput = document.getElementById('channelInput').value.trim();
             if (!channelInput) {
-                alert('Veuillez entrer un nom ou ID de chaine');
+                alert('Please enter a channel name or ID');
                 return;
             }
 
             const searchBtn = document.getElementById('searchBtn');
             searchBtn.disabled = true;
-            searchBtn.innerHTML = '<span class="spinner"></span>Recherche...';
+            searchBtn.innerHTML = '<span class="spinner"></span> Searching...';
 
             try {
                 const response = await fetch('/api/channel-info', {
@@ -720,7 +873,7 @@
                 const data = await response.json();
 
                 if (data.error) {
-                    alert('Erreur: ' + data.error);
+                    alert('Error: ' + data.error);
                     return;
                 }
 
@@ -730,16 +883,16 @@
                 document.getElementById('channelInfo').style.display = 'block';
                 document.getElementById('scrapeCard').style.display = 'block';
             } catch (error) {
-                alert('Erreur: ' + error.message);
+                alert('Error: ' + error.message);
             } finally {
                 searchBtn.disabled = false;
-                searchBtn.innerHTML = 'Rechercher';
+                searchBtn.innerHTML = 'Search';
             }
         }
 
         async function scrapeComments() {
             if (!channelData) {
-                alert('Veuillez d\'abord rechercher une chaine');
+                alert('Please search for a channel first');
                 return;
             }
 
@@ -748,7 +901,7 @@
             const resultBox = document.getElementById('resultBox');
 
             scrapeBtn.disabled = true;
-            scrapeBtn.innerHTML = '<span class="spinner"></span>Extraction en cours...';
+            scrapeBtn.innerHTML = '<span class="spinner"></span> Extracting...';
             progressContainer.style.display = 'block';
             resultBox.style.display = 'none';
 
@@ -777,67 +930,265 @@
 
                 if (data.error) {
                     resultBox.classList.add('error');
-                    document.getElementById('resultTitle').textContent = 'Erreur';
+                    document.getElementById('resultTitle').textContent = 'Error';
                     document.getElementById('resultText').textContent = data.error;
                     document.getElementById('downloadLink').style.display = 'none';
                 } else {
-                    document.getElementById('resultTitle').textContent = 'Extraction terminee!';
+                    document.getElementById('resultTitle').textContent = 'Extraction Complete';
                     document.getElementById('resultText').textContent =
-                        `${data.total_videos} videos traitees, ${data.total_comments} commentaires extraits.`;
+                        `${data.total_videos} videos processed, ${data.total_comments.toLocaleString()} comments extracted.`;
 
                     const downloadLink = document.getElementById('downloadLink');
                     downloadLink.href = '/api/download/' + data.filename;
                     downloadLink.style.display = 'inline-block';
-                    downloadLink.textContent = 'Telecharger ' + data.filename;
                 }
             } catch (error) {
                 clearInterval(progressInterval);
                 resultBox.style.display = 'block';
                 resultBox.classList.add('error');
-                document.getElementById('resultTitle').textContent = 'Erreur';
+                document.getElementById('resultTitle').textContent = 'Error';
                 document.getElementById('resultText').textContent = error.message;
                 document.getElementById('downloadLink').style.display = 'none';
             } finally {
                 scrapeBtn.disabled = false;
-                scrapeBtn.innerHTML = 'Extraire tous les commentaires';
+                scrapeBtn.innerHTML = 'Start Extraction';
             }
         }
 
-        async function loadFiles() {
+        // Data tab
+        let filesData = [];
+        let currentFileData = null;
+
+        async function loadDataFiles() {
             try {
-                const response = await fetch('/api/files');
+                const response = await fetch('/api/files-stats');
                 const data = await response.json();
 
-                const fileList = document.getElementById('fileList');
-
-                if (data.files && data.files.length > 0) {
-                    fileList.innerHTML = data.files.map(file => `
-                        <div class="file-item" onclick="selectFile(this, '${file.name}')">
-                            <span>${file.name}</span>
-                            <span style="color: #666; font-size: 12px;">${file.size}</span>
-                        </div>
-                    `).join('');
-                } else {
-                    fileList.innerHTML = `
-                        <div class="empty-state">
-                            <p>Aucun fichier disponible</p>
-                            <p class="help-text">Extrayez d'abord des commentaires dans l'onglet Extraction</p>
-                        </div>
-                    `;
-                }
+                filesData = data.files || [];
+                renderDataTable();
+                updateGlobalStats(data);
             } catch (error) {
                 console.error('Error loading files:', error);
+                // Fallback to simple file list
+                try {
+                    const response = await fetch('/api/files');
+                    const data = await response.json();
+                    filesData = data.files || [];
+                    renderDataTable();
+                } catch (e) {
+                    console.error('Fallback also failed:', e);
+                }
             }
         }
 
-        function selectFile(element, filename) {
-            document.querySelectorAll('.file-item').forEach(item => {
-                item.classList.remove('selected');
-            });
-            element.classList.add('selected');
+        function updateGlobalStats(data) {
+            document.getElementById('statChannels').textContent = data.total_channels || 0;
+            document.getElementById('statVideos').textContent = (data.total_videos || 0).toLocaleString();
+            document.getElementById('statComments').textContent = (data.total_comments || 0).toLocaleString();
+            document.getElementById('statFiles').textContent = data.files?.length || 0;
+        }
 
-            // Mark step 1 as completed
-            document.getElementById('step-load').classList.add('completed');
+        function renderDataTable() {
+            const tbody = document.getElementById('dataTableBody');
+            const emptyState = document.getElementById('dataEmptyState');
+            const table = document.getElementById('dataTable');
+
+            if (!filesData || filesData.length === 0) {
+                table.style.display = 'none';
+                emptyState.style.display = 'block';
+                return;
+            }
+
+            table.style.display = 'table';
+            emptyState.style.display = 'none';
+
+            tbody.innerHTML = filesData.map(file => `
+                <tr>
+                    <td>
+                        <div class="channel-name">
+                            <div class="channel-avatar">${(file.channel_name || file.name.charAt(0)).charAt(0).toUpperCase()}</div>
+                            <span>${file.channel_name || file.name.replace('.json', '')}</span>
+                        </div>
+                    </td>
+                    <td>${file.video_count || '-'}</td>
+                    <td>${file.comment_count ? file.comment_count.toLocaleString() : '-'}</td>
+                    <td>${file.scraped_at ? formatDate(file.scraped_at) : '-'}</td>
+                    <td>${file.size || '-'}</td>
+                    <td>
+                        <button class="btn btn-secondary btn-sm" onclick="viewFileDetail('${file.name}')">
+                            Insights
+                        </button>
+                        <a href="/api/download/${file.name}" class="btn btn-secondary btn-sm" style="text-decoration: none; margin-left: 8px;">
+                            &#8595;
+                        </a>
+                    </td>
+                </tr>
+            `).join('');
+        }
+
+        function formatDate(dateStr) {
+            try {
+                const date = new Date(dateStr);
+                return date.toLocaleDateString('en-US', {
+                    month: 'short',
+                    day: '2-digit',
+                    year: 'numeric',
+                    hour: '2-digit',
+                    minute: '2-digit'
+                });
+            } catch {
+                return dateStr;
+            }
+        }
+
+        async function viewFileDetail(filename) {
+            try {
+                const response = await fetch(`/api/file-detail/${filename}`);
+                const data = await response.json();
+
+                if (data.error) {
+                    alert('Error: ' + data.error);
+                    return;
+                }
+
+                currentFileData = data;
+                showFileDetail(data);
+            } catch (error) {
+                alert('Error: ' + error.message);
+            }
+        }
+
+        function showFileDetail(data) {
+            document.getElementById('dataListView').style.display = 'none';
+            document.getElementById('dataDetailView').classList.add('active');
+
+            // Update header
+            document.getElementById('detailChannelName').textContent = data.channel_name || 'Unknown Channel';
+            document.getElementById('detailDate').textContent = data.scraped_at ? `Extracted on ${formatDate(data.scraped_at)}` : '';
+
+            // Update stats
+            const totalComments = data.total_comments || 0;
+            const totalVideos = data.total_videos || 0;
+            const avgComments = totalVideos > 0 ? Math.round(totalComments / totalVideos) : 0;
+            const totalReplies = data.videos?.reduce((sum, v) =>
+                sum + (v.comments?.filter(c => c.is_reply).length || 0), 0) || 0;
+
+            document.getElementById('detailVideos').textContent = totalVideos.toLocaleString();
+            document.getElementById('detailComments').textContent = totalComments.toLocaleString();
+            document.getElementById('detailAvg').textContent = avgComments.toLocaleString();
+            document.getElementById('detailReplies').textContent = totalReplies.toLocaleString();
+
+            // Render charts
+            renderVideoChart(data.videos || []);
+            renderTimelineChart(data.videos || []);
+
+            // Render video list
+            renderVideoList(data.videos || []);
+        }
+
+        function hideFileDetail() {
+            document.getElementById('dataListView').style.display = 'block';
+            document.getElementById('dataDetailView').classList.remove('active');
+        }
+
+        function renderVideoChart(videos) {
+            const sortedVideos = [...videos]
+                .sort((a, b) => (b.comment_count || 0) - (a.comment_count || 0))
+                .slice(0, 20);
+
+            const data = [{
+                x: sortedVideos.map(v => v.comment_count || 0),
+                y: sortedVideos.map(v => truncateText(v.title, 40)),
+                type: 'bar',
+                orientation: 'h',
+                marker: {
+                    color: '#3b82f6'
+                }
+            }];
+
+            const layout = {
+                paper_bgcolor: 'transparent',
+                plot_bgcolor: 'transparent',
+                font: { color: '#888', size: 11 },
+                margin: { l: 200, r: 20, t: 10, b: 40 },
+                xaxis: {
+                    gridcolor: '#2a2a2a',
+                    title: 'Comments'
+                },
+                yaxis: {
+                    autorange: 'reversed'
+                }
+            };
+
+            Plotly.newPlot('chartVideos', data, layout, { responsive: true, displayModeBar: false });
+        }
+
+        function renderTimelineChart(videos) {
+            // Aggregate comments by date
+            const commentsByDate = {};
+
+            videos.forEach(video => {
+                if (!video.comments) return;
+                video.comments.forEach(comment => {
+                    if (!comment.timestamp) return;
+                    const date = new Date(comment.timestamp * 1000).toISOString().split('T')[0];
+                    commentsByDate[date] = (commentsByDate[date] || 0) + 1;
+                });
+            });
+
+            const dates = Object.keys(commentsByDate).sort();
+            const counts = dates.map(d => commentsByDate[d]);
+
+            if (dates.length === 0) {
+                document.getElementById('chartTimeline').innerHTML =
+                    '<div style="display: flex; align-items: center; justify-content: center; height: 100%; color: #555;">No temporal data available</div>';
+                return;
+            }
+
+            const data = [{
+                x: dates,
+                y: counts,
+                type: 'scatter',
+                mode: 'lines',
+                fill: 'tozeroy',
+                line: { color: '#3b82f6', width: 2 },
+                fillcolor: 'rgba(59, 130, 246, 0.1)'
+            }];
+
+            const layout = {
+                paper_bgcolor: 'transparent',
+                plot_bgcolor: 'transparent',
+                font: { color: '#888', size: 11 },
+                margin: { l: 50, r: 20, t: 10, b: 40 },
+                xaxis: {
+                    gridcolor: '#2a2a2a',
+                    type: 'date'
+                },
+                yaxis: {
+                    gridcolor: '#2a2a2a',
+                    title: 'Comments'
+                }
+            };
+
+            Plotly.newPlot('chartTimeline', data, layout, { responsive: true, displayModeBar: false });
+        }
+
+        function renderVideoList(videos) {
+            const sortedVideos = [...videos].sort((a, b) => (b.comment_count || 0) - (a.comment_count || 0));
+
+            document.getElementById('videoList').innerHTML = sortedVideos.map(video => `
+                <div class="video-item">
+                    <a href="${video.url}" target="_blank" class="video-title" title="${video.title}">
+                        ${video.title}
+                    </a>
+                    <span class="video-comments">${(video.comment_count || 0).toLocaleString()} comments</span>
+                </div>
+            `).join('');
+        }
+
+        function truncateText(text, maxLength) {
+            if (!text) return '';
+            return text.length > maxLength ? text.substring(0, maxLength) + '...' : text;
         }
 
         // Enter key support
@@ -847,9 +1198,9 @@
             }
         });
 
-        // Load files on page load
+        // Initial load
         document.addEventListener('DOMContentLoaded', function() {
-            loadFiles();
+            // Nothing to load initially
         });
     </script>
 </body>
