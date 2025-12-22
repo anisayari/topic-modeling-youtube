@@ -1,6 +1,7 @@
 import os
 import json
 import argparse
+import threading
 from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from flask import Flask, render_template, request, jsonify, send_file
@@ -148,9 +149,19 @@ def get_channel_info():
         return jsonify({'error': str(e)}), 500
 
 
+def save_progress(filepath, data, lock):
+    """Save current progress to JSON file (thread-safe)."""
+    with lock:
+        # Update total comments before saving
+        data['total_comments'] = sum(v.get('comment_count', 0) for v in data['videos'])
+        data['videos_completed'] = len(data['videos'])
+        with open(filepath, 'w', encoding='utf-8') as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+
+
 @app.route('/api/scrape-comments', methods=['POST'])
 def scrape_comments():
-    """Endpoint to scrape all comments from a channel (parallelized)."""
+    """Endpoint to scrape all comments from a channel (parallelized with progressive save)."""
     data = request.json
     channel_input = data.get('channel', '')
     limit = data.get('limit')  # None means no limit
@@ -176,14 +187,28 @@ def scrape_comments():
         if limit and limit > 0:
             videos = videos[:limit]
 
+        # Prepare filename early for progressive saving
+        safe_channel_name = "".join(c for c in channel_name if c.isalnum() or c in (' ', '-', '_')).strip()
+        filename = f"{safe_channel_name}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
+        filepath = os.path.join(app.config['OUTPUT_DIR'], filename)
+
         all_comments = {
             'channel_name': channel_name,
             'scraped_at': datetime.now().isoformat(),
             'total_videos': len(videos),
+            'videos_completed': 0,
+            'total_comments': 0,
             'videos': []
         }
 
+        # Lock for thread-safe file writing
+        file_lock = threading.Lock()
+
+        # Save initial empty file
+        save_progress(filepath, all_comments, file_lock)
+
         print(f"Starting parallel extraction for {len(videos)} videos with {MAX_WORKERS} workers...")
+        print(f"Progress will be saved to: {filename}")
 
         # Parallel extraction using ThreadPoolExecutor
         with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
@@ -201,19 +226,13 @@ def scrape_comments():
                 else:
                     print(f"[{completed}/{len(videos)}] Done: {video_title} ({result['comment_count']} comments)")
 
-                all_comments['videos'].append(result)
+                # Add result and save progress
+                with file_lock:
+                    all_comments['videos'].append(result)
+                save_progress(filepath, all_comments, file_lock)
 
-        # Calculate total comments
+        # Final stats
         total_comments = sum(v.get('comment_count', 0) for v in all_comments['videos'])
-        all_comments['total_comments'] = total_comments
-
-        # Save to JSON
-        safe_channel_name = "".join(c for c in channel_name if c.isalnum() or c in (' ', '-', '_')).strip()
-        filename = f"{safe_channel_name}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
-        filepath = os.path.join(app.config['OUTPUT_DIR'], filename)
-
-        with open(filepath, 'w', encoding='utf-8') as f:
-            json.dump(all_comments, f, ensure_ascii=False, indent=2)
 
         print(f"Extraction complete! {total_comments} comments saved to {filename}")
 
