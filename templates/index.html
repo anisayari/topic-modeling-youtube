@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Topic Modeling</title>
+    <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            min-height: 100vh;
+            color: #fff;
+        }
+
+        /* Navigation */
+        .navbar {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 15px 40px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            background: linear-gradient(90deg, #ff6b6b, #feca57);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .nav-tabs {
+            display: flex;
+            gap: 5px;
+        }
+
+        .nav-tab {
+            padding: 12px 24px;
+            background: transparent;
+            border: none;
+            color: #888;
+            font-size: 15px;
+            font-weight: 500;
+            cursor: pointer;
+            border-radius: 8px;
+            transition: all 0.3s;
+        }
+
+        .nav-tab:hover {
+            color: #fff;
+            background: rgba(255, 255, 255, 0.05);
+        }
+
+        .nav-tab.active {
+            color: #fff;
+            background: rgba(255, 107, 107, 0.2);
+            border: 1px solid rgba(255, 107, 107, 0.3);
+        }
+
+        /* Main content */
+        .main-content {
+            padding: 40px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        /* Cards */
+        .card {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 16px;
+            padding: 30px;
+            margin-bottom: 20px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .card h2 {
+            margin-bottom: 20px;
+            font-size: 1.3rem;
+        }
+
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        /* Form elements */
+        .input-group {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        input[type="text"], select {
+            flex: 1;
+            padding: 15px 20px;
+            border: none;
+            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.1);
+            color: #fff;
+            font-size: 16px;
+            outline: none;
+            transition: all 0.3s;
+        }
+
+        input[type="text"]:focus, select:focus {
+            background: rgba(255, 255, 255, 0.15);
+            box-shadow: 0 0 0 2px rgba(255, 107, 107, 0.5);
+        }
+
+        input[type="text"]::placeholder {
+            color: #666;
+        }
+
+        button {
+            padding: 15px 30px;
+            border: none;
+            border-radius: 10px;
+            background: linear-gradient(90deg, #ff6b6b, #ee5a24);
+            color: #fff;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 20px rgba(255, 107, 107, 0.4);
+        }
+
+        button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        button.secondary {
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        button.secondary:hover {
+            background: rgba(255, 255, 255, 0.2);
+            box-shadow: none;
+        }
+
+        /* Info boxes */
+        .info-box {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        .info-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .info-row:last-child {
+            border-bottom: none;
+        }
+
+        .info-label {
+            color: #888;
+        }
+
+        .info-value {
+            font-weight: 600;
+            color: #feca57;
+        }
+
+        /* Progress */
+        .progress-container {
+            display: none;
+            margin-top: 20px;
+        }
+
+        .progress-bar {
+            height: 6px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 3px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #ff6b6b, #feca57);
+            width: 0%;
+            transition: width 0.3s;
+        }
+
+        .progress-text {
+            text-align: center;
+            margin-top: 10px;
+            color: #888;
+        }
+
+        /* Result box */
+        .result-box {
+            display: none;
+            margin-top: 20px;
+            padding: 20px;
+            background: rgba(46, 213, 115, 0.1);
+            border-radius: 10px;
+            border: 1px solid rgba(46, 213, 115, 0.3);
+        }
+
+        .result-box.error {
+            background: rgba(255, 71, 87, 0.1);
+            border-color: rgba(255, 71, 87, 0.3);
+        }
+
+        .download-btn {
+            display: inline-block;
+            margin-top: 15px;
+            background: linear-gradient(90deg, #2ed573, #1e90ff);
+            text-decoration: none;
+        }
+
+        /* Spinner */
+        .spinner {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 2px solid #fff;
+            border-radius: 50%;
+            border-top-color: transparent;
+            animation: spin 1s linear infinite;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        .help-text {
+            color: #666;
+            font-size: 14px;
+            margin-top: 10px;
+        }
+
+        /* Pipeline steps */
+        .pipeline {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+        }
+
+        .pipeline-step {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 12px 20px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 10px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .pipeline-step.completed {
+            border-color: rgba(46, 213, 115, 0.5);
+            background: rgba(46, 213, 115, 0.1);
+        }
+
+        .pipeline-step.active {
+            border-color: rgba(255, 107, 107, 0.5);
+            background: rgba(255, 107, 107, 0.1);
+        }
+
+        .step-number {
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 600;
+            font-size: 14px;
+        }
+
+        .pipeline-step.completed .step-number {
+            background: #2ed573;
+        }
+
+        .pipeline-step.active .step-number {
+            background: #ff6b6b;
+        }
+
+        /* Visualization container */
+        .viz-container {
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 12px;
+            padding: 20px;
+            min-height: 500px;
+        }
+
+        #plot3d {
+            width: 100%;
+            height: 600px;
+        }
+
+        /* Parameter group */
+        .param-group {
+            margin-bottom: 20px;
+        }
+
+        .param-group label {
+            display: block;
+            margin-bottom: 8px;
+            color: #888;
+            font-size: 14px;
+        }
+
+        .param-row {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+
+        /* Empty state */
+        .empty-state {
+            text-align: center;
+            padding: 60px 20px;
+            color: #666;
+        }
+
+        .empty-state-icon {
+            font-size: 48px;
+            margin-bottom: 20px;
+            opacity: 0.5;
+        }
+
+        .empty-state h3 {
+            color: #888;
+            margin-bottom: 10px;
+        }
+
+        /* File list */
+        .file-list {
+            max-height: 200px;
+            overflow-y: auto;
+            margin-top: 15px;
+        }
+
+        .file-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 15px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 8px;
+            margin-bottom: 8px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .file-item:hover {
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        .file-item.selected {
+            background: rgba(255, 107, 107, 0.2);
+            border: 1px solid rgba(255, 107, 107, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">YouTube Topic Modeling</div>
+        <div class="nav-tabs">
+            <button class="nav-tab active" onclick="showTab('extraction')">Extraction</button>
+            <button class="nav-tab" onclick="showTab('modeling')">Modelisation</button>
+            <button class="nav-tab" onclick="showTab('visualization')">Visualisation</button>
+        </div>
+    </nav>
+
+    <div class="main-content">
+        <!-- TAB: Extraction -->
+        <div id="tab-extraction" class="tab-content active">
+            <div class="card">
+                <h2>1. Rechercher une chaine YouTube</h2>
+                <div class="input-group">
+                    <input type="text" id="channelInput" placeholder="@nomchaine ou ID de la chaine">
+                    <button id="searchBtn" onclick="getChannelInfo()">Rechercher</button>
+                </div>
+                <p class="help-text">Exemples: @MrBeast, UCX6OQ3DkcsbYNE6H8uQQuVA</p>
+
+                <div id="channelInfo" class="info-box" style="display: none;">
+                    <div class="info-row">
+                        <span class="info-label">Nom de la chaine</span>
+                        <span class="info-value" id="channelName">-</span>
+                    </div>
+                    <div class="info-row">
+                        <span class="info-label">Nombre de videos</span>
+                        <span class="info-value" id="videoCount">-</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" id="scrapeCard" style="display: none;">
+                <h2>2. Extraire les commentaires</h2>
+                <p style="color: #888; margin-bottom: 20px;">
+                    Cliquez sur le bouton ci-dessous pour extraire tous les commentaires de toutes les videos.
+                    Cette operation peut prendre du temps selon le nombre de videos.
+                </p>
+                <button id="scrapeBtn" onclick="scrapeComments()">
+                    Extraire tous les commentaires
+                </button>
+
+                <div class="progress-container" id="progressContainer">
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progressFill"></div>
+                    </div>
+                    <p class="progress-text" id="progressText">Extraction en cours...</p>
+                </div>
+
+                <div class="result-box" id="resultBox">
+                    <h3 id="resultTitle">Extraction terminee!</h3>
+                    <p id="resultText"></p>
+                    <a href="#" id="downloadLink" class="download-btn" style="display: none;">
+                        Telecharger le fichier JSON
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- TAB: Modelisation -->
+        <div id="tab-modeling" class="tab-content">
+            <div class="pipeline">
+                <div class="pipeline-step" id="step-load">
+                    <span class="step-number">1</span>
+                    <span>Charger les donnees</span>
+                </div>
+                <div class="pipeline-step" id="step-preprocess">
+                    <span class="step-number">2</span>
+                    <span>Pre-traitement</span>
+                </div>
+                <div class="pipeline-step" id="step-vectorize">
+                    <span class="step-number">3</span>
+                    <span>Vectorisation</span>
+                </div>
+                <div class="pipeline-step" id="step-model">
+                    <span class="step-number">4</span>
+                    <span>Topic Modeling</span>
+                </div>
+                <div class="pipeline-step" id="step-reduce">
+                    <span class="step-number">5</span>
+                    <span>Reduction dimensionnelle</span>
+                </div>
+            </div>
+
+            <div class="card-grid">
+                <div class="card">
+                    <h2>Donnees source</h2>
+                    <p class="help-text" style="margin-bottom: 15px;">Selectionnez un fichier JSON extrait precedemment</p>
+
+                    <div id="fileList" class="file-list">
+                        <div class="empty-state">
+                            <p>Aucun fichier disponible</p>
+                            <p class="help-text">Extrayez d'abord des commentaires dans l'onglet Extraction</p>
+                        </div>
+                    </div>
+
+                    <button class="secondary" style="margin-top: 15px;" onclick="loadFiles()">
+                        Rafraichir la liste
+                    </button>
+                </div>
+
+                <div class="card">
+                    <h2>Parametres de pre-traitement</h2>
+
+                    <div class="param-group">
+                        <label>Langue</label>
+                        <select id="paramLang">
+                            <option value="french">Francais</option>
+                            <option value="english">Anglais</option>
+                            <option value="auto">Detection automatique</option>
+                        </select>
+                    </div>
+
+                    <div class="param-group">
+                        <label>Options</label>
+                        <div style="display: flex; flex-direction: column; gap: 10px;">
+                            <label style="display: flex; align-items: center; gap: 10px; cursor: pointer;">
+                                <input type="checkbox" id="paramLowercase" checked> Minuscules
+                            </label>
+                            <label style="display: flex; align-items: center; gap: 10px; cursor: pointer;">
+                                <input type="checkbox" id="paramStopwords" checked> Supprimer stopwords
+                            </label>
+                            <label style="display: flex; align-items: center; gap: 10px; cursor: pointer;">
+                                <input type="checkbox" id="paramLemmatize" checked> Lemmatisation
+                            </label>
+                            <label style="display: flex; align-items: center; gap: 10px; cursor: pointer;">
+                                <input type="checkbox" id="paramEmojis"> Conserver les emojis
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h2>Parametres du modele</h2>
+
+                    <div class="param-group">
+                        <label>Algorithme</label>
+                        <select id="paramAlgo">
+                            <option value="lda">LDA (Latent Dirichlet Allocation)</option>
+                            <option value="nmf">NMF (Non-negative Matrix Factorization)</option>
+                            <option value="bertopic">BERTopic</option>
+                            <option value="top2vec">Top2Vec</option>
+                        </select>
+                    </div>
+
+                    <div class="param-group">
+                        <label>Nombre de topics</label>
+                        <input type="text" id="paramTopics" value="10" style="flex: none; width: 100%;">
+                    </div>
+
+                    <div class="param-group">
+                        <label>Reduction dimensionnelle</label>
+                        <select id="paramReduction">
+                            <option value="umap">UMAP</option>
+                            <option value="tsne">t-SNE</option>
+                            <option value="pca">PCA</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h2>Execution</h2>
+
+                    <div class="empty-state">
+                        <div class="empty-state-icon">🚧</div>
+                        <h3>En construction</h3>
+                        <p>Le pipeline de modelisation sera disponible prochainement</p>
+                    </div>
+
+                    <button disabled style="width: 100%; margin-top: 20px;">
+                        Lancer le pipeline
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- TAB: Visualisation -->
+        <div id="tab-visualization" class="tab-content">
+            <div class="card">
+                <h2>Visualisation 3D des Topics</h2>
+                <p class="help-text" style="margin-bottom: 20px;">
+                    Representation 3D des commentaires dans l'espace des embeddings, colores par topic.
+                </p>
+
+                <div class="viz-container">
+                    <div id="plot3d"></div>
+                </div>
+            </div>
+
+            <div class="card-grid">
+                <div class="card">
+                    <h2>Options d'affichage</h2>
+
+                    <div class="param-group">
+                        <label>Coloration</label>
+                        <select id="vizColor">
+                            <option value="topic">Par topic</option>
+                            <option value="sentiment">Par sentiment</option>
+                            <option value="video">Par video</option>
+                            <option value="date">Par date</option>
+                        </select>
+                    </div>
+
+                    <div class="param-group">
+                        <label>Taille des points</label>
+                        <select id="vizSize">
+                            <option value="uniform">Uniforme</option>
+                            <option value="likes">Par nombre de likes</option>
+                            <option value="length">Par longueur du commentaire</option>
+                        </select>
+                    </div>
+
+                    <button class="secondary" onclick="updateVisualization()" style="width: 100%;">
+                        Mettre a jour
+                    </button>
+                </div>
+
+                <div class="card">
+                    <h2>Statistiques</h2>
+
+                    <div class="empty-state">
+                        <div class="empty-state-icon">📊</div>
+                        <h3>Aucune donnee</h3>
+                        <p>Lancez d'abord le pipeline de modelisation</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Navigation
+        function showTab(tabName) {
+            document.querySelectorAll('.tab-content').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            document.querySelectorAll('.nav-tab').forEach(btn => {
+                btn.classList.remove('active');
+            });
+
+            document.getElementById('tab-' + tabName).classList.add('active');
+            event.target.classList.add('active');
+
+            if (tabName === 'visualization') {
+                initPlot3D();
+            }
+        }
+
+        // Initialize empty 3D plot
+        function initPlot3D() {
+            const data = [{
+                x: [],
+                y: [],
+                z: [],
+                mode: 'markers',
+                type: 'scatter3d',
+                marker: {
+                    size: 5,
+                    color: [],
+                    colorscale: 'Viridis',
+                    opacity: 0.8
+                },
+                text: [],
+                hoverinfo: 'text'
+            }];
+
+            const layout = {
+                paper_bgcolor: 'rgba(0,0,0,0)',
+                plot_bgcolor: 'rgba(0,0,0,0)',
+                font: { color: '#888' },
+                scene: {
+                    xaxis: {
+                        title: 'Dimension 1',
+                        gridcolor: 'rgba(255,255,255,0.1)',
+                        zerolinecolor: 'rgba(255,255,255,0.1)'
+                    },
+                    yaxis: {
+                        title: 'Dimension 2',
+                        gridcolor: 'rgba(255,255,255,0.1)',
+                        zerolinecolor: 'rgba(255,255,255,0.1)'
+                    },
+                    zaxis: {
+                        title: 'Dimension 3',
+                        gridcolor: 'rgba(255,255,255,0.1)',
+                        zerolinecolor: 'rgba(255,255,255,0.1)'
+                    },
+                    bgcolor: 'rgba(0,0,0,0.2)'
+                },
+                margin: { l: 0, r: 0, t: 30, b: 0 },
+                title: {
+                    text: 'En attente des donnees...',
+                    font: { color: '#666', size: 14 }
+                }
+            };
+
+            const config = {
+                responsive: true,
+                displayModeBar: true,
+                modeBarButtonsToRemove: ['toImage', 'sendDataToCloud']
+            };
+
+            Plotly.newPlot('plot3d', data, layout, config);
+        }
+
+        function updateVisualization() {
+            // TODO: Implement visualization update
+            console.log('Update visualization with new parameters');
+        }
+
+        // Extraction functions
+        let channelData = null;
+
+        async function getChannelInfo() {
+            const channelInput = document.getElementById('channelInput').value.trim();
+            if (!channelInput) {
+                alert('Veuillez entrer un nom ou ID de chaine');
+                return;
+            }
+
+            const searchBtn = document.getElementById('searchBtn');
+            searchBtn.disabled = true;
+            searchBtn.innerHTML = '<span class="spinner"></span>Recherche...';
+
+            try {
+                const response = await fetch('/api/channel-info', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ channel: channelInput })
+                });
+
+                const data = await response.json();
+
+                if (data.error) {
+                    alert('Erreur: ' + data.error);
+                    return;
+                }
+
+                channelData = data;
+                document.getElementById('channelName').textContent = data.channel_name;
+                document.getElementById('videoCount').textContent = data.video_count + ' videos';
+                document.getElementById('channelInfo').style.display = 'block';
+                document.getElementById('scrapeCard').style.display = 'block';
+            } catch (error) {
+                alert('Erreur: ' + error.message);
+            } finally {
+                searchBtn.disabled = false;
+                searchBtn.innerHTML = 'Rechercher';
+            }
+        }
+
+        async function scrapeComments() {
+            if (!channelData) {
+                alert('Veuillez d\'abord rechercher une chaine');
+                return;
+            }
+
+            const scrapeBtn = document.getElementById('scrapeBtn');
+            const progressContainer = document.getElementById('progressContainer');
+            const resultBox = document.getElementById('resultBox');
+
+            scrapeBtn.disabled = true;
+            scrapeBtn.innerHTML = '<span class="spinner"></span>Extraction en cours...';
+            progressContainer.style.display = 'block';
+            resultBox.style.display = 'none';
+
+            let progress = 0;
+            const progressInterval = setInterval(() => {
+                if (progress < 90) {
+                    progress += Math.random() * 2;
+                    document.getElementById('progressFill').style.width = progress + '%';
+                }
+            }, 500);
+
+            try {
+                const response = await fetch('/api/scrape-comments', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ channel: document.getElementById('channelInput').value.trim() })
+                });
+
+                clearInterval(progressInterval);
+                document.getElementById('progressFill').style.width = '100%';
+
+                const data = await response.json();
+
+                resultBox.style.display = 'block';
+                resultBox.classList.remove('error');
+
+                if (data.error) {
+                    resultBox.classList.add('error');
+                    document.getElementById('resultTitle').textContent = 'Erreur';
+                    document.getElementById('resultText').textContent = data.error;
+                    document.getElementById('downloadLink').style.display = 'none';
+                } else {
+                    document.getElementById('resultTitle').textContent = 'Extraction terminee!';
+                    document.getElementById('resultText').textContent =
+                        `${data.total_videos} videos traitees, ${data.total_comments} commentaires extraits.`;
+
+                    const downloadLink = document.getElementById('downloadLink');
+                    downloadLink.href = '/api/download/' + data.filename;
+                    downloadLink.style.display = 'inline-block';
+                    downloadLink.textContent = 'Telecharger ' + data.filename;
+                }
+            } catch (error) {
+                clearInterval(progressInterval);
+                resultBox.style.display = 'block';
+                resultBox.classList.add('error');
+                document.getElementById('resultTitle').textContent = 'Erreur';
+                document.getElementById('resultText').textContent = error.message;
+                document.getElementById('downloadLink').style.display = 'none';
+            } finally {
+                scrapeBtn.disabled = false;
+                scrapeBtn.innerHTML = 'Extraire tous les commentaires';
+            }
+        }
+
+        async function loadFiles() {
+            try {
+                const response = await fetch('/api/files');
+                const data = await response.json();
+
+                const fileList = document.getElementById('fileList');
+
+                if (data.files && data.files.length > 0) {
+                    fileList.innerHTML = data.files.map(file => `
+                        <div class="file-item" onclick="selectFile(this, '${file.name}')">
+                            <span>${file.name}</span>
+                            <span style="color: #666; font-size: 12px;">${file.size}</span>
+                        </div>
+                    `).join('');
+                } else {
+                    fileList.innerHTML = `
+                        <div class="empty-state">
+                            <p>Aucun fichier disponible</p>
+                            <p class="help-text">Extrayez d'abord des commentaires dans l'onglet Extraction</p>
+                        </div>
+                    `;
+                }
+            } catch (error) {
+                console.error('Error loading files:', error);
+            }
+        }
+
+        function selectFile(element, filename) {
+            document.querySelectorAll('.file-item').forEach(item => {
+                item.classList.remove('selected');
+            });
+            element.classList.add('selected');
+
+            // Mark step 1 as completed
+            document.getElementById('step-load').classList.add('completed');
+        }
+
+        // Enter key support
+        document.getElementById('channelInput').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                getChannelInfo();
+            }
+        });
+
+        // Load files on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            loadFiles();
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+flask>=3.0.0
+yt-dlp>=2024.1.0
+
+# Topic Modeling (a installer plus tard)
+# scikit-learn>=1.3.0
+# gensim>=4.3.0
+# bertopic>=0.16.0
+# sentence-transformers>=2.2.0
+
+# NLP & Pre-traitement (a installer plus tard)
+# spacy>=3.7.0
+# nltk>=3.8.0
+
+# Reduction dimensionnelle (a installer plus tard)
+# umap-learn>=0.5.0
+
+# Visualisation (Plotly est charge via CDN cote client)
+# plotly>=5.18.0
