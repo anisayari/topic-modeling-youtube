@@ -363,6 +363,9 @@ def do_extraction(channel_input, limit=None, skip_existing=False, workers=None):
         with ThreadPoolExecutor(max_workers=num_workers) as executor:
             future_to_video = {executor.submit(scrape_video_comments, video): video for video in videos}
 
+            rate_limit_hit = False
+            successful_videos = 0
+
             for future in as_completed(future_to_video):
                 # Check if stop was requested
                 if extraction_state['stop_requested']:
@@ -374,19 +377,32 @@ def do_extraction(channel_input, limit=None, skip_existing=False, workers=None):
                 result = future.result()
                 video_title = result['title'][:50] if result['title'] else 'Unknown'
 
-                if result['error']:
-                    print(f"[{completed}/{len(videos)}] Error: {video_title} - {result['error']}")
-                else:
-                    print(f"[{completed}/{len(videos)}] Done: {video_title} ({result['comment_count']} comments)")
+                if result.get('error'):
+                    error_msg = result['error']
+                    print(f"[{completed}/{len(videos)}] Error: {video_title} - {error_msg}")
 
-                # Save individual video file
+                    # Check for rate limiting (403 Forbidden)
+                    if '403' in error_msg or 'Forbidden' in error_msg:
+                        print("\n⚠️  RATE LIMIT DETECTED (403 Forbidden)")
+                        print("YouTube is blocking requests. Stopping extraction...")
+                        rate_limit_hit = True
+                        executor.shutdown(wait=False, cancel_futures=True)
+                        break
+
+                    # Don't save videos with errors
+                    continue
+
+                print(f"[{completed}/{len(videos)}] Done: {video_title} ({result['comment_count']} comments)")
+
+                # Save individual video file (only successful ones)
                 save_video_json(videos_dir, result, file_lock)
+                successful_videos += 1
 
                 # Update stats
                 total_comments += result.get('comment_count', 0)
                 videos_stats = {
                     'total_videos': total_available,
-                    'videos_extracted': existing_count + completed,
+                    'videos_extracted': existing_count + successful_videos,
                     'total_comments': total_comments
                 }
                 save_channel_info(channel_dir, channel_info, videos_stats, file_lock)
@@ -400,9 +416,13 @@ def do_extraction(channel_input, limit=None, skip_existing=False, workers=None):
 
         # Final stats
         was_stopped = extraction_state['stop_requested']
-        final_video_count = existing_count + completed
+        final_video_count = existing_count + successful_videos
 
-        if was_stopped:
+        if rate_limit_hit:
+            print(f"\n⚠️  Extraction stopped due to rate limiting!")
+            print(f"Successfully extracted {successful_videos} videos before hitting the limit.")
+            print(f"Re-run with 'Skip already downloaded' to continue later.")
+        elif was_stopped:
             print(f"Extraction stopped! {total_comments} comments saved to {folder_name}/")
         else:
             print(f"Extraction complete! {total_comments} comments in {final_video_count} videos saved to {folder_name}/")
@@ -410,12 +430,14 @@ def do_extraction(channel_input, limit=None, skip_existing=False, workers=None):
         reset_extraction_state()
 
         return {
-            'success': True,
+            'success': not rate_limit_hit,
             'channel_name': channel_name,
             'folder': folder_name,
             'total_videos': final_video_count,
             'total_comments': total_comments,
-            'stopped': was_stopped
+            'stopped': was_stopped,
+            'rate_limited': rate_limit_hit,
+            'message': 'Rate limit hit (403). Try again later with fewer workers.' if rate_limit_hit else None
         }
     except Exception as e:
         print(f"Extraction error: {e}")

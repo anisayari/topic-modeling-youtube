@@ -373,6 +373,11 @@
             border-color: rgba(239, 68, 68, 0.2);
         }
 
+        .result-box.warning {
+            background: rgba(245, 158, 11, 0.1);
+            border-color: rgba(245, 158, 11, 0.3);
+        }
+
         .result-title {
             font-weight: 600;
             margin-bottom: 8px;
@@ -1089,12 +1094,23 @@
         function showCompletionResult(item) {
             const resultBox = document.getElementById('resultBox');
             const result = item.result;
-            
+
             if (!result) return;
-            
+
             resultBox.style.display = 'block';
-            resultBox.classList.remove('error');
-            
+            resultBox.classList.remove('error', 'warning');
+
+            if (result.rate_limited) {
+                resultBox.classList.add('warning');
+                resultBox.innerHTML = `
+                    <h3 style="color: #f59e0b;">⚠️ Rate Limit Hit (403 Forbidden)</h3>
+                    <p>YouTube is blocking requests. ${result.total_videos} videos extracted before limit.</p>
+                    <p><strong>Solution:</strong> Wait a few minutes, then re-run with "Skip already downloaded" checked to continue.</p>
+                    <p style="color: var(--text-muted);">Tip: Use fewer workers to avoid rate limits.</p>
+                `;
+                return;
+            }
+
             if (result.error) {
                 resultBox.classList.add('error');
                 document.getElementById('resultTitle').textContent = 'Error';
