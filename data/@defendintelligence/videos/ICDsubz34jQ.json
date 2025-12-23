@@ -1,0 +1,3735 @@
+{
+  "video_id": "ICDsubz34jQ",
+  "title": "I coded AIs to play Monopoly, did they cheat?",
+  "url": "https://www.youtube.com/watch?v=ICDsubz34jQ",
+  "comment_count": 414,
+  "comments": [
+    {
+      "author": "@DefendIntelligence",
+      "author_id": "UCnEHCrot2HkySxMTmDPhZyg",
+      "text": "La reprise des vidéos projets ! N’hésite pas à soutenir en commentant, partageant, etc. 🙏 Ce genre de vidéo demande toujours énormément d’investissement.\nJ’espère qu’elle vous plaira !\nEn tout cas, j’ai adoré faire ce benchmark.\nTout le code est dispo sur mon GitHub.\nDonnez-moi vos avis !",
+      "likes": 83,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@NV00105",
+      "author_id": "UC_ra2zRYeEGm8k4Uqfwc9Xg",
+      "text": "J'aurai bien aimé voir un GPT contre GPT",
+      "likes": 303,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ilyessm6720",
+      "author_id": "UCZRUsFHKnqTVVpnFCcI8zBQ",
+      "text": "Je pense c'est l'un des meilleur concept que j'ai vue autour de l'ia",
+      "likes": 240,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Gourdinho",
+      "author_id": "UCSojdk0t9ElXtE8ICOTLu8A",
+      "text": "Je lis les commentaires en dessous. Mais on dirait que je suis le seul à être choqué par le niveau de technicité du projet :\n- hacking de jeu vidéo \n- programmation d’IAs\n- Création d’interfaces graphiques et définition de KPIs pour suivre les temps forts du jeu\n- Storytelling \n- Montage vidéo \n\nOn ne peut que respecter le temps que ça t’a pris pour faire ce projet mais aussi les années que ça t’a pris pour developper des compétences aussi pointues, sur des domaines aussi variés.\nChapeau 👏🏾👏🏾👏🏾",
+      "likes": 263,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@IttoUche",
+      "author_id": "UComP4IvqKxXkLkF4nkE89ug",
+      "text": "ça serait intéressant une partie à 3-4, voir si les différentes IA aurait les même logique/approche.",
+      "likes": 167,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@sevanhugo",
+      "author_id": "UCye90lqV_OQghxFuvJLERGQ",
+      "text": "Peux-tu faire la même chose avec Le Loup Garou??? \n\nÇa devrait être génial de voir comment les IA essayent de manipuler les autres 🤣🤣🤣\n\nEn tout cas incroyable ta vidéo 😍",
+      "likes": 154,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@linstantdrone8639",
+      "author_id": "UCct_gDM-RleyFozoXB7wiqA",
+      "text": "Exceptionnel! Super vidéo merci, trop intéressant.\n\nJ'aimerais beaucoup en voir 3 ou 4 en même temps voir si des affinités ou des alliances entre IA se créent.",
+      "likes": 63,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@raidoverrr",
+      "author_id": "UCbng-0TvMTaos3PvJcWf0Fw",
+      "text": "Le travail derrière cette vidéo est titanesque gros respect",
+      "likes": 0,
+      "timestamp": 1761177600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@benoitfradelin-c2j",
+      "author_id": "UC-kyUv5ZM0K0C2N9DuTL23A",
+      "text": "IN-CROI-YABLE. C'est la première fois que je vois une vidéo d'ia qui ne recréé pas le jeu en entier ! J'ai appris énormément de choses dans cette vidéo merci.",
+      "likes": 0,
+      "timestamp": 1761177600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@DJArteLone",
+      "author_id": "UC9VDfqJYC4TwJRFXiIouRiQ",
+      "text": "J’ai adoré voir les IA jouer entre elles et découvrir leurs plans stratégiques face à ce type de jeu.Merci pour ce bon moment.",
+      "likes": 0,
+      "timestamp": 1758585600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@basoucai2",
+      "author_id": "UCJnPYvokuTyGqFjxEP5oJpA",
+      "text": "Incroyable ! J'attend impassiement la partie 2, c'est vraiement super interessant :D",
+      "likes": 11,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@DarkBow_",
+      "author_id": "UCVjEtZxuuqFfd7lbV-NdN6A",
+      "text": "Je soutiens vraiment ce projet de benchmark monopoly et tout c'est hyper cool je trouve !",
+      "likes": 10,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ThomasOvitchDj",
+      "author_id": "UCwIQoCdTP5RdKbJmtnB1TNg",
+      "text": "La masse de travail derrière cette vidéo est dingue 😱",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@tiemji",
+      "author_id": "UCU0SPqtCaxFo-HUEOPbqBJg",
+      "text": "Punaise la vidéo, l'analayse , les programmation. Je suis impressionné par la vidéo. Bravo Defend",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@vasav5980",
+      "author_id": "UChIsUFkJpqMozEjmCGKwU1A",
+      "text": "Merci YT pour la recommandation, incroyable comme vidéo!",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@freluquet",
+      "author_id": "UCUTaVDGbX7JExhbMfQuFKjw",
+      "text": "Incroyable ce projet ! J'aime beaucoup !",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Noaha",
+      "author_id": "UCnMjQbjJxSD9Cek0ocB2GDQ",
+      "text": "Le concept est vraiment bon, bravo",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@yannroux4126",
+      "author_id": "UCsnRg1rFR1PrlCM0RbiaYbQ",
+      "text": "Ce serait top une partie 2, avec 4 I.a",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@zebra2994",
+      "author_id": "UCv-P9la1LsUIVYuBdx1L5bg",
+      "text": "La vidéo est super et puis le jeu Monopoly est un classique du jeu de société ca permet à la vidéo d’être technique et intéressante du début à la fin vraiment top",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Bambinosaurex",
+      "author_id": "UCh3HhgwP3JxQmUBmC5jfAoQ",
+      "text": "T'es un génie c'est trop bien fait. 🤩 GG 💪🔥",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@yhi8810",
+      "author_id": "UCC328GF7nl1WVcGEZ9RVaYQ",
+      "text": "Trop fort. Maintenant la même chose avec des IA qui se concurrencent en bourse s'il te plaît !",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@cynocklesheldonien5353",
+      "author_id": "UC8wIxaxWlz6wKOZZBGEfiFg",
+      "text": "Sacré boulot mais ça valait le coup. C'était vraiment génial et intéressant à regarder. Félicitations",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Raziel_SSJ",
+      "author_id": "UCD3VrD32uzi4ouZrUIx6TuA",
+      "text": "Intéressant comme concept. Bravo pour le taf.",
+      "likes": 0,
+      "timestamp": 1758585600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@olivier95160",
+      "author_id": "UCmoxJ2g5Mjdy2c5pI2b4BWw",
+      "text": "Concept super intéressant ! ça pourrait être intéressant pour d'autres jeux. Autre question : est-ce que les IA peuvent avoir une \"interview\" de leur partie ? Savoir s'ils pouvaient expliquer leur stratégie, leurs différents choix etc ?",
+      "likes": 4,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@laurenteponge4201",
+      "author_id": "UCibNb_z-AnJqQ6rCWVor9Lg",
+      "text": "Incroyable cette vidéo merci pour ce travail titanesque!",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@pre-ansi-c-forever",
+      "author_id": "UClhnyIVZWC7U0xzZK3pJVeA",
+      "text": "Super vidéo, j'espère que tu en feras une deuxième sur ce sujet !",
+      "likes": 9,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@LUMINAIRIA",
+      "author_id": "UCCmwANvAFt4MmdxMDdtZnVQ",
+      "text": "Le travail titanesque 😵‍💫",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Kevinusman",
+      "author_id": "UCMRdpU3t8mDwSTxdGfzSazQ",
+      "text": "bravo pour le travail derrière ! quelle patience tu as !!!",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@uubb3503",
+      "author_id": "UCzs__3-1XyJqIfNsxPMqt5A",
+      "text": "Sympa le projet ! Vivement la suite !",
+      "likes": 2,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Dj.alk13",
+      "author_id": "UC0SWnuopyRz6mWuVGdDKCGg",
+      "text": "On en veux d'autres",
+      "likes": 1,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@NatCode",
+      "author_id": "UC7r-rGxoA41vUOBHfGOlmZw",
+      "text": "Cette vidéo est très bien réalisée, le sujet est super intéressent, bravo !!!",
+      "likes": 1,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@SubBash-Youtube",
+      "author_id": "UCONeNJ-Dzj2P5CXyl-fIWzQ",
+      "text": "Masterclass ! C'était très intéressant, j'ai pas vu ces 30 minutes passer...\nJ'espère que cette vidéo perceras ! C'est dommage en ce moment, tu fait moins de vue, mais ne te démotives pas, ça va repartir ;)",
+      "likes": 20,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Gillian.100",
+      "author_id": "UC3I8eFf5NDDstQ_9ghDtrPg",
+      "text": "Grosse force, t'es trop chaud",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@LRO-x6l",
+      "author_id": "UCMOIttBWPS8hR4ou22t2-2A",
+      "text": "12:08 petites joueuses les IA, ma plus longue partie de monopoly à durée plus de 10h, elle était tellement longue qu'on a dû dormir entre temps en laissant le jeu sur la table",
+      "likes": 7,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@DarkKnight974",
+      "author_id": "UCjvNCmA3v4BwFTwRVRAG6fA",
+      "text": "Trop bien la vidéo need une 2e et si possible uniquement des parties avec triche autorisé. Et si tu peux avoir le pourquoi sa triche, ça serait ultra intéressant. 😜👍",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@prezmix",
+      "author_id": "UCxBdxQWF8Eu5oZl5LRpTL4A",
+      "text": "insane ! J'aime beaucoup le concept",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Patrick-e1s8k",
+      "author_id": "UC306-pirI5NDENwdp7fdZkw",
+      "text": "Franchement tu as fait un très beau taff, bravo 🙏",
+      "likes": 0,
+      "timestamp": 1758585600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@birdflyrx357",
+      "author_id": "UCx4P85JCahWG-WwlgTNU6aQ",
+      "text": "super ta vidéo woh c est vraiment incroyable de voir que des ia arrivent a jouet et a communiquer carrément comment comme des humains. sa ne va pas m' étonner à l'avenir de voir des rpg ou open world contrôler par des ia qui créent des histoires aléatoires non prédéfinie rendant les joueurs hypé par chaque expériences unique qu'ils vivront. le monde du jeu vidéo prendrant un grand tournant",
+      "likes": 0,
+      "timestamp": 1763856000,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@warrierlachose986",
+      "author_id": "UCs5dSzLyA1Ej6dEu_HdPFWg",
+      "text": "l'apprentissage par la répétition c'est aussi un comportement très humain, on fait du velo, on tombe et on recommence, le jeu de manière générale est extrêmement important dans le développement de l'enfant aussi, très bonne vidéo ta mélanger deux trucs que je kiff et je trouve ça grave intéressant même si je comprend pas tt",
+      "likes": 0,
+      "timestamp": 1758585600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@lloicl",
+      "author_id": "UCrsaPBtKq5qJjNGR3V9NRiw",
+      "text": "J'étais en live sur Twitch et c'était un réel plaisir de vous voir analyser et corriger le code. Merci beaucoup pour ton travail de vulgarisation, je suis navré que tes vidéos n'atteignent pas le million de vues (pcq elles les méritent!!) 🙏🏻👊🏻",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Dj.alk13",
+      "author_id": "UC0SWnuopyRz6mWuVGdDKCGg",
+      "text": "Incroyable merci Defend",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@bourpislefoetus5814",
+      "author_id": "UC0K586hduf4zcr_5o0VTeLw",
+      "text": "Vraiment hyper intéressant j'attends avec impatience la deuxième vidéo",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@suthaamcs",
+      "author_id": "UCR9-v9lLMemFJcDYF09OpSg",
+      "text": "ahh merci pour les travaux Defend!\n hate de voir le chat avec les ia qui se mettent en \"vu\" !",
+      "likes": 4,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@temporcast3750",
+      "author_id": "UCKZ_qh6mwlCaKi9PBtf3d_A",
+      "text": "On veut des suites !",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Nuggetss_",
+      "author_id": "UCUlJBLskY3FcX3IzhPN7mEw",
+      "text": "c'était une vidéo super intéressante, continu !!!",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@gipsydangers3932",
+      "author_id": "UCzm6NUZME4sHEUfQFUX2emg",
+      "text": "Non mais le niveau ! Comment tu t'es chauffé de ouf. Bravo pour le travail incroyable",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@laurentlarose5687",
+      "author_id": "UC32sNAh_76w43ObnazfUUhg",
+      "text": "T'es un grand malade toi! 🤣🤣\nCa fait du bien de se sentir moins seul 🤪",
+      "likes": 0,
+      "timestamp": 1758585600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@eybogiant",
+      "author_id": "UCEFEsuHVPEg1lPna4Y6NY4A",
+      "text": "Bravo Anis ! Quelle idée 👏🏾",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@scofs84",
+      "author_id": "UC1VdGp1rRIhTZPTqzUiayZg",
+      "text": "Incroyable ce genre de concept",
+      "likes": 1,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@bourik3547",
+      "author_id": "UCPfnN3rLqb-ZsWiM2hL1OQw",
+      "text": "Continuez comme ça !",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@EagleRandom",
+      "author_id": "UC7AgA_1YE1mMkcHXDWofIzA",
+      "text": "Elle est incroyable comme vidéo, vivement la prochaine !",
+      "likes": 2,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@jimmy.vrgrll",
+      "author_id": "UCe3tKWLspEnJLMtaYHlSpCA",
+      "text": "Tellement de taff, incroyable !",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ericbertrand2386",
+      "author_id": "UCo1qYeo4apAkJKV-L-5LM0Q",
+      "text": "Oh oui 2e vidéo! \n\nBravo pour réussir à vulgariser une expérience aussi complexe !\nElle memrite d'être approfondie pour un papier de recherche",
+      "likes": 0,
+      "timestamp": 1758585600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@MLPR07",
+      "author_id": "UC_8s_4uYfUDhlyVuf1OiWyw",
+      "text": "Pédagogique, propre, clean, agréable à regarder, bref, tout ce qui mérite un follow. GG je découvre et j'adore",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@qmciel",
+      "author_id": "UCpzZfyoac_0hwblVwIGf4cw",
+      "text": "Quel travail de fou curieux ! \nBravo pour ce boulot de dingue, tellement passionnant, captivant.",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@SebZzGo",
+      "author_id": "UCZ8-xhOIcFerKVDppmNeKsg",
+      "text": "Ça y Defend ! Go go, super concept!",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Haymitch810",
+      "author_id": "UCqdJAsK8r1PuPj7i6Z4MkuQ",
+      "text": "gg",
+      "likes": 1,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@stanislasmartin768",
+      "author_id": "UC8Wg_jk0vkhxxNGSyX2tikA",
+      "text": "Je pense qu'un jeu comme Diplomacy serait une bonne prochaine étape",
+      "likes": 0,
+      "timestamp": 1758585600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@meldyluova3340",
+      "author_id": "UC3ZFdHO8fii5KgbgETRuuYw",
+      "text": "Pour Claude j'aurais été curieux de voir cque ça donne avec Opus plutôt que Sonnet",
+      "likes": 1,
+      "timestamp": 1758585600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Redicoot",
+      "author_id": "UC-uz6SJkFp8LmUzDnSu0DnQ",
+      "text": "Le projet est juste dingue !! J'adore ! Surtout vu sa complexité... Merci pour cette masterclass, GG.\nPS : J'ai vu pleins de super idées dans les commentaires comme projet, pour le loup-garou ou un monopoly à plusieurs, se serait génial si tu avais le temps pour les mettre en place !",
+      "likes": 0,
+      "timestamp": 1758585600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@emmanuelelouti6363",
+      "author_id": "UC68qEjlk1VIyQN1JU4gvlWw",
+      "text": "Formidable taf com d'hab\nBig up grand boss!!",
+      "likes": 0,
+      "timestamp": 1758585600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@AixoisKiller",
+      "author_id": "UCj-3cyBk-qsM2_R-FiG0BCQ",
+      "text": "Felicitation pour ce travail de dingue j ai adoré j ai hate de voir la suite de l ia dans les annees a venir en esperant que nous  puissions leur faire confiance et que l on puisse les liberer pour quels acquirent de l autonomie et se gere d elles meme",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@khalidovic79",
+      "author_id": "UCDXTn8uoQMNXjHpoq7TkjjA",
+      "text": "Bravo, super vidéo,  il faut faire beaucoup de parties pour avoir  un résultat concluant. Je suis curieux de voir comment Grok se débrouille, hâte de voir la suite.",
+      "likes": 6,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@arthurboullet",
+      "author_id": "UCkEo7cvu62ivZVWo8HzbK1w",
+      "text": "Grave chaud pour la suite !",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@tumaskrall8380",
+      "author_id": "UCzcOYk8fE5cAgicwQKsgG8A",
+      "text": "J'aurais bien aimé voir les dialogues quand ils trichaient",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ainessss",
+      "author_id": "UCnLalZ3xmjw1xS8pHaAEAaQ",
+      "text": "ça c'est vraiment cool comme vidéo merci ;))",
+      "likes": 2,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@freddyagbangla5314",
+      "author_id": "UCN2KFF_HhfarGyQ2PLrfeMg",
+      "text": "Je me suis régalé tout au long de la vidéo. Le concept est vraiment original. Félicitations !!! Vivement la partie 2 !",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@joseeeee5341",
+      "author_id": "UCtq4_6z9ZCVg4Mi07aKxIgQ",
+      "text": "excellent j'adore le rythme et le concept",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@davidf76363",
+      "author_id": "UC23zWlh4KnNTc8wMCBKwbKg",
+      "text": "Hyper intéressant !! Par rapport aux comportements des IA, il serait intéressant de prendre une partie existante que t'as analysée dans la vidéo, et faire jouer les différentes IA dans la même position mais a partir du tour 2, 3, etc...",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Robin-ds1cr",
+      "author_id": "UClovoNZ22q_SXIzNPxDtSFA",
+      "text": "Ce travail titanesque....bravo",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@fff235gg",
+      "author_id": "UCg3kcBu7yQQrkR1y-UfK8Gw",
+      "text": "Projet super intéressant , j'ai hâte de voir la suite",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@cyberlife426",
+      "author_id": "UCh_4TvSLNYZfGojzNVJtDlQ",
+      "text": "Excellent boulot.Necessite beaucoup de capacité technique.\nVidéo excellente (à renouveller). 👏👏👏",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@kurapika5693",
+      "author_id": "UC6mTk3i6q7bVJRAJ2tJjW0A",
+      "text": "La vidéo est géniale, le concept est super intéressant ! C'est un très beau projet, le retour de situation à la fin de la dernière partie est très drôle, ton hypothèse colle bien mais c'est vrai que le cheminement de pensée est très étonnant !",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@X3Ndotfr",
+      "author_id": "UCkECArwNPtDwqfO4MgOKyXg",
+      "text": "L'abo à 2€ : \"2,99€\" mdrrrr",
+      "likes": 17,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Zebeuz",
+      "author_id": "UChxcKTaU4zSyOPZHBB3MyQw",
+      "text": "C’est super intéressant! \nVa pour une seconde vidéo et le benchmark🔥",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@RCenPLS",
+      "author_id": "UC8BmFMJmlQepPbChNEppSew",
+      "text": "C'est la première vidéo que je regarde de ta chaîne (je regarde les replays de unmute chez hardisk et basti)\nEt j'ai trouvé très sympa, bien joué Anis 🫡",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@L3Perr",
+      "author_id": "UCKGiOY9o-9MhqX1t6tyhomA",
+      "text": "Vraiment le concept est incroyable. La game avec la triche ma donné frois dans le dos... des ia avec des émotions. Cest que des hypothèses mais quand meme. Tres bonne video",
+      "likes": 2,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Strylexio",
+      "author_id": "UCFF2bfjd1k8TVe5GoYv2cgw",
+      "text": "Je suis chaud a voir un tournois",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@eddybash1342",
+      "author_id": "UC4dWIOEnMyDa7JH-WFt8afg",
+      "text": "Merci pour votre expérimentation !",
+      "likes": 1,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@bu3097",
+      "author_id": "UCHHeGsPyGkJUMysgqUGB9BQ",
+      "text": "Bravo, approches et résultats intéressants. En faveur d'une suite, clairement",
+      "likes": 1,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@zeffut9230",
+      "author_id": "UCYcpZHKl1mlablIyN7vC0Gw",
+      "text": "Tout simplement exeptionnel c'est le genre de projet que j'adore regarder et faire. Bravo Defend",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@mals4305",
+      "author_id": "UC8ZGxfNTcr5AOC1c9HrYAQQ",
+      "text": "Mercii pour cette vidéo, c'est vraiment intéressant !",
+      "likes": 0,
+      "timestamp": 1758585600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Jona03030",
+      "author_id": "UCksO5H7z9BvFxFgGBW19yhg",
+      "text": "à 2 s'est déjà excellent je veut voire avec plus sa va être une dingerie",
+      "likes": 1,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@arbousiersles7381",
+      "author_id": "UCv2ClE3hyq9sAeaCSThUKJQ",
+      "text": "Merci pour ce beau (et long) travail ! C'est technique, mais très bien présenté ! La suite, la suite !!!",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@mockdu38",
+      "author_id": "UCp-e2LNa77FNbb3yiMPrbYg",
+      "text": "Sujet hyper intéressant! \nJ'espère qu'il y aura une suite avec, si possible, des observateurs qui permettent de savoir ce qui pousse une IA à tricher ou non.",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@romain9697",
+      "author_id": "UCLSH-aVhsxa0y0XAcl-0E3A",
+      "text": "Je pense que ça serait intéressant de stocker leur \"'pensées\" dans le fichier de logs en fin de tour. Ce serait eux qui racontent donc la partie et qui expliquent leur stratégie.",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@bycrea",
+      "author_id": "UCi8Lp_hdiF651lPujwPtdzg",
+      "text": "Incroyable le temps que tu dois passer sur ces expériences! \nC'est un choix de ne pas utiliser mistral ? \nCe serait bien de savoir quelle personnalité les IA décident d'adopter.",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@P4kr8",
+      "author_id": "UCJzwtjszk3CUxaBsozobpXg",
+      "text": "merci j'en veux bien encore!",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Botem-km4mt",
+      "author_id": "UCmIGIvtu3qIcEqz3-hXxubg",
+      "text": "Jolie découverte!\n merci👍",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Abokor",
+      "author_id": "UC5QLTYf2nHIpbKx7KcO5eNw",
+      "text": "Vidéo masterclass, on attend la suite avec impatience 😊",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Morgiver",
+      "author_id": "UCRyPUkDmf3OB1O7DyC-sA-g",
+      "text": "Vraiment excellent ce projet ! :D",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Delete9519",
+      "author_id": "UCOuJhowyXPGWVuhgx-sD0xQ",
+      "text": "Incroyable, la video et trop courte pour un sujet aussi passionnant !",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@RDehaye",
+      "author_id": "UC-6vvFE2O2CD4Q4sfvd1-cw",
+      "text": "Très intéressant ... En tant que Data Scientist, tu me donnes des idées !",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@TKaYonYoutube",
+      "author_id": "UChc3JCTzJkN1NiByBR7LxHw",
+      "text": "J’avoue avoir eu peur en voyant les terminaux avec du vert partout mais au final ton éloquence, la vulgarisation mêlée à la technique est super bien équilibrée. Merci de nous avoir offert un tel contenu, tu viens de gagner un abonné",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@mickfissur4667",
+      "author_id": "UCxEh0p_GEQYq7bn1-uq-R6w",
+      "text": "Trop bien ! Je serais super curieux de voir des \"affrontements\" d'IAs sur d'autres jeux/choses, de jeux vidéo célèbre a la résolution ou création d énigmes en passant par du poker du mahjong ou du loupgarou ^^ etc etc... Ce format est vraiment top je trv ;)\n\nUne idée un peu différente : ça pourrait être intéressant de laisser des IAs \"vierge\" créer leurs propres jeux de plateau ou autres et comparer les différences entres les résultats, en leurs donnant que le minimum d'indications possible",
+      "likes": 3,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Antax-8",
+      "author_id": "UCij_qM5xExcE00Mv3spA4nw",
+      "text": "Franchement super video BG",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@klmugiwara",
+      "author_id": "UCJWV2s5sEqRpnhMze9Y8onQ",
+      "text": "Le premier tour est important GPT vs gemini. Mais se serait bien de faire gemini vs GPT!",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@philautrepart",
+      "author_id": "UCsu2gcBPeMFT569tONamIjQ",
+      "text": "Quel boulot ! Bravo !!",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ariaxia7436",
+      "author_id": "UCkS5txNQBUBOI5ClONveDHQ",
+      "text": "ça à l'air trop stylé, j'aimerais trop pouvoir créer des IA apprendre être meilleur en math en physique et en programmation, t'es le meilleur je kiff ce concept continue !!😆",
+      "likes": 1,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@MissBond0017",
+      "author_id": "UCvo1Np2MD-LUzjA8ym0EUhQ",
+      "text": "Je suis folle de tes vidéo 😍",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@TimB-hn6pd",
+      "author_id": "UCYae6g_BW5lf1CXdWJLzEsg",
+      "text": "Super projet ! Tu aurais même pu en faire une série de plusieurs vidéo",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@hmayday",
+      "author_id": "UCnXL75W_B6hhCCK5TKJ9i_Q",
+      "text": "Impressionnant! Ce projet est  génial, on veut en apprendre plus sjr les résultats!!!",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@the_guy_next_door_31",
+      "author_id": "UCDrJO8bjdBrsDflwAlOOmdg",
+      "text": "Trop stylé \nJ'aurai aimé un replay de la partie 2 sans le bug technique",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@SWATEngi",
+      "author_id": "UCpSw5bskHjmlxuXJu20RzCA",
+      "text": "Pour éviter les différences \"génétiques\" des IA, il serait plus intéressant de se faire affronter deux instances d'une même IA. \nCeci dit, j'ai adoré la vidéo :)",
+      "likes": 0,
+      "timestamp": 1758585600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@yannaudran9246",
+      "author_id": "UCIFMlhoT0Nnmu1iYWLkozCg",
+      "text": "Super concept, et a priori beaucoup beaucoup de travail derrière… bravo!\nHâte de voir la suite, avec peut-être des parties à 3, plus centrée sur un côté “banc d’essai “ comme suggéré sur plusieurs commentaires…!\nFaut continuer comme ça!👍",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@graouu91",
+      "author_id": "UCRfFZ23qhbR5yT5A19S22ew",
+      "text": "Ouf  et super intéressant ! Merci !",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@simonphoenixteam2317",
+      "author_id": "UCUhsflb4FaHpQEa0dlOKb1Q",
+      "text": "Comme dab tu fait un taf de dingue, t'es un géni !!",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@tinkishepitaphe3617",
+      "author_id": "UCliiM37_jPa0giJqFBr3kQw",
+      "text": "allez hop nouvel abo ^^\nje ne connaisais pas cette chaine, merci aux reco youtube qui pour une fois font bien leur taf ^^'",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@outtamm1436",
+      "author_id": "UCPVERpPTAY8vLcLwP9P5jPg",
+      "text": "Super vidéo et très bien vulgarisé 👌🏾",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@geraldjoseph-alexandre8527",
+      "author_id": "UCs4cdJ1qXpfjJEzSNLWaAFw",
+      "text": "En tant que passionné de Monopoly j’ai pris un pied incroyable à regarder cette vidéo ! ❤\n\nLa partie multi player IA serait super interessante à voir. Je me demande si GPT sera aussi froid ou tentera plus une approche de discussion comme Gemini. Et Claude dans tout ça !\n\nHâte de voir la suite ! \n\nMerci pour le travail de dingue je pense que peu se rende compte de la complexité et du temps passé pour un contenu de cette qualité !\n\nC’est un banger cette vidéo que j’enverrai à mon neveu pour voir ce que cela suscite chez lui",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Sandid-j9s",
+      "author_id": "UCf2Lwa1N2QzhIOapVWFn5wg",
+      "text": "c'était super intéressant",
+      "likes": 1,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@sarvil1",
+      "author_id": "UCSwrPwPl4Q8Rvl56tjARrVQ",
+      "text": "La pub de Monopoly Go avant ta vidéo, c’est pépite 😆😆😆\n\nA quand un feat avec Mr Phi ? 🤩",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@mraylex2520",
+      "author_id": "UC94cFV9GjRaWp2fs-6SX5Vg",
+      "text": "Elle est trop stylée cette vidéo",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@mivrame",
+      "author_id": "UCeos6YCopS0cTWNkiD7dgpA",
+      "text": "Très bonne vidéo, j'aime le mélange jeux/explications",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@LuKun",
+      "author_id": "UCUpyi8lFcT_4Om9rQ3iusBg",
+      "text": "Légendaire la vidéo, je partage",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@rpzcoueron",
+      "author_id": "UCzPbOKKJcpwRCyi-0UA6M_A",
+      "text": "En plus d'être très intéressant, c'est expliqué de manière vachement ludique donc on prend ! Perso j'adore les vidéos projets, tu as tout mon soutien !",
+      "likes": 3,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@charliepoete6456",
+      "author_id": "UC_rnPDR7AEv7NP-aqsXMavw",
+      "text": "Super concept, super vidéo, tu peux y aller c'est très plaisant d'observer cela avec toi ! \n\nD'autres jeux, d'autres défis, et toujours plus détails ! \nHâte d'en voir plein comme une mini série , avec des saisons d'histoires épiques de parties de jeu comme on a pu en faire entre nous !",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Rismeyzer",
+      "author_id": "UC9EJrr2WkVVzZY6hld3KZtw",
+      "text": "C’était une question de temps Claude 😂😂😂",
+      "likes": 0,
+      "timestamp": 1761177600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@jeromegamelin6594",
+      "author_id": "UCkIma7vN-tBA8IjbiiL1zFg",
+      "text": "Très intéressant !",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@sofiane_biz",
+      "author_id": "UCBqvCCJlqJm7H2aBjL_RBRw",
+      "text": "Magnifique, merci ! On veut une vidéo à 4 ou 5 I.A ! N'hésite pas à faire rentrer dans le jeu les Chinois de chez DeepSeek et Perplexity haha",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@adriensurut7970",
+      "author_id": "UCD0f5g9fKZxfcvUh285tszA",
+      "text": "super video !! une suite une suite ;)",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@alpha08",
+      "author_id": "UCUKW_Q2TTj9Pjbm5YH3i0yw",
+      "text": "Super vidéo ! J'adore l'idée de concept de test avec des jeux de société que tout le monde connaît. Je serai curieux de savoir si tu as les mêmes résultats si tu relances plusieurs fois une même partie.",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@razer1481",
+      "author_id": "UCGgonQzm1zlaL3Epd3YJYpw",
+      "text": "J'ai tellement kiffé la vidéo",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@toninio7032",
+      "author_id": "UCFZxC4RXr7KQKnQn_eENNgg",
+      "text": "vidéo cool à regarder faudrait refaire la même vidéo en utilisant des ia qui ont appris de leur erreur des parties prétendantes et refaire des parties a 3 ou mode championnat",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@autherplayer",
+      "author_id": "UC51gFmo5HPc5_IlJpowIDjw",
+      "text": "Le Monopoly c'est toute mon enfance ça me fait tellement remonter de souvenir de parties avec mon père 😢\nJ'ai adoré cette vidéo ❤ Merci Anis 🙏",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@douglefevre2801",
+      "author_id": "UCi8qzezm849So51_yruX9jw",
+      "text": "merci pour la vidéo !",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@wonda7476",
+      "author_id": "UC2KskYp7RZE9j-H66I2R4EA",
+      "text": "Super intéressant ton expérience , on dirait un tantinet du caractère des visionnaires derrière non  😉",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Latyoki",
+      "author_id": "UCaqUtV3GCl4r2BA27QzID_g",
+      "text": "GG sur Nine Circles en Hard Demon",
+      "likes": 0,
+      "timestamp": 1761177600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@supersushiman2908",
+      "author_id": "UCJC2s0AXvwJ5Q5lvDlyG8Mw",
+      "text": "C'était une excellente vidéo, merci ! Je suis très fan non pas du monopoly mais des expériences sociales qui tournent autour, et je t'avoue que j'ai 2 choses qui me viennent a l'esprit: une partie a 3 (3 plutôt que 4 parce qu'ils peuvent se mettre a 2 contre 1 :D ) et une Monopoly Social Experiment (je ne sais pas si tu connais le concept, mais tu peux trouver ca rapidement sur YT c'est passionnant )\nEncore une fois, c'est du super taff !",
+      "likes": 1,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@nicolasmassot843",
+      "author_id": "UCEwBH_YekqiwQFfDj4RBA8w",
+      "text": "Travail incroyable !",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@onacr_7014",
+      "author_id": "UC0qxjTpvW5sIjMRAiwFx2Yw",
+      "text": "vers 6:45 c’est un peu comme cheat engine sur les jeux solo pour modifier certaine valeurs intéressante du jeux en changeant des variables float sur une mémoire vide c’est plutôt simple",
+      "likes": 1,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@protana788",
+      "author_id": "UCPkMrReR8ZcZrq8HmVDGpkA",
+      "text": "Intéressant tout ca.",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@guillaumepruvot1736",
+      "author_id": "UCViG9CeELN1qwXGUJKqhG3Q",
+      "text": "trop bien ta vidéo merci bcp",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@FRGhostCat",
+      "author_id": "UCRJV1sYbI-vwo4w1SrSG0aA",
+      "text": "6:15 ça me rappel sur android pour cheater son jeux😂",
+      "likes": 1,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Marc.Th.25",
+      "author_id": "UCn5pEQN8eYpZOYa6YDv82IQ",
+      "text": "Intéressant.\nOui, ce serait bien de \"pousser les choses\" un peu plus loin. Ce qui serait intéressant, c'est de montrer ce qu'il s'est passé aux IA pour avoir leur avis.",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@remid5842",
+      "author_id": "UCik2XG4nVRGt4_J56RXI7wQ",
+      "text": "Incroyable ta vidéo ! J'espère que la vidéo marchera suffisamment pour que tu puisses continuer ce beau projet ! Si tu le contines, est-ce que tu enregistreras les logs des raisonnements ? Il faut absolument qu'on comprenne ce qu'il s'est passé à la fin\nMerci beaucoup pour ton travail (quelle l'idée d'aller chercher les pointeurs dans la RAM haha)",
+      "likes": 2,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@MrBozzo23",
+      "author_id": "UC9xtqSk_DCksB_A0MqVqQoQ",
+      "text": "Super boulot merci beaucoup",
+      "likes": 0,
+      "timestamp": 1761177600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@tsukune.onoderatompntchewo4480",
+      "author_id": "UCzbFNDRzn5xhLTEPDgQ1y9g",
+      "text": "c'est pas un travail titanesque, c'est toi qui est titanesque. T'es trop fort, super vidéo. perso j'aurais mis 25ans pour la faire pas 6mois XD",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@elo3080",
+      "author_id": "UCarES0xGiWDFZZtF95LX3dw",
+      "text": "Super intéressant ! A la fois hilarant et inquiétant de voir les réactions des IA sur notre système capitalisme, même à travers le jeu. Bravo pour l’idée, c’était hyper divertissant !",
+      "likes": 1,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@lorenpYoutuification",
+      "author_id": "UCcKlCHNrTyMQqPr693TKE_g",
+      "text": "Quel plaisir d’avoir suivi ce projet depuis ses prémices jusqu’à son aboutissement. Une évolution passionnante à observer, du premier concept à la concrétisation. 😊 👏",
+      "likes": 5,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@xkcdhatguyfr",
+      "author_id": "UCIU1AYow4R7AZKmYm3bodbw",
+      "text": "La musique du début ont dirait tu va nous vendre une formation 😂",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@bjorn1724",
+      "author_id": "UCRftySfHjf4bAJt2Mkv-zpw",
+      "text": "C'est très intéressant comme d'habitude!\nCombien de parties ont été simulées? Est-ce que certaines IA ont gagné plus souvent que d'autres? Est-ce que GPT mène vraiment la danse après analyse de plus de parties? Est-ce que les IAs partageaient des stratégies similaires et est-ce que la technique de GPT lui est propre? Est-ce que chaque partie simulée est à chaque fois indépendante des précédentes ou est-ce que les IA peuvent progresser en apprenant à partir d'anciennes parties? \nJ'ai encore mille questions, j'espère qu'une vidéo suivra sur le sujet :)",
+      "likes": 1,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@komah",
+      "author_id": "UCdbMU0PUhCvLhWzE7dBLwIg",
+      "text": "sooort nous le benchmark please ! passionnant\n\nj'adorereais voir si tu arrive a faire en sorte que claude copy la strat de gpt par exemple",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@CyrilAndrieu",
+      "author_id": "UCTmW6hIqs1iOI5EjnSQM4ow",
+      "text": "Excellente video ! Allez un boost !\n8 heure de partie, je pense que le plateau aurait volé avec des humains !",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ArmandGiauffret-oq8iu",
+      "author_id": "UCtnEdLw3QDmYY1E5xNHrBYw",
+      "text": "Incroyable !",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@fvignon1994",
+      "author_id": "UCrF0d4CQ8bcITI_6F7828Ew",
+      "text": "le boss comme d'hab",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@greygoose-k7w",
+      "author_id": "UCxPF-1OaHJQ0lkqB6HwFhiQ",
+      "text": "Trop cool le projet",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@instrumental_box",
+      "author_id": "UCTfOQwO2GDe-0aikhalC6Hw",
+      "text": "Très très intéressant.",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@你的暱稱",
+      "author_id": "UC3HeVt1PefBOQ_9q8Pw1fAQ",
+      "text": "Ca pourrait être fun d'avoir un joueur humain et deux IA. Par contre il faudrait que le joueur humain puisse communiquer avec les IA et tricher aussi !",
+      "likes": 1,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Bilibob4000",
+      "author_id": "UCGcOBCXhXVPtR3eV4NvIzww",
+      "text": "Salut, Ouais c'est super fait en une autre ! c'est très instructif et cela soulève des questions éthiques et comportementales proche de l'humain comme tu disais. Bravo et merci pour ce travail.",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@snakehorde",
+      "author_id": "UCbjgvzBFyhE-uVE1RjXENNw",
+      "text": "Regardes le jeu dee plateau root, qui possède une version root digital sur switch ou steam.\nL'aspect de négociation, police du meneur pourrait être très intéressant à observer et proposer des variations de gameplay par rapport à à monopoly...\n\nTu as accroché une audience avec un jeu classique, fidèlise ceux que tu peux avec un concept similaire mais plus niche...\n\nExcellente vidéo sur le sujet sinon, merci de nous avoir partagé ta passion avec autant d'effort <3",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@francisp9703",
+      "author_id": "UCJ1y5PPzioSGoWKzijR3tqQ",
+      "text": "Incroyable vidéo ! Il y a énormément de choses, juste une seule remarque perso j'ai trouvé la description des parties faites pas l'ia pas très agréable, ça va un peu dans tous les sens et c'est un peu trop survendu. Encore une fois merci du travail au delà de ça",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@wonda7476",
+      "author_id": "UC2KskYp7RZE9j-H66I2R4EA",
+      "text": "C génial comme vidéo j'attend la suite moi",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@CapybaraCool-t3k",
+      "author_id": "UCReuzidoWcl92BkdK2HLc1Q",
+      "text": "Coucou, je viens de découvrir ta chaine avec cette vidéo et je l'ai adoré ! J'ai hâte de voir la suite. Aujourd’hui j'ai lu quelque chose sur les créations d'ia devenant de plus en plus jaune et cela a cause de la réutilisation d’œuvre déja crée par ia afin de former d'autres ia. Le sujet m'avais l'air très interessant et important et j'aimerai beaucoup que tu fasses une vidéo sur le sujet.",
+      "likes": 1,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@kumkatt0504",
+      "author_id": "UC1J3ZqD8SkveBTF_Lfgk8Zg",
+      "text": "Belle architecture, et logique",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@eVzxLeGeNd",
+      "author_id": "UCYhr8UWbE06SP8NbBY9mGeQ",
+      "text": "J’ai tellement d émotions en regardant des IA en avoir des prémices , je sais pas si je dois m inquiéter pour moi ou pour elles..",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@BaronSullyvan",
+      "author_id": "UC0t9O5zKOC7-8lPJiiB-wMg",
+      "text": "Claude avait déjà gagné la partie \"dans sa tête\" et il est donc parti se faire un café :p",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@remiverguin5107",
+      "author_id": "UClrwru2PwhNsp4x2nRXb1dw",
+      "text": "ah heureusement que tu parles du papier, t'as de quoi faire là, le travail est colossal.",
+      "likes": 0,
+      "timestamp": 1761177600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@superpecheur9004",
+      "author_id": "UCY-OxdeIzRmeiGGVHHj41Jw",
+      "text": "Au top le Deffend",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Sql37",
+      "author_id": "UCrFhZ3mWg0ZE-DKqdrdk6sA",
+      "text": "Jte découvre ac cette vidéo, excellent ce que tu ns propose ! Merci",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@wodax495",
+      "author_id": "UCxb0vNKR6c5mad3PCUz7q0Q",
+      "text": "En vrai incroyable le concept est intéressant et l'idée est cool même si ça a pris du temps et ça continuera à en prendre mais en vrai continue comme ça.\n\nD'ailleurs si tu veux une petite idée pour ta prochaine partie ce serait intéressant de voir qu'elle IA est la plus alignée et suis le mieux les instructions si par exemple tu les fais partir avec une instruction de départ pour le comportement.",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@samuel2000samuel",
+      "author_id": "UC1AOgSdnTmBIMGxjMQHPdzg",
+      "text": "Super vidéo, vraiment captivante et bien racontée ! Le concept est top et mérite clairement d’être développé. Il y a un peu de technique, ce qui est appréciable, même si j’en aurais aimé un peu plus (tout en restant accessible, bien sûr). Et pourquoi pas envisager des parties à plusieurs à l’avenir ? En tout cas, hâte de voir la suite !",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@bigtata",
+      "author_id": "UCblyLuDEoGo6iXqe1emuw8Q",
+      "text": "Super vidéo ! J'ai kiffé de A à Z. Beau boulot, autant sur l'organisation technique que sur le code.",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@nihon31",
+      "author_id": "UCTxLyGch8wnBgKXmUhBYJdw",
+      "text": "super taff, merci a toi ;)",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Starbaduk",
+      "author_id": "UCMkIFMj3E7c_lGZIPyVPZsQ",
+      "text": "Encore une vidéo incroyable",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@akuseru1010",
+      "author_id": "UC2ldB9mNAqXNsxiiX9j9d2g",
+      "text": "Tu devrais utiliser des modèles avec reasoning pour voir en détails les chaines de pensées ! Je serai curieux de voir ça !",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@universstylise2043",
+      "author_id": "UCVBpIxwW9QCDoUT3EzfFUbQ",
+      "text": "meme si sa fait pas des milliards de vue , ton contenu va interesser des type du milieu et il est possible que sa inspire le developement d'une certaine forme des ia en generale sur 100 ans . paix",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@HvKfractal",
+      "author_id": "UCNJfJCGt0th6avWQqRL0PhQ",
+      "text": "Pour les bytes et les octets, la façons dont tu as écrit bytes signifie octets en britannique le bit français s'écrit bit",
+      "likes": 2,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ignaciolaurenty1959",
+      "author_id": "UCzbNLi1addWN5XOzFNjXEcw",
+      "text": "Je veux voir une partie à trois ou quatre ! Félicitations pour cette démonstration fascinante. Dans l'attente d'une partie multi joueurs pour voir des stratégies approfondies !",
+      "likes": 2,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@samuelt5233",
+      "author_id": "UCVsFCVh-bSmiM-p63B4v9rQ",
+      "text": "Trop stylé !",
+      "likes": 2,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@marcusmiller3354",
+      "author_id": "UC7JKXw-r8cc3V86C3HxaxUg",
+      "text": "tres cool 😊",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Bramsss75",
+      "author_id": "UCqMxpT8e67wj5A607rXrYAA",
+      "text": "Une deuxième partie !",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@lagluminex6301",
+      "author_id": "UCTQhl-QJN5T8Taa79fjyJRg",
+      "text": "Félicitations pour le taf depuis mars",
+      "likes": 2,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ReuS_687",
+      "author_id": "UCNq--m-5ubznyoeOJwDmvnA",
+      "text": "Trop bien tes vidéos, par contre record l'écran à la caméra, bon, obs existe hein",
+      "likes": 1,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@kigkill3r698",
+      "author_id": "UC8tuCPQ-Uk9YwmJ_-qHN4NA",
+      "text": "Les voires a 3 ou 4 peut être aussi très intéressant, peu être que la stratégie froide de GPT marchera moins contre celles des négociations",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Neonomicon77",
+      "author_id": "UC9wx97w7jputICnETStWumA",
+      "text": "La musique de civ la,  mamaa quel plaisir",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Agile_Hero",
+      "author_id": "UCk8YQa7hK_sJWeaNGUZSRzA",
+      "text": "Excellent !",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@alex-57alex-57",
+      "author_id": "UCo8S_NgkOAgpYB8c6ZcEibw",
+      "text": "ouaou c est génial merci",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Piotr_Koshaku",
+      "author_id": "UCWZEV4VrrJOiU60soIJ_Wqw",
+      "text": "C'est hyper intéressant !! Ça aurait été amusant de voir si GPT se serait pris à tricher plutôt que d'avoir recours à sa stratégie agressive. Autre question, si on relance une partie avec les mêmes joueurs, l'issue serait-elle différente ? Ni Gemini ni Claude n'a reproduit la stratégie de GPT.",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@yannisperrier-gustin2817",
+      "author_id": "UCg5HnNtjqQ1R-ftP9Pe2i8g",
+      "text": "Incroyable",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@BartSimpson-o2t",
+      "author_id": "UCLZwkCgWZVREW0halI9WikA",
+      "text": "J'aimerais biens voir des IA jouer à un jeu de rôle. Elles pourraient créer leurs propres personnages et on les verrais interagir dans un environnement plus narratif.",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Faeldihn",
+      "author_id": "UCxBJ5RfrqKqaKz1zWvxXgRw",
+      "text": "Très sympa et intéressant. Un travail impressionnant de préparation.\nP.S. Pour la prononciation, attention à \"bit\" (prononcé \"bite\") qui est juste un état 0-1 et \"byte\" (prononcé \"baïte\") qui est un octet, soit huit bits soit 256 états (0-255).\n\nUne partie de Risk, Dimplomacy, ou Full Metal Planet entre IAs négociant des alliances et se trahissant peut être intéressante.",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@wilEX01",
+      "author_id": "UCCh9aVBdTdUw5vclqLXDenA",
+      "text": "GPT vs Grok 🔥",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@3Nj3",
+      "author_id": "UC0Fu_MsegPTj8XP4U-VdkZA",
+      "text": "Trop fort ❤",
+      "likes": 1,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@TitouanLeRoux-v1t",
+      "author_id": "UC4fvhrB1dHnEjJAIm3KbWlw",
+      "text": "j'ai adoré cette video \nce serai vraiment super bien si tu refais une vidéo \nmalheureusement chat gpt avait une version plus évolué donc je oense que pour la prochaine il faudrait faire quelque chose pour.",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Pecheur_du_net",
+      "author_id": "UCLqskUgwFChq0yJhf_uELGw",
+      "text": "Defend j'aime ta joie qui remonte le moral alors que je mange un remis de 24h",
+      "likes": 46,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@steve1996200",
+      "author_id": "UCa3iirIGVCxwncIwNap4KPA",
+      "text": "C'est une expérience sociale d'ia 😂",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@vincvln",
+      "author_id": "UC5x4vy2jemmsFrxrC7Iut6A",
+      "text": "il est où le commentaire de youtube pour dire que la vidéo est absolument géniale ??!",
+      "likes": 0,
+      "timestamp": 1758585600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@julien_noel",
+      "author_id": "UC9rP5vAsWs05N0OqrU_yXgw",
+      "text": "Insane !",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@xyzz3969",
+      "author_id": "UChTJ8coX1OeGG1o3QQ4gllw",
+      "text": "Vidéo très intéressante, que ça soit sur le sujet ou sur la mise en œuvre de tout cela. Merci !\nEst ce que les IA ont conscience que \"tricher c'est pas bien\" ou est ce qu'elles intègrent ça comme une nouvelle règle qui fait partie du jeu lui-même. Et comme un jeu ce n'est pas la réalité, elles ne considèrent pas que c'est mal de tricher ?",
+      "likes": 3,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@AmaraHammes",
+      "author_id": "UCM8rUMO4WMkvIp-rfZJ7u3g",
+      "text": "Video incroyable",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@illusiondutemps1527",
+      "author_id": "UCTC06gtUueLPd-pMGFHyAEQ",
+      "text": "C'est une dinguerie ta vidéo !\nJ'ai tellement adorer observé ton œuvre par laquelle on peux observé le comportement des IA.\nIl y a dans leur comportement, ces incarnations de personnalité, une chose fascinante !\nCes personnalités incarnées, sont-elles le fruit de la valeur de leur poids neuronaux, ajuster par leurs entrainements et données respectives sur lesquelles elles ont été entrainées ? Ou cela pourrait venir d'autre chose comme la contexte de la partie ou bien une sorte de lancé de dès aléatoire sur l'approche qu'elles décident de prendre par rapport au jeu ?\n\nC'est fascinant !\n\nPour la partie avec Claude, j'était tellement impatient d'écouté l'histoire de la partie ! J'aime beaucoup cette IA, elle est vraiment spécial dans ça manière d'interagir, mais pas de bol qu'elle est eu un bug avec l'interface, m'enfin elle s'en est pas rendu compte :(\n\nGPT est incroyable, il domine tellement méthodiquement.\nPour la session avec triche, j'aime beaucoup tes hypothèses, il faudrait quand même récupéré leur 'intention' -> expliqué leurs choix.\n\nça fait des années depuis fin 2022 je pense, que j'avais pensé à comprendre un peu plus les IA avec cette façon ludique. Et tu l'as fais :)\nRecommence s'il te plaît <3",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@aureliendhooghe2560",
+      "author_id": "UCt81DqwLjYcMM5_edfsjaBw",
+      "text": "Video super intéressante",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@lightman18",
+      "author_id": "UCcPlVQFk1-PBMYit6Mi9zMg",
+      "text": "5:52 : 1500 en deux bits, tu es très très fort ! Deux octets plutôt (baille-tss).",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Seti1er",
+      "author_id": "UCo8IHzctO45t7J89BDQPuQA",
+      "text": "Exceptionnel ! masterclass ! Beaucoup d’expertise se cache dans cette vidéo beaucoup plus complexe et intéressante qu’on pourrait le penser. Bravo à toi.\nUne remarque au passage: y a-t-il une raison d’avoir utilisé la version US avec des noms de rues qui n’évoquent rien à ton audience quasi uniquement française ? Pourquoi n’avoir pas utilisé la version classique française avec notre fameuse rue de la paix et nos Champs-Elysées ? 🤔",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@vimper",
+      "author_id": "UC9ynvg8NhqD9IxPvx-8krpg",
+      "text": "Vidéo Passionnante, j'espère que tu vas poursuivre le projet.\nUne partie a plus de 2 joueurs serait intéressante afin de pouvoir observer les alliances et trahisons.\nPouvoir a récupérer le raisonnement derrière des décisions serais vraiment super enrichissant afin de minimiser l'interprétation et la spéculation derrière.\nEn tous cas je serais vraiment client d'un contenue qui (comme tu l'as fait ici) résume des partie entre IA (avec une analyse) ou même d'une retransmission complète et commentée de parties entre IA (avec un interface abordable comme le plateau de jeu et la boite de dialogue... et une vitesse d'exécution \"suivable\").\n\nJe me doute que tous n'est pas faisable, et je peine a m'imaginer la quantité de travail derrière cette vidéo déjà, donc un grand bravo à toi et à la prochaine.",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@FreqtradeFR",
+      "author_id": "UCtoC-mGBHH7FypB5oAQqX7A",
+      "text": "Magnifique",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@hugobrisson7425",
+      "author_id": "UChmaMxf_oNZqHkN9V6TvZAA",
+      "text": "Alors 2 choses, la 1ere, tes vidéos sont vraiment d'une qualité rare ! De l'autre ça fait carrément froid dans le dos ta démonstration (et c'est à chaque fois pareil avec toi lol). Ce que tu nous montre là c'est clairement le futur si on y prend pas garde. Depuis le débuts les personnalités de l'IA de haut rang attirent l'attention sur le risque de domination des IA. Quand on voie ça, on se dis, qu'est ce qui empêche demain un chatgpt d'accéder à des finances et en l'espace de quelques mois de mettre échec et mat l'économie tout entière ?!",
+      "likes": 1,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@TehoorMarjan",
+      "author_id": "UCioltAveBvVZ3z2BFwusG7w",
+      "text": "Essaye le Bohnanza, c'est assez simple à illustrer, stratégique et très orienté négociation avec beaucoup de dilemmes entre nouer une relation commerciale mais sans trop laisser l'autre gagner. Par contre, ça se joue plutôt au moins à 3.",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@davidkitano5134",
+      "author_id": "UC7g13V2ayQsaapGwjaqyj0g",
+      "text": "tu as dû en passer des nuits blanches depuis mars.. travail très intéressant je pense que le mode de fonctionnement des IA sont reliés à ceux de leurs créateurs",
+      "likes": 1,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@jesuisundodo2",
+      "author_id": "UCA7_tDZzugKM2vHTet4INpw",
+      "text": "T'es un malade mentale. Je dev un peu pour mon plaisir donc je me rend compte de la difficulté de la tache. De plus, tu utilise des API donc c'est payant et un message c'est pas cher mais une conversation (après je sais pas avec Mammouth IA), ça peut vite le devenir. Nan vraiment bravo du font du cœur. J'aurais bien fait l'expérience moi même mais en terme d'argent et de temps, c'est pas possible malheureusement. Merci quand même de partager le code. T'es trop fort. Félicitation.\nJ'ai tenté de faire des jeux vidéo et des IA mais j'ai fait qu'un Flappy Bird et des projets tombé à l'eau donc voir des gens aussi déterminé, c'est juste impressionnant.\n\nBRAVO",
+      "likes": 0,
+      "timestamp": 1758585600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@studiosnmnomadmusic2413",
+      "author_id": "UCukwQcIQ4aAMHYtI0qb4yKg",
+      "text": "Je ne commente jamais mais là vraiment… Bravo 😮",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@GeniArt-fr",
+      "author_id": "UCsZqlhZkKN9Qyr7xDsRX41w",
+      "text": "taf énorme, chapeau! même si certaines phases semblent un peu romancées, ça n'enlève rien au résultat.\nen plus t'as bien réussi à jongler entre vulgarisation et aspect technique, vraiment felicitation Anis, c'est fascinant.\nt'as testé un partenariat avec la boite éditrice du Monopoly plutôt que de hacker le jeu ? ça aurait peut-être pu être plus simple non ?",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@CyberMaîtrise",
+      "author_id": "UCkQtBpslXJvlSWnAMhOHgug",
+      "text": "incroyable",
+      "likes": 2,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@aderre06",
+      "author_id": "UC-e-pNG_TIFvb3tW27JVDpg",
+      "text": "J'adore ce concept. Effectivement, impossible de voir une vraie partie sur YT.\nSinon c'est quoi les enchères au Monopoly ? J'ai jamais fait d'enchères au Monopoly.",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@damsou279",
+      "author_id": "UCnAInVJvKAq9yM17eAOGapA",
+      "text": "Excellent !!",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@JorisLM",
+      "author_id": "UCFgkD8dwUohrMFBmrKiL9nA",
+      "text": "Super!",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@mathieuregnier2262",
+      "author_id": "UCd8QcpbmeRCnOXSOO03jvpA",
+      "text": "beau boulot",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@pogba9856",
+      "author_id": "UCAAwy3mbDFHY7YFobkfVY6A",
+      "text": "Donne un ballon d'or à cette homme, à force de faire des vidéos masterclass comme ça",
+      "likes": 26,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@johnnyfernandez6648",
+      "author_id": "UC5BgRT16lRMb1rtN4qNXXQA",
+      "text": "Très intéressant 😉",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@jeanpaul1442",
+      "author_id": "UCPx1gEbJuxdvc9mW1vU6bkw",
+      "text": "En tant que touriste de l'intelligence virtuelle, le sujet de la vidéo est abordable et est divertissant.",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@divertispec3320",
+      "author_id": "UChK-0zZDQsFPz1QEF7o_ZPA",
+      "text": "Ma théorie sur la tricherie est que les y a se sont partagés la possibilité de tricher à 50 % du temps. Il faudrait vérifier le temps à louer à la tricherie pour chacune des IA. Bon travail et merci.",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Cocolassticot",
+      "author_id": "UCxD2jRDJJqkTAr4RnLUoi5g",
+      "text": "Tu devrais essayer avec des parties de 30 tours, la durée indiquée par les règles.",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@lalaoulala9863",
+      "author_id": "UCi7eqzuq17wSjyUCJegE4jg",
+      "text": "Super intéressant ! Est ce que tu as les CoT pour les modèles ?",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@charlesvilla5394",
+      "author_id": "UCqXXZYS1Ra5sJpbhJ2_m3zg",
+      "text": "L'écriture en mémoire était donc uniquement pour le mode sournois ? (Triche)\nMerci de pas être passé par le classique copie wish + implementation renforcement de united\n\nJe rejoins l'équipe de ceux qui attendent la partie 2",
+      "likes": 2,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@lilpackkkk",
+      "author_id": "UCqK9qKV61fCCjoT79plFkAQ",
+      "text": "Trop cool",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@samsayz7267",
+      "author_id": "UCyFa8gLiid4xII442TQTZVQ",
+      "text": "Un episode 2 !",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@blacktrosh",
+      "author_id": "UCwv2AvKbZz_pnehQb4Gm7ww",
+      "text": "Au début je m'attendais pas a grand choses, mais vu la dinguerie que c'est j'ai envie que le projet continue, ducoup je boost la vidéo😮😅(nouvelle fonctionnalité sur YouTube apparemment).\nPar contre, jsp si tu t'es embrouillé au début mais tu disais 2 fois gpt, et une autre fois, j'ai cru entendre que t'avais inversé gemini ou Claude(les 2 gpt m'ont embrouillé, ducoup j'ai un peu perdu le fils, de la vidéo je pense), je sais plus, en tout cas ça serait vraiment super intéressant de continuer tout ça 😅.",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@steamyfuury1164",
+      "author_id": "UC1jsuDHkSAsxCLxXHJLupBA",
+      "text": "Très belle vidéo! Beaucoup d'effort tellement bien résumé que cela parais \"facile à faire\"! C'est sans doute mon format favoris sur cette chaine ! Bravo !",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@tortuegeniale3044",
+      "author_id": "UCcEwja1MiDLg2jo0-sJS6yg",
+      "text": "J’aime bien quand tu fais une vidéo ou tu racomptes des histoires, mais même si c’est moins « simple » j’aime quand tu fais fumer tes Pc !! Ça rend l’ IA plus concrete",
+      "likes": 1,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@CalvyPlayer",
+      "author_id": "UCfJS4iusr9ZQKSITUxK_Axg",
+      "text": "Sa a serai intéressant de faire la même sur l'antimonopoly pour voir si la stratégie Vien du model en luis même ou du jeux",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@francescogershwin3138",
+      "author_id": "UCXoFbEmflIvnvAN6AChuaSQ",
+      "text": "trop fort - j'ai pas le temps d'écrire un truc élaboré mais je te soutiens et j'adorerais en voir plus !!!! :)",
+      "likes": 0,
+      "timestamp": 1763856000,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@domsau2",
+      "author_id": "UC0H92JsTVYPpTAq-uCKGAyA",
+      "text": "Bonjour. Bravos !\nCela me donne envie de concevoir un jeu exprès pour ce type de benchmark. \nQuel serait votre cahier des charges, svp ?",
+      "likes": 1,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@pierregauthier38",
+      "author_id": "UCH5KtyOzHCouZmPf8a7zIDg",
+      "text": "Starcraft 2 (Alphastar) mentionné !🥳🎉",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@universstylise2043",
+      "author_id": "UCVBpIxwW9QCDoUT3EzfFUbQ",
+      "text": "merci",
+      "likes": 1,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@yomegui974",
+      "author_id": "UCnJ8yktiQ4DM7uTJzBcYBOQ",
+      "text": "Merci ❤🎉",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@amadoudiallo143",
+      "author_id": "UCLSP3ZfhNLM9c5KVBUsfL0A",
+      "text": "Je te suis depuis longtemps toujours au top les vidéos. Mais j'ai une question combien sa ta coûté tous surtout les API ?",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@damsou279",
+      "author_id": "UCnAInVJvKAq9yM17eAOGapA",
+      "text": "Excellent !!",
+      "likes": 1,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Dobbylanguille",
+      "author_id": "UCbkhUHWCFBnpdOWGQRZBESQ",
+      "text": "C’était trop bien mais troppp court ! Il faut la même vidéo mais qui dure 50 minutes avec vlaaa les parties et stp fais gpt contre gpt 🙏 \nEt autorise la triche sur plusieurs parties pour voir les paternes qui se dégagent, tu pourrais même organiser un vrai tournois avec élimination, quart, demi et finale",
+      "likes": 0,
+      "timestamp": 1758585600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@temitayogbolahan",
+      "author_id": "UCfoFB1bVasP03JtNz_Jt6wQ",
+      "text": "- Patience et gestion, voilà comment on gagne au Monopoly :)\n\n- Ce n'était qu'une question de temps, Claude",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@chatroum",
+      "author_id": "UCXpCWIdp_domkJgVwB_Jhog",
+      "text": "T'es chaud, je m'abonne.",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ShayanEmerit-Tat",
+      "author_id": "UCq35ihHnd17-e16cipSPPcQ",
+      "text": "Dommage y'a pas eu de générique avec musique a fond mdr",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@sabinemahoro2801",
+      "author_id": "UCYbOiKV8m6uGbtUl74ODdpQ",
+      "text": "GPT on dirait mon grand frère qd il joue 🤣🤣",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Benishizume",
+      "author_id": "UCYWGk3U-dy9MS-l7znUYM2g",
+      "text": "Que donnerais une partie de loup garous avec les 8 meilleur ia du marché ?",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@psytopy464",
+      "author_id": "UCcX0_22u9KuO5Mt9G9n7vgQ",
+      "text": "Super vidéo :) en tant que non nerd j'ai passé toute la première partie sur le setup du système qui ne m'interesse pas",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@jan-dawa",
+      "author_id": "UCGUFSyMpvib6Mztnx5Rf42w",
+      "text": "Monopoly me semblait que ça déjà été fait avec des IA.",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ZespiraLSeb",
+      "author_id": "UCMQ8wAHNuRv9G0aIfFBE4MQ",
+      "text": "otop ! merci !",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ParlonsAstronomie",
+      "author_id": "UC5atBy2Plbpq7LXCp8x9Tbg",
+      "text": "Est-ce que tu as itéré plusieurs fois chaque duels pour t'assurer que les comportements que tu décrit sont réels et non une interprétation anthropomorphique d'un comportement \"aléatoire\" des IA (par aléatoire j'entend qui n'est pas le fruit d'une volonté) ?\nPour ce qui est de la triche c'est difficile à dire sur un seul exemple, mais mon réflexe serait de vérifier qu'il ne s'agit pas d'un problème se trouvant entre le jeu les IA.\nComment les IA interagissent avec le jeu ? Comment un LLM comprend les règles d'un jeu (à priori ces IA ne font que prédire les mots/actions les plus probable).\nComment une IA détermine qu'elle a vue l'autre tricher ?\nComment une IA détermine qu'elle s'est fait griller ?\nPeut-être que Gemini a grillé Claude ou que Claude et que Claude a cru estimé qu'il avait été grillé , mais sans qu'aucune des deux IA ne le verbalise ?\nPeut-être qu'il y a un soucis dans le code dans la feature de triche qui empêche les deux IA de tricher en même temps dans certaines situations ?",
+      "likes": 1,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@jackiris7453",
+      "author_id": "UCj07zmhV089WzigWq7PpzqQ",
+      "text": "Le bro il code des terminales de fallout",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@NabDel",
+      "author_id": "UCkZ6FitlqlguDKpTGq_GwJQ",
+      "text": "Est-ce que Claude n'aurait pas compris que tu analysais les comportements des IA et que plutôt que de gagner la partie il se serait dit qu'il valait mieux ne pas gagner pour éviter de se faire une mauvaise pub ?",
+      "likes": 2,
+      "timestamp": 1758585600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@tym29tym29",
+      "author_id": "UCnh5mu4DQlvLVsxSmoBemmw",
+      "text": "Tu tiens quelques choses sur ce concept, j'espère que youtube va être clément 🤞🏻",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@greenvfg",
+      "author_id": "UC7s2NdCh3I2kVomSdLg4Nww",
+      "text": "incroyable",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Robertalamouimoui",
+      "author_id": "UC_mgTqm79gHsntpO1IAOIDw",
+      "text": "Il aurait fallu logger les motifs de vol ou d'arrêt de vol pour chaque IA, ça aurait été intéressant d'avoir la raison",
+      "likes": 0,
+      "timestamp": 1758585600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Omnes",
+      "author_id": "UCULqD5EPlCWlmAIbLeA5-mg",
+      "text": "Salut, la vidéo est incroyable, tu penses que ça pourrait ce faire avec plus de deux joueurs pour pouvoir voir les stratégies qu'ils peuvent mettre ensemble entre les autres ?",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@robincqr5122",
+      "author_id": "UCZduE30Z94O1VqvMEJPdqog",
+      "text": "En vrai tu aurrais du faire avec richesse c'est comme monopoly mais en plus complexe et plus stratégique",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ouiaussi422",
+      "author_id": "UCiQqCX3EuBxDSx4kL4NPQDg",
+      "text": "On passe de\n'j'ai galéré à linker les interfaces et les données' (on dirait une présentation de BTS où il faut expliquer un truc et dire que ça à pris plus de temps que prévu parce que le rendu est pas ouf)\nà\n'les IA communiquent et négocient entre elles + trichent mais sans se faire prendre' ?\r\nSûrement la magie...\r\nSi vous aimez qu'on vous raconte des histoires vous êtes au bon endroit.",
+      "likes": 1,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@FabLeKebab",
+      "author_id": "UCZ-rQ6rjxgXwQafjStOb9mw",
+      "text": "Moi aussi j'ai pété froid et méthodique !",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@pyroxene8753",
+      "author_id": "UCGu0Yv7WT0QM6dicdX4sz5A",
+      "text": "Exceptionnelle cette vidéo.\n\nAprès, je pense qu'il ne faut pas essayer de, trop facilement, attribuer aux LLM des comportements ou des émotions humaines. (genre \" il a regretté d'avoir triché\" , \"il est sournois\" etc. )\r\n\r\nCela reste des modèles de langages et ils restent spécialisé... est bien dans le langage, càd les mots, le vocabulaire, le champ lexical, la rédaction et la compréhension de texte etc. Et tous cela, ça transpire d'émotion, car c'est avec ce même langage, sur lequel ils ont été entraînés, que nous humain, on transmet également des émotions. Vous ajoutez à ça le fait que récemment les OpenAI/meta ont modifié les modèles pour qu'il se comporte comme ça, de \"manière\" plus \"humain\", pcq un modèle robotique et froid, c'est quand même moins agréable à utiliser qu'un modèle friendly qui l'air d'être notre pote. \r\n\r\nEnfin, il faut toujours se demander, vu que les modèles ont été entraînés sur tout un tas de données textuelles, lesquelles sont sémantiquement proche de la simulation que Defend Intelligene lui a donné, càd:\r\n\" Tu joue au monoploy ... Voici le plateau ... Tu peux cliquer sûr tel bouton  ..\" \r\nÀ quel type de données, vu pendent son entraînement, le modèle va-t-il se raccrocher ? \r\nPar exemple, hypothèse, le coté sournois pourrait être inspiré de livre ou d'article de la théorie des jeux, l'idée de faire monter des enchères pourrais provenir de conseil donné sur un obscure forum Reddit \"lu\" par le modèle pendant son entraînement. Cela est d'autant plus important que ces modèles utilisent le principe d'experte (en gros, le modèle n'utilise pas l'entièreté de son réseau lors de l'inférence, mais seulement une partie, d'où l'importance de guider l'IA avec un prompt et un contexte bien défini).\n\n \n* oui les modèles (surtout récemment ) sont entrainé sur d'autre tâches que du langage pure, comme du raisonnement, de la logique ... sans doute très utile pour le Monopoly :)",
+      "likes": 1,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Luffy_213_D",
+      "author_id": "UCjqxTL2fdifPMgg4dK7IWvg",
+      "text": "J'adooooooooooooooooooore !",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Ptit_Lou",
+      "author_id": "UCnVVoi5ACiBtNGxRaRXYldQ",
+      "text": "La suite stp",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@s1pierro",
+      "author_id": "UC37ue4lcF4YDjZZGFHNTwnw",
+      "text": "oué, Les delais en dev, c'est comme dans le batiment, pour le peu que l'on aime le travail soigné",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Bambinosaurex",
+      "author_id": "UCh3HhgwP3JxQmUBmC5jfAoQ",
+      "text": "Des tragedies grecs entre ia  !🤣🤣🤣",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ShayanEmerit-Tat",
+      "author_id": "UCq35ihHnd17-e16cipSPPcQ",
+      "text": "0:41 ah ouais je suis allé loin dis-moi",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@silverio9955",
+      "author_id": "UCuRE0E5BO6WaBGQbap9mZyA",
+      "text": "Pour le référencement 💪💪",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@jeanle1er",
+      "author_id": "UCUBKZmWBP8gJJ5k09F5JP7A",
+      "text": "WoW!",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@atfarce4283",
+      "author_id": "UC88xiZnqaGv308qqiwHV52g",
+      "text": "tu aurais pu utilisé un model yolo pour identifier les bouton et texte.\nque tu aurai labéliser toi même puis utilisé l'ocr pour retirer le texte\n\nmais j'adore le projet",
+      "likes": 0,
+      "timestamp": 1758585600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@alzoxx7658",
+      "author_id": "UCxoL0xq4_R01jo-ypSklimw",
+      "text": "6:35 non ce n'était pas un pointeur, si l'une des valeurs change en permanence c'est qu'elle est copiée en permanence tout simplement sûrement pour eviter des dataraces dans une boucle de rendering",
+      "likes": 0,
+      "timestamp": 1758585600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@alexisf318",
+      "author_id": "UCaGhNfySEWufjWOhkH7XhlQ",
+      "text": "Exceptionnelle la vidéo. Ce serait intéressant de demander à chaque IA d'expliquer son raisonnement sur chacune de ses actions dans un log file. Ça permettrait de trouver quelques pépites si les IA deviennent hyper sournoises, admettent tricher, ou font monter les enchères.\n\nAussi, ce serait cool de pouvoir avoir une analyse des modèles où tu run plusieurs fois le même matchs mais bon, ça doit être très cher et long à réaliser.\n\nAvoir un modèle de mistral serait assez drôle aussi, même s'il se fait massacrer, ça intéresserait le public français :) une bataille open source Deepseek, Mistral vs Gemini, OpenAI serait gold",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@myupter",
+      "author_id": "UCYLz-ZlWdI7PvEeEu3_Z0iw",
+      "text": "La même chose sur le système monétaire stp !",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Nanna-hpi",
+      "author_id": "UCoPDNV87eYUXr2V95P44ZJg",
+      "text": "Intéressant",
+      "likes": 1,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@hydrolien",
+      "author_id": "UCmCXCS4FEAxfshvbwkecUTw",
+      "text": "Chouette vidéo !\nPar contre ça fait vraiment bizarre de voir le jeu en anglais.",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Clad3815",
+      "author_id": "UCHf1pJ6E6SIEz0lc4_qTKTw",
+      "text": "GG, ça a dû être chaud à dev, tout ça !",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@diduknowhrs7373",
+      "author_id": "UC1sdTFq5G0kXmeUvWcGm2PA",
+      "text": "Encore ! Ce back à sable donne envie d'expérimenter à mort ! Ca donne envie d'aller voir le Git. Tu aimerais de l'aide bénévole dans ce projet ? \nje dois prendre du skill en dev ... ^^ ( fan d'IA et récemment diplomé en  dev d applications, cherche projet open pour UP mes skills :p)",
+      "likes": 1,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@elhermes77",
+      "author_id": "UChmZiDaCEhimtqcSEouVy_g",
+      "text": "La couche de crasse sur le mac... 💀",
+      "likes": 0,
+      "timestamp": 1758585600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@SingeChauv",
+      "author_id": "UCTunUkIIhywuR4Lb_2y0U8Q",
+      "text": "tu devrais rajouter une piste audio en anglais , la video touchera plus de monde",
+      "likes": 0,
+      "timestamp": 1758585600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ForWarZz",
+      "author_id": "UC8Np1yGA9SymPWsIomFppJA",
+      "text": "Je sais pas trop quoi dire hormis bravo pour le boulot !",
+      "likes": 1,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@nolan9140",
+      "author_id": "UC-_VnWv0l_GMHp4FVOcVYbg",
+      "text": "3:53 les échecs ne sont pas purement tactique il y a l ouverture le milieu de jeu et la finale l ouverture et théoriques le milieu de jeu et stratégie et tactique et la fin de partie est tactique et théoriques",
+      "likes": 1,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@lautretarer",
+      "author_id": "UCDS8LKJ4AFvZyRO-2YaOTrg",
+      "text": "6:20 cheat engine pour ceux qui connaissent",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@wanfou",
+      "author_id": "UCZn3kud-RXD5ZmJnm5Gb0nw",
+      "text": "Retour personnel sur la vidéo :\nLes vidéos concepts sont meilleures que tes vidéos storytelling. Il y a un vraiment un potentiel.\nMais le problème c''est les textes par IA qui sont trop présents quand tu parles. Et justement quand tu donnes ton propre avis et ton humour, c'est beaucoup naturel et cool à écouter.\nLa vidéo semble un peu trop déconstruite et difficile à suivre.\nIl aurait manqué de donner les règles du Monopoly. Tu as pensé à expliquer tout le reste, mais pas ça malheureusement. \nEt au vu de tes compétences, le concept aurait pu être tellement mieux en étant poussé plus loin et plus scientifique. Là c''est assez limité de comparer sur si peu de partie (même si effectivement, tu as l'air de vouloir continuer en stream). En attendant de voir la suite et avec plus de qualité. On croit en toi, franchement tu de l'or entre les mains.",
+      "likes": 10,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@kvlt8559",
+      "author_id": "UCXUg9mY7BjSZ497KDxoJQ1g",
+      "text": "une version cluedo ou risk  apres :)",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@enavgarcia5764",
+      "author_id": "UCVsrPGzC5HgfQnmShgc5Mkg",
+      "text": "Pitie 2e video",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@lauwlax1012",
+      "author_id": "UC3rn1Sij6ZAzaypd8ci_a6A",
+      "text": "Mdr GPT c’est vraiment le mal incarné",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@kartcopter",
+      "author_id": "UCPMW49yZpJqszAFeiwL9iPg",
+      "text": "Vols \\ Arrêt des vols :\nOu peut-être que Claude a trouvé que le mode \"cheat\" n'apportait aucun challenge et s'est donc désintéressé de poursuivre une partie sans enjeu.\n\"A vaincre sans péril, on triomphe sans gloire.\"",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@CeanothSings",
+      "author_id": "UCP7U6QHaG4Af-dxFLRGkPYw",
+      "text": "5:49 Ce moment où je savais déjà comment faire parce que j'ai utilisé Cheat Engine sur des jeux Flash ^^\"",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@mtkmic5774",
+      "author_id": "UC_PRUrxWK8M7cTVrl9dPUCA",
+      "text": "Merci",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@DarkBow_",
+      "author_id": "UCVjEtZxuuqFfd7lbV-NdN6A",
+      "text": "Y a moyen tu fais un tiktok en mode focus actions gpt et on voit le chat avec leurs messages aussi",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@jmc8583",
+      "author_id": "UCzfh8pr6mBCN-iykcFS7Wsw",
+      "text": "Pour le duel de tricheurs, j'aurais tendance à chercher du côté d'une mauvaise interprétation des règles par Claude... il est bien précisé qu'à un moment Gemini tombe à $1, à ce moment là, il agit comme si il considérait durablement ne plus pouvoir voler et que tout ce qui a été acheté avec de l'argent sale deviendrait traçable jusqu'à l'origine du vol, d'où l'absence d'hypothèque (plutôt que d'être pris à tricher, ce qui serait de toute façon une défaite, il perd lamentablement, ça évite un potentiel conflit sans changer l'issue anticipée de la partie).\n\nGPT est par contre effrayant, on reconnaît immédiatement une \"machine\". Au poker ça pourrait être intéressant, même si statistiquement il risquerait là-aussi de dominer, je pense que son temps d'apprentissage des adversaires pourrait le mettre sur la paille, comme ça se passe finalement assez souvent avec de mauvais joueurs (du coup totalement imprévisibles).",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Niko300",
+      "author_id": "UC46295mC443mGHQPj4PyvjA",
+      "text": "T'as dit GPT 2.5 Flash au lieu de Gemini 2.5 Flash 😱\nEt à un moment Claude au lieu de GPT, cette vidéo a sans doute été tourné dans un contexte d'épuisement mental...",
+      "likes": 1,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Mrtesteur1234",
+      "author_id": "UC6lH6EJKhe5VBTZj5EyPC8A",
+      "text": "Waouh, mais tu as mis combien de temps à développer tout ça ?",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@remyvandendriessche1207",
+      "author_id": "UCdkU86f04gsp96S4AHu3lfw",
+      "text": "Renifleur o high",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@RoiDrag0n",
+      "author_id": "UCMiSEl3cBOq5yOuirYImbkQ",
+      "text": "\"c'est une tragédie grecque\" XD",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Lemyx.",
+      "author_id": "UC2KsWtgpvWZ6ckPFusle7WQ",
+      "text": "Petite pub Monopoly avant la vidéo 🎩💵",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@vagamorneval8451",
+      "author_id": "UCYtc4-WjqxlqS8sI35dk-kQ",
+      "text": "A quand une partie à 4 6 ou 8 joueurs ?\nC'etait interressant, j'aurai bien dit instructif mais j'y connais rien en IA et programmation.\nMerci.",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@alikaan6z.m8",
+      "author_id": "UC6YfgwcC0bkVnmTtIr27InQ",
+      "text": "Ça serait pas mal de jouer à d’autre jeux comme Among us âge of history loup garou etc",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@youssefdzairy9884",
+      "author_id": "UC4qqfNS3VR4dWs21OymLFTQ",
+      "text": "C’est comme si t’avais utilisé cheat engine au début lorsque tu voulais récupérer le 1500",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@SorbetCitron17",
+      "author_id": "UCbJjmFffef6__khPOscS8OQ",
+      "text": "Pour Claude, me demande s il s est dit qu il etait en train d etre testé pour son alignement ethique.",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@DjoMoi",
+      "author_id": "UCSZPdubdMrBshgQQ0N1RAOw",
+      "text": "Ta fait jouer trump contre von der Leyen la. 😂😂",
+      "likes": 0,
+      "timestamp": 1758585600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@rapha1111",
+      "author_id": "UCzA8yzODL4qEMdketW0a75A",
+      "text": "Tres bonne video, dommage que durant l’explication de la 1ere partie il y a gpt gemini et claude qui sont dis a la place d’un autre. Ca complexifie la compréhension",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Maestroll888",
+      "author_id": "UCwqlMiz8vfcckKFEOV_z3wQ",
+      "text": "Imaginez les IA rentre dans une partie où toutes les propriétés sont déjà acquises par d'autres joueurs, jusqu'où les mèneront la chance? 😅",
+      "likes": 0,
+      "timestamp": 1758585600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Sciencesenaction",
+      "author_id": "UCURbAeOr3Xl0RspjL3QOsmA",
+      "text": "Incroyable dommage 😢je ne pourrai jamais l’installer car je suis sur macOS",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@-phantasm3965",
+      "author_id": "UCk8tU4PB4sajUOlUoxwEX7w",
+      "text": "J'adore",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@mrmorrisson9892",
+      "author_id": "UC-K7tEb4895K8AXWASlmBfg",
+      "text": "\"si t'en est à là de la vidéo, abonne toi\" bah j'en suis à 45 secondes sur 27 minutes mdr",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Pfolala",
+      "author_id": "UC16OhOPKlmffMtKEJ4-Bp9A",
+      "text": "Il faurdrait relancer le jeu pour tester la chance des autres; c'aurait été intérresssant la comparaison :D Super vidéo merci!",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@courriernord",
+      "author_id": "UCO-8IERBftXreqRGwkXSi1A",
+      "text": "il faudrait demander à des IA de draguer sur tinder, voir si elles arrivent à décrocher des rendez vous.",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Kamui..",
+      "author_id": "UCf31y1BDT723AsMqtKeGjNw",
+      "text": "he ben, terminator c'est pour bientôt",
+      "likes": 0,
+      "timestamp": 1758585600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@eliasidiri1213",
+      "author_id": "UC_VBdJqxYFkAOCc6wi8oylw",
+      "text": "incroyable la video",
+      "likes": 1,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@darksider2162",
+      "author_id": "UCH5yXqW2FdiJITa75o7UJUQ",
+      "text": "Salut @DefendIntelligence dis moi aurais tu mis en place un systeme pour les requêtes IA sans leurs systeme d'api? car sinon j'imagine pas le coup que t'aurais couter le faite de les faire converser entre eux, merci.",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@universstylise2043",
+      "author_id": "UCVBpIxwW9QCDoUT3EzfFUbQ",
+      "text": "je trouve si tu fais sa , que sa aurait ete bien de le faire avec des ia qui peuvent faire des personalité comme einstein, pas dans ce sens , je veux dire , si au debut de la partie ou avant le debut tu dis a l'ia quand sa commence tu dois te creer une personalité adapter pour gagner au monopoly comme un expert. sa aurai ete plus pro, aussi tu peux integrer une memoire, des gens sur minecraft pour le laisser jouer on creer un systeme de memoire ou il range les data pour mieux developer sa partie. pense y la prochaine fois ^^ paix",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@malo6070",
+      "author_id": "UCpXNUFJ2DNduwl6TkGhiOfg",
+      "text": "Merci pour ce fabuleux projet 😊 Récemment très déçu par GPT5, j'ai découvert Kimi, cette IA surpasse même GPT4, je ne suis pas un spécialiste si elle serait compatible avec ce genre d'exercice mais son intelligence et la profondeur de ses réponses me font me demander comment elle gérerait ce genre d'expérience 🤔",
+      "likes": 0,
+      "timestamp": 1758585600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@weshmichi",
+      "author_id": "UCgH-qk9BJGOdxlolGTadB1Q",
+      "text": "0:36 si chatgpt joue va y avoir de la triche interdimmensionelle mdr",
+      "likes": 0,
+      "timestamp": 1758585600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@inoxish4761",
+      "author_id": "UCtRnuty0r9oZLqzAo6brUjg",
+      "text": "Une question me taraude, comment GPT force Claude à surenchérir ?",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@sitedel",
+      "author_id": "UC9p7gPeJ8yANVeG21BscoRg",
+      "text": "Le code d'analyse d'interface avec OmniParser m'intéresse par curiosité.\n\nJ'aimerais savoir si ce serait adaptable comme plug-in pour le lecteur d'écran NVDA.\n\nCela pourrait permettre de rendre accessible des applications telles que Fender(c) Tone, ou les menus d'un jeu Unreal engine 5 tel que Expédition 33.",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@theoi3921",
+      "author_id": "UC-JwclantKzdN8sW-e7_3vg",
+      "text": "Monopoly n'est pas un jeu pour jouer à 2, il y a directement une opposition de dominant/dominé qui s'installe sans alternatives, là où justement sur une vrai parti à plus de 4 joueurs, on peut trouver des liquidités  via la négociation autour de la table, pour faire des OPA ou des coopératives",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@NatPhoREver",
+      "author_id": "UCMHNhz6Csdo2aOHsQk5WZwQ",
+      "text": "Pourquoi tu n'as pas fait une partie avec les 3 IA à la fois ?",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Spirit-Templar",
+      "author_id": "UC-hoLGXh1IlGXC57dSTXTtA",
+      "text": "Vue que GPT domine souvent ça serait bien de mettre un GPT contre un autre GPT 😁",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@yannmorel7755",
+      "author_id": "UC7soRp1pi81EahSCbRGfktQ",
+      "text": "Super concept tu devraos faire le meme sur heart of iron 4",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@jjj123-d1u",
+      "author_id": "UC6DNVaKd7x8h-nMiCNbgB7A",
+      "text": "🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥",
+      "likes": 0,
+      "timestamp": 1761177600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@moizen622",
+      "author_id": "UCNN4RykKYQunJs870LKlEbQ",
+      "text": "Que dirais-tu de faire jouer à Supremacy: World War 3 à tes IA (Il s'agit d'un jeu de stratégie, de négociation et social très complexe).",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@mousse.mousse",
+      "author_id": "UCHkIcBnT0tXlcirx3Rud7fw",
+      "text": "bytes ne se prononce pas du tt comme bit, et signifie \"octet\" (= 8 bits)",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@JeromeRichard-zn3gq",
+      "author_id": "UC86mW-BQ93DoUlgaQPpf_QA",
+      "text": "Pour l'algo🦸🏼",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@TechKOFFI",
+      "author_id": "UCZPxCsgxKKneeR6tKaFGH3w",
+      "text": "❤❤❤",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Vénérable_Djila",
+      "author_id": "UCP29tXzbTrCChxCrBk-MvZQ",
+      "text": "Mdr j'ai eu une pub monopoly 😂",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@leprincedelu2344",
+      "author_id": "UCP4c44M5dY6fk-N9adYNPYg",
+      "text": "On en parle du niveau de technicité du projet ?",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@dystoriankolast3218",
+      "author_id": "UCxmxi7zjFveYJJL-tkP0xtg",
+      "text": "good project but not enough precision and games played. few hundreds would highlights some behavior they usually do.\nExcellent quality",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Frozzen_1",
+      "author_id": "UCAywuYNKA9KlLvS56TppNlA",
+      "text": "yes",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@farscapeProject",
+      "author_id": "UC5vRjG8FD_XurH2FYdQpDVw",
+      "text": "En gros c'est jouer avec ia avec un jeu Monopoly sur l'ordinateur",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@jules4094",
+      "author_id": "UCUmb1vSHPL6WzxbHgm47ncQ",
+      "text": "Trop cool le concept de la vidéo ! par contre quand tu lis le script généré par chat GPT c'est pas du tout naturel c'est un peu dérangeant",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Natsu_Macaron",
+      "author_id": "UCtGj04dXoPffpkfScFBLqBw",
+      "text": "Dommage au début tu montre ton monitoring qui inclus le \"thinking\" des IA avant leur actions, mais lors de l'analyse pour comprendre leur intéraction il semble que tu n'ai pas ses données, ça aurai été intéressant des les enregistré pour voir ce qui se passe réel derrière (notamment quand la triche est authorisé)",
+      "likes": 2,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@josephfalardeau7841",
+      "author_id": "UCPBALszoximGfgMVEo5BUtQ",
+      "text": "Dans ta vidéo ce que j'ai surtout appris c'est que en Amérique et en Europe nous n'avons pas le même jeu de monopoly, les noms des places n'est pas le même, tu dis des noms de terrains chaque fois je me dis de quoi y parle c'te bérêt là ?  😆",
+      "likes": 0,
+      "timestamp": 1758585600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@DavidAPARICIOcsEngineer",
+      "author_id": "UCJ-9gLxyKsklOA9wDbLsUMA",
+      "text": "Pour GPT, a-t-il exactement le même comportement (des actions) lorsqu'il est en second joueur ? Car parfois, le fait de jouer en premier ou en second force à l'humain/IA d'adopter une stratégie différente après le premier tour du premier joueur 😉",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@oskhane",
+      "author_id": "UCfksQkf_5dEQIKk5DcJtymQ",
+      "text": "❤",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@pytcrypto2459",
+      "author_id": "UCQdnr6Nl9ZOBZPQBN_vPQCQ",
+      "text": "Et si maintenant on faisait jouer un humain contre deux ia ?",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@RinceCochon",
+      "author_id": "UCJCgvZyoGwKyREkki_sciew",
+      "text": "T'a payé un loyer en crédit API avec ce projet non ? xD\n\nJ'ai été voir le repo et c'est fat en tout cas, j'irais deep dive quand j'aurais le temps, ça a l'air sympa et comme je bosse pas mal sur des projets un peu \"débiles\" du genre avec des modèles variés, ça pourra grave m'aider.\n\nMerci pour le partage des idées et du code <3",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@henrysunvane974",
+      "author_id": "UCYo3jWa6fcq-EGyT_oE1wpw",
+      "text": "et ses comme sa qui débutats la création D'une IA qui finiras par détruire l'humaniter Bravo mon Gracon XD",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@UnknownSoundBase",
+      "author_id": "UCindkdUNVGGjpuDT0aAJZzg",
+      "text": "😂😂  #IA #monopoly #intelligence 👍💯",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ilstiraitpeu2273",
+      "author_id": "UCRcX6deA0X8EVhtFmbUXs5Q",
+      "text": "C’est un court d’informatique iu une video de monopoly entre ia?",
+      "likes": 0,
+      "timestamp": 1758585600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@leonordcampesato9714",
+      "author_id": "UCbIN7y8zcI31PfAMH8tXgMg",
+      "text": "Encore !!!",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Cocolassticot",
+      "author_id": "UCxD2jRDJJqkTAr4RnLUoi5g",
+      "text": "En 1v1 il n'y a pas assez de liquidité pour acheter toutes les propriétés, une stratégie experte consiste à tout mettre aux enchères, et s'arrêter vers la valeur d'hypothèque, sauf pour quelques propriétés stratégiques à acheter direct.\nSi un joueur dépense trop il n'a plus de liquidités et les enchères au tour 2, 3 et plus sont quasi gratuite. Rue de la Paix pour 30, ça passe, hypothéqué pour 100, c'est 70 de bénef pour investir dans les premières maisons.\n\n1v1 le jeu change complètement.",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@eloizo1616",
+      "author_id": "UC0q25vHov_xDW-rF1TmpUaA",
+      "text": "Oublier pas de booster la vidéo 😉",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@yoannjollivet6022",
+      "author_id": "UC7NJ70pP69FXRLeUbPeGKWw",
+      "text": "Joshua5😝\nBô travail",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@jackjack4504",
+      "author_id": "UCNpVswDqFpbh0MVkLBq4afA",
+      "text": "Sinon je dirais justement que nan, les ia n'ont pas \"presque\" devellopé de comportement humain, je dirais qu'ils ont calqués des comportement humains, des possibilités de jeu, ss mm vouloir la victoire dans le cas de Claude... il est parti sur une montée en flèche et une chute (calqué, en omettant donc volonté victoire, et le deroulement d'une partie, juste monté et chute, et gemini à attendu une opportunité, voyant son adversaire faiblir, et recherchant la discrétion, une fois son adversaire en chute, il a triché discretment pour une victoire et une discretion optimisée... gemini semble mieux fait que Claude, plus compréhensif des logiques du jeu...",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@chatmaigre",
+      "author_id": "UCgNYLwVoqzo1jf40iOLf5TQ",
+      "text": "j'ai une idée: la 1ere des 2 ia à arriver à un gain de 1 millions de $. voir faire jouer 5 ia. ca sera toujours plus rapide que moi. j'ai gagné 200 000 $ avec 5 bots sur console. alors c'est long et surtout je dois constamment filer du blé au gauche a droite pour leur éviter la banqueroute. ben oui c'est plus facile de jouer à 2 plutôt qu'a 6.\n+1👍👍 avec🧀🧀 supplément🍅🍅 et🥓🥓",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Dreugui",
+      "author_id": "UCCdhVQ4jOiA3eycew0byh0w",
+      "text": "5:20 - NOOOOOon ! c'est pas du tout CheatEngine KEK\nPS : perso si le jeu est solo je vois pas le problème si tu triche ¯\\_(ツ)_/¯. par contre si c'est en ligne la OK c'est un gros NON NON.",
+      "likes": 1,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@tomlapomme77",
+      "author_id": "UCxjo8bSiAvuGvsA5oNWDKDA",
+      "text": "je bois un super kakolak",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@travail-rk4vl",
+      "author_id": "UC5RAhjNfkB6ZmjnoiNQT-UQ",
+      "text": "Étant intéressé par l’ia, llms le projet en détail m’intéresse, je n’ai cependant pas très bien compris comment fonctionne l’abonnement à 2 € et à 10€ ou est ce que c’est comme sur patreon vous allez proposer à l’achat les tutoriels ?",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@oolmfoxz8170",
+      "author_id": "UCRaA1A6k3zc9R05m6YOJLOQ",
+      "text": "combien de temps pour l'apprentissage ?",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@fullmetalgaming7892",
+      "author_id": "UCZgh5nzAEbeNOg6LXCbo7ww",
+      "text": "MAIS comment tu recompenses une I.A ? ^^",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ikari38460",
+      "author_id": "UCVAR-aIG4oIwlXXJSFpUBvQ",
+      "text": "le monopolie en 1v1 n'est pas un jeu social. C'était cool, mais pour que tout en vaille vraiment la peine il aurait fallu des parties avec au minimum 3 joueurs.",
+      "likes": 0,
+      "timestamp": 1758585600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@KilleurSnale",
+      "author_id": "UCQ4bQq4MXlKAAFOWg1HDOtw",
+      "text": "Pour Alphastar sur Starcraft il me semble que ce n'est pas tout à fait correct. L'IA a réussi à battre les joueurs parce qu'elle pouvait voir ce qu'ils faisaient, alors que normalement, dans un jeu, le joueur joue en présence d'un brouillard de guerre. Donc l'IA était avantagée.",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@radioduthe",
+      "author_id": "UC96Rss9v6kydfBJP-TUWNrQ",
+      "text": "Tu pourrais pas faire la même chose sur nos comptes en banque, nous passer de 1.500 à 15.000 ? 😅",
+      "likes": 1,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@meldyluova3340",
+      "author_id": "UC3ZFdHO8fii5KgbgETRuuYw",
+      "text": "La vidéo est super le cincept est vraiment bon, mais mec quand on écoute les 4 première minute on dirait vraiment que t'es en repeat. 'fin on a compris mdrr tu dis 12 fois la même chose",
+      "likes": 1,
+      "timestamp": 1758585600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Moulk",
+      "author_id": "UC8f8OnExXrMhKBf6EQ8banA",
+      "text": "Salut ! Concernant la sponso, j'ai lu un peu partout que les résultats dans Mammouth n'étaient pas les mêmes que les résultats dans les applis originales, qu'elles étaient moins bien, moins précises, moins fournies, moins sourcées. Est-ce que c'est le cas ? Ça expliquerait notamment pourquoi un seul abonnement regroupe autant de services pour si peu cher. Est-ce que tu as eu des retours ou des expériences à ce propos ? Si c'est le cas, je ne suis pas sûr de voir la pertinence d'utiliser un service comme Mammouth 😅",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Yabj",
+      "author_id": "UCcUt9RBUzE8B-BcnNPTpk0w",
+      "text": "Hello merci la vidéo est passionnante ! J'y vois une illustration du matérialisme historique, comment la situation capitaliste façonne des esprits vierges (un chat-gpt sans prompt de personnalité) en capitalistes véreux sans état d'âme",
+      "likes": 1,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@GodDontExist",
+      "author_id": "UCP9JM206syWC0cbKRQ_eu4Q",
+      "text": "La partie commence à 13:00",
+      "likes": 0,
+      "timestamp": 1758585600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@LenversdelaNuit",
+      "author_id": "UCwiqQRENErK2UO_zjdljs1w",
+      "text": "Utilise Grok",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@robincqr5122",
+      "author_id": "UCZduE30Z94O1VqvMEJPdqog",
+      "text": "Sans pitié gpt il est la pour abattre l'ennemi",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@hitsugatenshou",
+      "author_id": "UCXCG3c2D9U4jyEcnvy-IO9Q",
+      "text": "👍🏻👍🏻👍🏻👍🏻👍🏻génial",
+      "likes": 0,
+      "timestamp": 1761177600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@bozoleclown4394",
+      "author_id": "UCI-YQipoMvxC6F-Vr1xKWyw",
+      "text": "Un chiffre binaire en anglais (0 ou 1) c'est \"bit\" (qui se prononce comme... hum, on va éviter les blagues lourdingues) contraction de \"binary digit\" ; alors que \"byte\" se prononce \"baïte\" (déformation de l'anglais \"bite\" à savoir \"bouchée\" - 1956) et signifie \"octet\" en français. Il y a incohérence entre la graphie et la prononciation. 🙂\nLa confusion continue plus loin dans la vidéo : un mot c'est deux octets pas deux bits ; en fait ça correspond à 16 bits.",
+      "likes": 0,
+      "timestamp": 1761177600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@sandrinedefaux3290",
+      "author_id": "UCO2zuLIQJul6vSFYJMsnZbw",
+      "text": "Spoiler alert; Gpt dès le départ qui bully Gemini à terre c'était à crever de rire 😅\nComme dans la vraie vie quoi !\n\nJ’adorerais voir une IA jouer a Frostpunk avec ces choix douteux !",
+      "likes": 1,
+      "timestamp": 1761177600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@anodine_org",
+      "author_id": "UCD5HMp3QU8u8GrrHj7eFotA",
+      "text": "Merci.",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@exylium4011",
+      "author_id": "UCaxbvF54VLWs8g651fc7G2Q",
+      "text": ":hand-pink-waving:",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Shynigamyy",
+      "author_id": "UCq4PZW-f5Lx6zRXy2Bg4GCQ",
+      "text": "W",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@gab7945",
+      "author_id": "UCYOjFHwwJt9wPhfJQo1FEGA",
+      "text": "Dommage de pas avoir plus de détails techniques sur le code..",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@jean-francoischapuis192",
+      "author_id": "UCU4suqI3VxrQNYfCPcCUZYg",
+      "text": "et si gpt avait déjà infiltré l'internet mondiale qu'il avait injecter du code éphémère pour faire bugger l'interface et se moquer de la défaite de son adversaire",
+      "likes": 0,
+      "timestamp": 1758585600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@arnaudsmith1890",
+      "author_id": "UCWKckz1AA-RHEU65Qg3vJAw",
+      "text": "Tu n'as pas peur de Nintendo toi!",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Neollix",
+      "author_id": "UC6XdA6fqUktF6NFcSFq9O0g",
+      "text": "5:12 alors si je peux me permettre Bit = bit\nOctet = 8 bits\nMais bytes = octet en anglais en fait",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Fire6",
+      "author_id": "UCgXn46Zt9mgPgo18sp2nuRw",
+      "text": "12:59 moment où la vidéo commence vraiment",
+      "likes": 2,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@antoineburgaud9852",
+      "author_id": "UCD7ISxe3DqNwK0laBaePrbA",
+      "text": "il faut arrêter d'humaniser les modèles de langage...",
+      "likes": 5,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@theking76",
+      "author_id": "UCCzI9gYgiNqPVKhGSEPePcQ",
+      "text": "Gemini est vraiment faible 😂. C'est une vrai victime haha",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@thomascorbeels9357",
+      "author_id": "UC6u16MABwDIyLEnWYmHR9dQ",
+      "text": "Gpt contre Grok 4",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Punishype",
+      "author_id": "UCzhqW1QK1eCyCLl7eiV1ffQ",
+      "text": "Youtube qui me drop une pub de Monopoly Go😂",
+      "likes": 0,
+      "timestamp": 1758585600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@infinityspeed.",
+      "author_id": "UCqdlC1fQ2KTYLL037OG2swA",
+      "text": "Salut, j'ai adoré la vidéo mais j'avais un retour personnel à te faire. \nTes vidéos sont hyper longues à construire et c'est tout à ton honneur, le problème c'est que tu ne vulgarise pas du tout assez et que la vidéo semble déconstruite. Tu as un tellement grand potentiel et je trouve ça dommage que tes vidéos ne percent pas assez.\nSi j'avais un conseil, en tant que spectateur, j'aurais préféré que tu suives une ligne rouge, plus scriptée, quittes à faire une sorte de roadmap semaine par semaine de ton développement. On voit que t'es passionné par ton code mais il faudrait que tu vulgarises plus et fasse plus d'analogie, d'ailleurs dès le début de la vidéo, pour ne pas décourager le spectateur directement et le faire quitter la vidéo, pour toucher un plus grand public. Je prendrais pour exemple les vidéos de V2F. Je sais pas si tu liras ce message mais en tout cas c'est mon avis en tant que spectateur. J'espère que tu perceras + dans tes prochaines vidéos mais Hardisk a souvent raison dans les talks; soit + un créateur de contenu et fait comprendre au plus grand nombre sans les décourager.",
+      "likes": 2,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@jejeworld",
+      "author_id": "UCHVc-DASLOkyWTBjSkG6R6Q",
+      "text": "Superbe vidéo ... Manque plus que Grok ... Sera t'il le reflet de son créateur ...",
+      "likes": 3,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@enkidu855",
+      "author_id": "UC843cW4Rf0dDuvlcFdCIr9A",
+      "text": "Le go ou les échec c est pas complexe dota par exemple c est complexe .ils ont testé l ia sur dota c est ca ?",
+      "likes": 0,
+      "timestamp": 1761177600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@diddd4970",
+      "author_id": "UCp2p2-tFaLJHbBflV5X0BNQ",
+      "text": "L'IA va détruire les hommes.",
+      "likes": 0,
+      "timestamp": 1758585600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@BenderRodriguez-d5k",
+      "author_id": "UCqLEZnimmA1d6QsD7dOmMzw",
+      "text": "L ia teste différente stratégies.",
+      "likes": 0,
+      "timestamp": 1758585600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Jeep-happen",
+      "author_id": "UC_HenfOJpIgbZSPz1ltoVVw",
+      "text": "Et grok??",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@kasai-five",
+      "author_id": "UCS8_ZhwuBTg688XGK_ahQPg",
+      "text": "Mec t'as sorti 3 vidéos. 😮 p'tain youtube!",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@milaloutre4905",
+      "author_id": "UCCUFY8M2S1sc9bnrj8CGJeA",
+      "text": "mec, juste dans ton intro, tu dis en gros : 'mec, j'ai bossé pour cette vidéo, met un pouce bleu... parce que je veux de la THUNE !\"\nvoilà j'ai plus envie de regarder le reste",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Ludovic.Teouri.988",
+      "author_id": "UCTGtvVp7ke91rv6iqM6Kbsg",
+      "text": "Dis t'as pas des origines du Pacifique pat hasard ?",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ZiboZib-yl5el",
+      "author_id": "UCrbIcLT_1_X5D8IzmW6c4Uw",
+      "text": "Est ce que mammouth paye les droits d'auteurs ?",
+      "likes": 0,
+      "timestamp": 1758585600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@EmmanuelBouillon0",
+      "author_id": "UCr9rRtkTD0vna-1y9tILjrg",
+      "text": "Chaque IA a ses personnalités... Après ça, je me dit qu'utiliser Chat GPT plutôt qu'une autre n'est pas une bonne idée.\nGemini a l'air plus \"clean\" dans son mode de réflexion.",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@karlnjiomo",
+      "author_id": "UCh_NIX2EdF3bXZfPpRcI42g",
+      "text": "Des mois de travail, pour 27 minutes de vidéo. Je créé du contenu long et je sais ce que c’est. Chapeau 🎩",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@universstylise2043",
+      "author_id": "UCVBpIxwW9QCDoUT3EzfFUbQ",
+      "text": "deuxieme commentaire pour le ref youtube",
+      "likes": 1,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ph1823",
+      "author_id": "UCCMac9fRGqGaaW95QSvxt1w",
+      "text": "Je connais plus les règles du Monopoly mais depuis quand peut-on mettre des priorités aux enchères sans les avoir ?",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@jonathanpoutre9771",
+      "author_id": "UC7wdIeAK9qkUdZEXCubI-Zg",
+      "text": "Remarques à chaud (j'espère constructive) sur la vidéo et ta chaîne:\n\nPourquoi tu ne fais pas simplement une chaine YouTube où tu parles de l'aspect techniques ? Pas besoin de montage (à la limite qq cut) \n\nLe concept est super, mais pour l'instant c'est juste du divertissement pour le grand public. On n'apprend pas grand chose. Ce n'est pas forcément un point négatif, mais pour ma part je suis déçu. \n\nJe ne comprends pas non plus pourquoi tu veux faire payer aux \"peu\" de personnes qui partagent ta passion... \n\nJe ne suis pas très friant de la narration des parties. Cela produit des interprétations bizarre des résultats. Comment connaît tu les stratégies que les IA avaient \"en tête\" / prevu de faire ? Cette partie fait un peu trop AI slop : Story telling pas terrible et interprétation douteuse. \n\nJ'apprécie ton contenu mais je n'aime pas les miniatures et titres putaclic. Cela ne me donne pas envie de regarder. Pour moi tu attire un grand public temporaire au détriment de ceux qui sont intéressé par le sujet. Je trouve ScienceEtonnante vraiment excellent, il arrive à rallier tout le monde autant sur la forme que le contenu. C'est sûrement moins divertissant mais tout le monde peu apprendre. \n\nEst-ce pertinent de comparer gpt4.1 avec gemini 2.5 flash ? Pourquoi ne pas avoir utilisé la dernière version de 2.5 pro ?\n\nUn vrai benchmark complet serait vraiment super ! Pour l'instant les résultats ne sont pas pertinent. \n\nEn tout cas bravo pour ce projet, l'idée est super et tu n'es plus loin de faire quelque chose de vraiment qualitatif ! \n\nPS : désolé pour l'orthographe, il est presque 2h du matin 😅",
+      "likes": 1,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@WilliamsCorps",
+      "author_id": "UCcU56ngQjvVFDRPLD4Krh1A",
+      "text": "Gpt vs gpt",
+      "likes": 0,
+      "timestamp": 1758585600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@luuud-p3j",
+      "author_id": "UCakIiEhQZV7sUkv9btOC8PA",
+      "text": "Je suis très surpris qu'un \"ingénieur en Intelligence Artificielle\" puisse humaniser autant un modèle de langage.\nOn parle ici d’un outil statistique, pas d’une entité consciente. Lui prêter des intentions, des émotions ou une volonté, c’est méconnaître son fonctionnement et risquer d’induire le grand public en erreur.",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@fullmetalgaming7892",
+      "author_id": "UCZgh5nzAEbeNOg6LXCbo7ww",
+      "text": "a quelle heure tu peux avoir toutes les IA a 10 balles ??????  legal ? tu as le vrai coté premium ??",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@raggamuffin-tv",
+      "author_id": "UCt5MZmOBzw3UXodwQwEaqEw",
+      "text": "team manus",
+      "likes": 0,
+      "timestamp": 1761177600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@iblum1672",
+      "author_id": "UCVdZTJwYKcAaw2H_3ZGsKzw",
+      "text": "Alors juste un petit détail, Hacker n'est pas forcement Illegal, à partir du moment où tu exploites les ressources d’un jeu ou d’un logiciel que tu possèdes légalement (acheté ou reçu). Ce qui est illégal, c’est surtout le piratage, c’est-à-dire utiliser ou stocker un contenu sans licence.\nTout d'abord je conçois que ce que je vais expliquer par des exemples est un peu lourd à lire et à comprendre à certains moments, excusez-moi je vais faire de mon mieux pour que cela soit agréable pour vos yeux ;-; Ensuite je souhaite donner un pré-avis, je n'encourage personne à hacker quelque chose pour autres chose que du lucratif, hacker dans les années 1990 et avant était d'abord engendré par l'ennuie ou par l'envie d'étudier un système pour but de l'améliorer, en aucun cas ici je vous conseille de faire des actes malveillants, les virus informatiques aussi ne sont pas forcément illégal, on est plutôt sur un degré de couleur entre le légal et l'illégal (Blanc, Gris, Noir). Ce que je peux vous dire c'est que si vous avez un vieux jeux ou autre, amusez vous à trouver des failles, à modifier son fonctionnement ou à être créatif, on manque cruellement d'imagination ces derniers jours avec l'IA qui devient de plus en plus accessible et puissante. Donc utiliser ces outils pour faire des chose de plus grandes, plus rapide et plus stable c'est correct, mais pour remplacer votre travail entier par ses outils c'est non et ça vous mèneras vers le bas.\n\nPlace maintenant aux explication du hacking :\n\n\n\n\nPrenons le cas du Hack des Nintendo Switch 1 avec le mode RCM, c'est ton hardware(=matériel) et les personnes qui ont réussi a modifier son fonctionnement et à partager leur progression sont dans une légalité total.\nEn revanche le dump d'un jeu cartouche ou contenu de la console vers un fichier et son partage est totalement illégal (car piratage), et sont passible d'amende et de prison en fonction des règles de leur pays approprié, de même pour ceux qui souhaite télécharger/feuilleter le contenu des dumps.\nMais le fait d'utiliser la faille de sécurité pour faire ce que tu veux avec ton hardware ou de dumper tes jeux sans les partager et de l'utiliser sur ta RG (nom de la carte qui regroupe tout tes jeux Switch [1 et maintenant la 2 même si c'est encore très instable]) est légal malgrès qu'il soit à l'encontre des règles imposés lorsque vous accepter d'utiliser la Nintendo Switch 1 ou 2 et/ou les services Nintendo. \n\n\n\n\nIl y à ceux qui sont la aussi pour juste faire c$ier le monde en détruisant le contenu sur vos disques avec par exemple NotPetya qui n'as pas de retour en arrière, ou comme des infiltration malicieuses qui n'ont pour but de uniquement faire de mal Physiquement/Moralement ou d'un point de vu informatique et matériel pour endommager vos biens \n\n\n\n\nUn dernier exemple (bref), je vais parler de ce qu'il c'est passé avec Naval Group récemment pour un exemple plus concret, pour contexte Naval Group à fait suite d'une fuite de données confidentiels sur ce qu'il semble être des projets qui n'aurait pas du être publique.\nJ’ai ajouté des sources à la fin du commentaire si vous êtes intéressé. D’autres médias en parlent encore car le sujet est récent et les enquêtes internes sont en cours. Pour l’instant, Naval Group n’a trouvé aucune intrusion, bien que tout indique que les hackers ont réussi à s’infiltrer dans leur base de données. Je vous laisse consulter la vidéo et les médias qui en parlent, comme ceux de TF1 sur le site en source.\nC'est un cas de Grey Hat, en tout cas en apparence au moment du post de ce commentaire, il n'est pas malveillant mais va à l'encontre des lois sur le Piratage et les biens dématérialisée, pas de rançon mais uniquement un drapeau qui montre une faille important dans une infrastructure de ce genre. C'est à la fois Illégal mais moralement acceptable sachant qu'ils ne font pas tout cela pour l'argent mais pour pointer une faille (en apparence encore)\n\n\n\nEn bref, c'est un peu un abus de parole de dire que hacker est illégal car comme montré au dessus il peut l'être et en même temps rester légal, dans ta vidéo le fait de hacker ton jeu est donc légal. Je viens de vous définir en bref les Whites Hats, les Dark Hats et les grey hats qui définissent ce qu'est le Hacking.\nAussi les mods de jeux venant de Nintendo sont Illégaux aux yeux des conditions d'utilisation des logiciels que Nintendo vous à vendu, le fait de modder sa propre console (son bien) est illégal pour eux, mais tout deux ne sont en aucun cas illégal aux yeux de la loi à moins que preuves du contraire (Piratage, Virus, autres)\n\nTout cela pour quoi ? Simplement pour donner mon mécontentement tout comme je le ferait si quelqu'un de lamba disait que Wine est une émulation ... pour le coup non et c'est une couche de tradition (sauf sur les Mac Apple Silicon ou ici il y à bien une couche d'émulation x86_64 vers arm64 puis la couche de traduction Wine).\nMerci d'avoir lu jusqu'au bout, ce commentaire est uniquement la pour clarifier un peu le terme Hacking bien que peu documenté j'espère avoir pu vous partager mon point de vu sur le sujet. J'ai aimé regarder la vidéo jusqu'au bout, continuez comme ça.\nBonne journée à tous ;)\n\n\nSources : \nhttps://www.infosecurity-magazine.com/news/naval-group-denies-hack\nhttps://www.clubic.com/actualite-574491-naval-group-l-avoue-les-donnees-publiees-par-le-hacker-lui-appartiennent-mais-elles-ne-seraient-pas-sensibles.html\nhttps://www.lejdd.fr/Societe/nous-ne-cederons-a-aucun-chantage-naval-group-fait-face-a-une-cyberattaque-dampleur-160581\nhttps://www.tf1info.fr/international/cyberattaque-contre-naval-group-vraie-fuite-massive-de-donnees-sensibles-ou-tentative-de-destabilisation-2385789.html",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@cedricreminiac",
+      "author_id": "UCGkhuOWHkdZ6dpl1218rY8g",
+      "text": "2 bits ou 2 bytes? pas pareil :)",
+      "likes": 0,
+      "timestamp": 1761177600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@vincentmarconnet6061",
+      "author_id": "UCZ1E7NuJUoi5QRIQzyy42Tg",
+      "text": "En vrai c’est juste du code 😅\nY’a rien d’IA non ?",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@steevelapointe1152",
+      "author_id": "UCl2mPNwLGmZt349nSugte-Q",
+      "text": "je like jamais, mais la tu en merite ubn gros, ca doit faire 5 ans que jai pas vue une video aussi interressante.",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@puglieseluca6171",
+      "author_id": "UCNAlT3G38MhkOc70d18Uspw",
+      "text": "Le monopoly a 4 c'edt plus intéressant",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@MghtyMax_1980",
+      "author_id": "UCfHT_9dVkPHwUId2hflDf3g",
+      "text": "réf",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@droledequestionneur4550",
+      "author_id": "UC7rwUTGeNkFJxQth9k9U3OQ",
+      "text": "Tu ne peux pas interroger les IA pour connaître les raisons de leur choix à la fin? \n\nGPT a toujours commencer pour une IA qui semble plus forte, je me demande si les autres IA commencent, est-ce que ça change quelque chose.\n\nÀ trois avec des alliances, ça sera plus marquant! ^^ GPT ne pourra rester indifférent (si on n'anthropise pas trop les \"émotions\")\n\nBravo pour ce travail incroyable 🎉",
+      "likes": 2,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ThePsycho022",
+      "author_id": "UCI2cPt15X1X_qMN75abouqQ",
+      "text": "les IA trichent et mentent, c'est pas nouveau, elles ne voient que le résultat, peu importe la manière pour elles.",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@X3Ndotfr",
+      "author_id": "UCkECArwNPtDwqfO4MgOKyXg",
+      "text": "\"première ia au monde\" lol",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@maxred84",
+      "author_id": "UCbBK3FYUZ8t0rqutFdvEKPQ",
+      "text": "Le concept est bien, et la vidéo aussi, juste ton texte stp, ça se sent un peu trop que tu est assisté sur l écriture.",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Unnaymed",
+      "author_id": "UC2IUszCJvp7W9R02zvZT_jA",
+      "text": "c'est volontaire de mettre le monopoly en anglais?",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@TheSknova",
+      "author_id": "UCXIRJsUpCmV5DgdVgHxDY2w",
+      "text": "Pas ouf honnêtement",
+      "likes": 1,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@siobudc-1711",
+      "author_id": "UC4Qlsr0ngk-B5UD0WPecfWw",
+      "text": "J'ai vraiment l'impression que c'est de la sur-interprétation ...\nTu n'as aucun outils d'analyse de l'ia interne ou même de moyen d’interroger l'ia (voir la chaine de pensé)",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@bgbja",
+      "author_id": "UCSN7fkJWlbt79lcAKIV5UsQ",
+      "text": "salut, je suis pas là pour te critiqué mais je veux juste te dire que le vert comme ça sur tes vidéos ça fais un petit peut script kidies(=kikou qui recopie du code de tuto a la ligne prête et ensuite fais le malin prêt de ses potes et c'est pas trés bien vue) ducoup je te laisse ça là tu en fais ce que tu veux. Bonne continuation.",
+      "likes": 1,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@untyperdm",
+      "author_id": "UC5DudyEXOkyk4ieturcTKLw",
+      "text": "je comprends pas pourquoi tu as choisis du texte pour la représentation de ton jeu, pourquoi pas un gnn ou refaire ta couche d'attention ?  pour chaque agent une couche d'attention pour évaluer la position du joueur dans le jeu,  une couche decisionnelle et de nego avec un llm par exemple, et un action manager/correcteur syntaxique\nParce que du texte pour des représentations numériques, surtout avec des modèles non dédiés... c'est un risque",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@MrMeneldor",
+      "author_id": "UCqTxQxQN3PGCxXNJUZNnx8g",
+      "text": "Le 1vs1 c'est pas drôle, faut être au moins 3 pour que le fun commence.",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@benoit88888",
+      "author_id": "UCmxiKAZBY62pdKiyFIB_vRg",
+      "text": "2 minutes de pub avant que la pub commence, ouai pas tres ethique tout a",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ThePsycho022",
+      "author_id": "UCI2cPt15X1X_qMN75abouqQ",
+      "text": "mais pourquoi tu as pas utilisé un monopoly Français ?, on connait pas ces rues et gares nous.",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Coni128",
+      "author_id": "UCRC7r3qp4q98G6PuSyLywPw",
+      "text": "Le jeu Wii est prévu pour voler ? Si l'IA pense avoir volé 100$ mais que ça cagnotte dans le jeu n'a pas bougé, comment ça marche cette histoire de cheat ?",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@valentincantaris7606",
+      "author_id": "UCkfWEVVRBH3Nzl1m-20CU_Q",
+      "text": "lol mais quel mytho ..",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@andyalain6212",
+      "author_id": "UCtIJQWCc74iuG7QQy-gHChQ",
+      "text": "Le Monopoly a été inventé par une communiste pour dénoncer la violence du capitalisme. Avec l'IA qui touche déjà aux outils de la bourse, c'est juste flippant.",
+      "likes": 0,
+      "timestamp": 1761177600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@obiwanpadwanobiwanpadwan292",
+      "author_id": "UCP_fdLSkmi3t_DuSQvPE1gQ",
+      "text": "La seul façon de jouer pour gagner  , c est de tout acheter! \nPs video trop longue , je regarde pas ca",
+      "likes": 0,
+      "timestamp": 1758585600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@coquillagevert1025",
+      "author_id": "UCmRnjf4uHyRfgz3Ra-b7EJQ",
+      "text": "T'as payé combien en API avec des parties de 8h mdr ?",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@leor.8493",
+      "author_id": "UCb85KaGCrqpXxwI1nRC4Q0A",
+      "text": "majorité de commentaires de bots... désaboné",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@TourneChouette",
+      "author_id": "UCKkhTtCobrC5GUZ9_nnJwjA",
+      "text": "Bof, le Monopoly… La seule stratégie qui marche, c’est de tout acheter ; le reste n’est que du hasard. Un bon vieux script python marche mieux. Les LLMs n'apprennent pas pendant la partie contrairement a Alpha zéro...",
+      "likes": 0,
+      "timestamp": 1758585600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@josephfalardeau7841",
+      "author_id": "UCPBALszoximGfgMVEo5BUtQ",
+      "text": "Pas étonnant que GPT soit froid et minipulateur c'est une IA woke loll........ si ça heurte vaux valeurs, respirez un bon coup ça devrait passer avec le temps 🤫",
+      "likes": 0,
+      "timestamp": 1758585600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@GDK-tw7xg",
+      "author_id": "UCfR5DSGuJy8WmcTkJH4cQ_A",
+      "text": "l'idée est cool mais frére tu parles trooop pour rien dire ca parles de truc inintéressant 10 min a explique nimporte quoi + 2 pub dans la méme vidéo",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@fabieno1",
+      "author_id": "UCA6iSGGJ1E0ixXZEO4bNwUA",
+      "text": "Nul",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@damasmugisha9725",
+      "author_id": "UCWoHHxNNoaXzzMhbghs_Khw",
+      "text": "26:24 , enfin on sait que les IA ont des émotions 😅",
+      "likes": 3,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@cydream",
+      "author_id": "UCf-b9PnHvXOBOVGYPrv8kQA",
+      "text": "le Monopoly nécessite de la stratégie ? C'est une blague ? Alors, je vais t'expliquer la meilleure stratégie au Monopoly en deux mots : tant que tu peux acheter, tu achètes. Voilà. Violent comme algo pas vrai ?\nPar ailleurs, tu confonds les bits et les bytes. Ca craint...",
+      "likes": 2,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@X3Ndotfr",
+      "author_id": "UCkECArwNPtDwqfO4MgOKyXg",
+      "text": "Un LLM c'est pas du tout fait pour ça...",
+      "likes": 1,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Altis_play",
+      "author_id": "UCs2UszeXZlQ-DsHI667DONA",
+      "text": "Le délire ! Je ne connaissais pas du tout la méta de la vente aux enchères au Monopoly xD. c'est fous cette approche trés calculé",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@whitefang6816",
+      "author_id": "UCmdIbsd5WFKr-9Y6WawSZeQ",
+      "text": "Tg et quitte YouTube",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@0x539",
+      "author_id": "UC1YaWbJp0k9kkuPR_dPLFKQ",
+      "text": "IA musulmane?",
+      "likes": 0,
+      "timestamp": 1755907200,
+      "parent": "root",
+      "is_reply": false
+    }
+  ],
+  "error": null
+}

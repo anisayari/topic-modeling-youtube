@@ -1,0 +1,999 @@
+{
+  "video_id": "jmECuuw28wI",
+  "title": "10 reasons NOT to become a Data Scientist.",
+  "url": "https://www.youtube.com/watch?v=jmECuuw28wI",
+  "comment_count": 110,
+  "comments": [
+    {
+      "author": "@williammbollombassy1778",
+      "author_id": "UCmzQrVbLWCTSPsG6zIXxNvw",
+      "text": "10 raisons de ne pas être Data Scientist c'est en fait 10 raisons de le devenir 😎",
+      "likes": 139,
+      "timestamp": 1671753600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@edelweiss7680",
+      "author_id": "UCoAOwPnqlTwQmUH0R-3lVtQ",
+      "text": "Excellente vidéo vraiment ! \nJe suis en phase de reconversion et je trouve ultra important les points que tu as soulevé. \nJe prends des notes et j’espère que j’arriverai à mettre en valeur ces choses là lors de mes premiers entretiens. \nMerci :)",
+      "likes": 15,
+      "timestamp": 1671753600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@gaelagbe5009",
+      "author_id": "UCFng1LutbZRQLF19fyx_q_Q",
+      "text": "Merci pour la vidéo c'est très bien éducatifs",
+      "likes": 1,
+      "timestamp": 1742688000,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@madjedmaalem",
+      "author_id": "UC2wnM4xNjTC5MFsYXA_y6rQ",
+      "text": "Excellent travail, bonne continuation.",
+      "likes": 1,
+      "timestamp": 1734912000,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@damaslan2246",
+      "author_id": "UC-ifbo4y4Dn4Z9Ps1MQzmXw",
+      "text": "Elle est top cette chaîne ! Merci !",
+      "likes": 1,
+      "timestamp": 1671753600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@D3CD95",
+      "author_id": "UCcoJ3n60RWkxoioBk8L9yWw",
+      "text": "Je trouve qu'il manque un point sur l'éthique là-dedans. En datascience on manipule souvent des données qui sont en rapport avec les utilisateurs ou des populations. L'utilisation de ces données sont soumises à des contraintes légales dont les entreprises elle-même ne sont pas toujours au courant. Le but n'est pas d'être spécialiste en droit, mais je pense qu'il n'est pas rare qu'un employeur demande de réaliser un projet ou une fonctionnalité qui peut être douteuse du point de vue de la loi voir de la morale. La datascience et le machine learning sont des technologies très puissantes et nécessitent donc une réflexion sur le cadre dans lequel elles sont utilisées. \n\nJe pense qu'une des qualités d'un data scientist est aussi de pouvoir avoir un recul ses méthodes et travail et leurs impacts et ne pas en rester à \"lol ça fonctionne\" ou \"je suis prêt à tout pour avoir le meilleur modèle\". Une personne qui n'arrive pas à prendre du recul sur son travail n'est peut-être pas faite pour la data science.\n\nEn plus des changements technologiques réguliers, c'est la société, les lois et l'opinion publique qui changent; la data science est un domaine à fortes responsabilités. Hors, je termine actuellement mon master (pas en data science mais je suis tout le temps avec des gens qui étudient ce domaine) et j'ai l'impression que très peu en sont conscients. Actuellement les enseignements sont encore très centrés sur la technologie et peu de professeurs essayent de proposer des activités moralisatrices pour nous amener à penser notre rapport \"humain-data-machine\". \n\nBref, au delà de l'aspect technologique, la data science est un domaine qui a vu et qui voit encore beaucoup d'abus et de transformations qui accompagnent la société. Pour moi il est impossible d'être data scientist sans avoir une réflexion personnelle l'impact de son métier et sa relation avec la société, ne serait-ce que pour rester à jour sur le long terme.",
+      "likes": 9,
+      "timestamp": 1671753600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@heylia3607",
+      "author_id": "UC--3T5fy6Mgkzt7J4qwWdWQ",
+      "text": "Merci pour cette vidéo , elle est très informative",
+      "likes": 2,
+      "timestamp": 1671753600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@fasoreprez",
+      "author_id": "UCHYCTVu-y6M3EpV7nelwuCQ",
+      "text": "Très pertinent tout du long, ta vidéo va clairement m'aider à tisser le fil conducteur de mes lettres de motivation et les discours en entretien, merci !",
+      "likes": 1,
+      "timestamp": 1703289600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@viw57",
+      "author_id": "UCNbrfawN0ubEERYfChnkUEA",
+      "text": "Merci pour votre explication détaillée et franche. Je songeais à me reconvertir dans ce métier,  maintenant je réfléchi encore plus.",
+      "likes": 0,
+      "timestamp": 1703289600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Deadunk",
+      "author_id": "UC_dJKXVCJT_2KcjRQJD8RNA",
+      "text": "Et bah je connaissais pas Kaggle merci beaucoup pour la découverte !",
+      "likes": 1,
+      "timestamp": 1671753600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@DefendIntelligence",
+      "author_id": "UCnEHCrot2HkySxMTmDPhZyg",
+      "text": "Pensez à partager et à vous abonner ! svp :) Toutes les raisons sont basées sur mon expérience personnelle, et le métier peut changer en fonction de l'entreprise dans laquelle vous êtes. Et vous ? Vous avez des raisons de ne PAS devenir Data Scientist ? (Le lien vers Telegram et le discord dans la description de la vidéo)",
+      "likes": 17,
+      "timestamp": 1671753600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@tahitiwildandsalty457",
+      "author_id": "UCOKVDWyF2bU_WHgpoKaLUFQ",
+      "text": "Merci pour cette vidéo, elle a déjà 2 ans mais ça me cause car ce sont les questions que je me suis posée il y a peu. Je suis en pleine reconversion à 48 ans 😂 background en code php sql Java, 3D, direction des opérations en PME (international) et direction marketing dans le domaine du luxe (international), j’ai 30 ans de carrière full autodidacte, je n’ai pas le bac…. Je n’ai eu de cesse de me former (merci internet! Déjà en 98 à décortiquer les forums hehe) , je suis en train de passer des certificats pros pour valider mes acquis et compléter mes compétences pour la data science , je suis une buse en math, cursus littéraire inachevé … enfin je croyais, je viens de me mettre dessus et j’adore autant que le code qui me passionne depuis mes 8 ans (atelier code en primaire dans les 80’s instit mega geek 😂) grosse découverte les maths, grosse surprise ! Pour mon avenir pro ( ouais la retraite c’est pour dans + de 20 ans lol, je suis large pour tester une autre passion) je mise sur mon expérience en business, marketing et coding d’applications web sur mesure (du coup les architectures et les bdd ça me connaît aussi) pour être dans la course malgré mon âge. Je ne vais pas être salarié non plus, j’ai presque toujours travaillé à mon compte et je pense rester prestataire tout en créant des projets pour les 2 industries que je connais le mieux. Et de toute façon je vis sur une île au milieu du Pacifique donc à moi de fomenter la transition vers le data mindset ici et travailler en full remote pour plus d’expertise et d’expériences, je risque pas de postuler chez meta ici 😂. Pour conclure, ne pas se mettre des barrières du style “je suis nulle en math, je suis trop vieille…” , les maths ça s’apprend et si on aime le code on a la logique pour les math et vice et versa je pense, et l’âge = expérience dans des industries ou l’on peut apporter un gros plus dans une équipe plus technique + compétences de manager et team builder + business mindset expérimenté. Et oui la vraie clef c’est la passion. ❤ Merci pour ta chaîne je découvre et je vais dévorer !",
+      "likes": 17,
+      "timestamp": 1734912000,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@vbucktn243",
+      "author_id": "UCCBwpx-98Zk2wz8FxwOfY7w",
+      "text": "Super vidéo comme d’habitude. Le telegram est tres intéressant pour faire de la veille merci!!!",
+      "likes": 1,
+      "timestamp": 1671753600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@kugwa",
+      "author_id": "UC42pAL36WQbwN5sXyHCzTGg",
+      "text": "Tjr aussi intéressantes tes vidéos, merci :)",
+      "likes": 1,
+      "timestamp": 1671753600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@novataylor2180",
+      "author_id": "UCddOB--3B4EWbhq_cBziZBA",
+      "text": "Super vidéo ! \nJe suis étudiante en économie et c'est clairement de ce genre de conseils et points de vue dont j'ai besoin pour me spécialiser.\nMerci de partager ton savoir et  ton expérience ! ✌",
+      "likes": 18,
+      "timestamp": 1671753600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@barbapapazes",
+      "author_id": "UCvuCQaX-_JBSrg90DVMNhhg",
+      "text": "Vraiment très complet et beaucoup de point son très semblable au développement Web !",
+      "likes": 1,
+      "timestamp": 1671753600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@igatyou",
+      "author_id": "UCRQB9-3E-lPZhvVVSSjApbw",
+      "text": "Tous les points que t'as cité font que je suis persuadé d'avoir bien choisit mon métier de data scientist :)",
+      "likes": 0,
+      "timestamp": 1671753600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@YannickPodo",
+      "author_id": "UCLzVyStuDwl1BMM9bfRerWw",
+      "text": "Merci pour la vidéo",
+      "likes": 0,
+      "timestamp": 1734912000,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@maryambint-ibrahim4868",
+      "author_id": "UCfTxDfRY7PHP20lx0smoQMg",
+      "text": "Merci pour cette vidéo , en essayant de comprendre ta vidéos dans le sens inverse elle ma permit de savoir que c'est ce métier que j'ai envie de faire tout en étant réaliste et comprendre que certains des points que tu as abordé ne sont pas encore des acquis et nécessite donc d'être travaillés.",
+      "likes": 1,
+      "timestamp": 1671753600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@jardelyimba3094",
+      "author_id": "UCNFeIAQIMYIeXQOBH0_3BPg",
+      "text": "J'aime beaucoup ta chaine... Je suis passionné de mathématiques et d'informatique et je souhaiterai travailler dans le domaine des données. Ta chaîne est vraiment inspirante.",
+      "likes": 11,
+      "timestamp": 1671753600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@watcheranon0666",
+      "author_id": "UCGSKtkGMLkGc0sdiUww0e0Q",
+      "text": "Merci à toi Anis",
+      "likes": 0,
+      "timestamp": 1671753600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@rodriduedissocknanal9219",
+      "author_id": "UCYSXrqvg3dqVecDd04SM1gg",
+      "text": "Salut, vidéo très pertinente. Je voudrais savoir si tous ces arguments sont aussi valable pour la data analyste.",
+      "likes": 2,
+      "timestamp": 1703289600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@virgilscipion",
+      "author_id": "UCskyMRkVVpvSxxvkWdpPtQQ",
+      "text": "Savoir comprendre et se faire comprendre des non initiés, ça aussi c'est important, et pas que pour les data scientists :)",
+      "likes": 3,
+      "timestamp": 1671753600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@abdourahamanebarry3256",
+      "author_id": "UCZWe35brrC00JzPI_JPns5g",
+      "text": "j'aime l'apprentissage continu",
+      "likes": 0,
+      "timestamp": 1671753600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@zizette666",
+      "author_id": "UCX6sjTtqjalzK4b3PmV7hRw",
+      "text": "Moi j'ai été dentiste et j'ai fait un master recherche avec des PCR et un peu de stat et comme j'ai toujours voulu faire un métier libre , je me suis orientée dans la data ! Ce que vous dites est très pertinent car je pense qu'un cursus de math serait plus adaptée ! Merci pour vos conseils ❤️",
+      "likes": 0,
+      "timestamp": 1740268800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@adinaadina4549",
+      "author_id": "UCk0jzAqnSK20ByMsJh1Lyvw",
+      "text": "Comment t'as bronzé fréro mashallah",
+      "likes": 1,
+      "timestamp": 1671753600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@nifou63",
+      "author_id": "UC-VsZyq4h0208q_g2Ac4DJw",
+      "text": "Super, merci pour le partage de ton expérience, ta vidéo me sera utile. Je suis développeur expérimenté et pour ma fin de carrière et ma motivation, je regarde vers ces métiers, data scientist, data analyst et data ingineer. J'ai un diplôme d'ingénieur en Informatique, et avant un DEUG de maths / Physique.\nMa réflexion est en cours, je me suis beaucoup renseigné, mais dans mon cas je pense plutôt aller vers le métier de Data analyst ou data engenieer mais pas vers le métier de data scientist. Bien sûr c'est personnel, mais je ressens comme tu le dis que le métier de data scientist est toujours en évolution, ce qui est normal avec toutes cet écosystème autour du Machin learning et deep learning maintenant, réseaux de neurones, RAG etc ... Donc je pense que c'est vraiment un point crucial comme tu le dis, est-ce-que j'ai envie de m'investir à me former sans cesse, même si c'est vrai pour le métier de développeur mais c'est pas du tout pareil car en développement aujourd'hui la demande est hyper spécialisé techniquement, tu ne peux pas valoriser ton expérience, en tout cas c'est mon cas.\nPour ma part, j'élimine le métier de data scientist car je le trouve plus éloigné de mon métier de développeur expérimenté que data analyst ou data engineer. Certes je suis expert en Python par exemple, j'ai des compétences correctes en statistiques, probabilité, je suis curieux sur l'IA et j'ai lu et je me suis un peu formé sur le machin learning, mais je pense pas être capable  pour ma fin de carrière d'en faire mon job. J'ai pourtant travaillé sur des projets avec des personnes data analyst et un peu data scientist, certains d'ailleurs faisant office des deux.\nComme j'ai travaillé longtemps en Python et que je le maitrise ses concepts, que j'ai une expérience dans plusieurs langages après mes 33 ans de carrière, sur le traitement des données et le stockage (bases de données relationnelles SQL), je pense que je vais me diriger vers le métier de data engineer qui me permet de valoriser mon expérience informatique, en plus j'aime bien aller chercher les données et les structurer en vue que les data analyst et les data scientist puissent les exploiter, j'aime bien travailler en amont avec les utilisateurs pour comprendre les problématiques et aller capter leurs données, j'aimerai bien aussi travailler en équipe et échanger avec des data analyst et des data scientist.\nEn tout cas merci pour ton partage.",
+      "likes": 0,
+      "timestamp": 1753228800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@nelsonbeneche2372",
+      "author_id": "UC7QHJ7mEvxft9ncr5zLSuUg",
+      "text": "Ce sont des 10 raisons qui m'encouragent de devenir datascientist",
+      "likes": 1,
+      "timestamp": 1671753600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@idrisstafo2095",
+      "author_id": "UCdbxx0HEBVt4mY7Djr4Y4Xg",
+      "text": "Très bonne vidéo sur un sujet  très très complexe.\nDe plus je pense que ces points ne sont pas propres au métier de datascience",
+      "likes": 2,
+      "timestamp": 1671753600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@maximef3463",
+      "author_id": "UCU9Q77az-qukZZEAkohLxKA",
+      "text": "Super vidéo, merci! De mon expérience, le point clé est la veille et la capacité de vulgarisation. Malgré que la DS soit un domaine à la pointe de la technologie et complexe, les livrables et les présentations des résultats doivent être à niveau de compréhension simple et en alignement avec les besoins business. Un peu de frustration lorsqu’on utilise le dernier modèle à la mode mais que le client s’en fiche. Il faut être orienté Résultat",
+      "likes": 20,
+      "timestamp": 1671753600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@mohamedmmadi4896",
+      "author_id": "UC6GksscQgay2zxSwIicR0Uw",
+      "text": "Excellente video. J'ajouterais que les 10 raisons citées sont  aussi 10 raisons de devenir data scientistes. S'il y a de concurrence c'est bon signe, il suffit de regarder les operateurs telephonique Free, Sfr , Orange, etc.... Il y a une vrai demande client  sauf qu'il faut se démarquer parmi la foule.",
+      "likes": 1,
+      "timestamp": 1671753600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@paulmarieeyengantsama1328",
+      "author_id": "UCmeKUw-1JjCnNrOF6Qp0RZg",
+      "text": "Merci",
+      "likes": 0,
+      "timestamp": 1671753600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@frankvandenberghen4496",
+      "author_id": "UCZEA92hdabfiTWQZgEjkUcQ",
+      "text": "Très bien",
+      "likes": 0,
+      "timestamp": 1703289600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@gregoireds4433",
+      "author_id": "UC7kj28g19l-2uQyBc-ndAYQ",
+      "text": "Une excellent vidéo, je suis en train de finir mes études de Data Scientist et c’est super important d’être au courant de tous les points dont tu parles. Merci",
+      "likes": 6,
+      "timestamp": 1671753600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ZieKarimKone",
+      "author_id": "UCiCR71-NL_fx8jW2W4t0JwA",
+      "text": "Je suis vraiment intéressé par le métier et j'essaie de collecter toutes lez informations pour y parvenir",
+      "likes": 0,
+      "timestamp": 1703289600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@bigshaq3863",
+      "author_id": "UC_cKzmHYONjK_ZnGDjW2AcQ",
+      "text": "👌🏼",
+      "likes": 0,
+      "timestamp": 1671753600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@lerdu1035",
+      "author_id": "UCDlBPcF0vvrT0q6D9zfJ2cA",
+      "text": "Mais c’est aussi pareille pour les web analyste ou c’est différent ?",
+      "likes": 2,
+      "timestamp": 1671753600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@carlolamto4129",
+      "author_id": "UCNEjw8QNCqfzonFLA5r2heg",
+      "text": "Top vidéo 😊\n🫡",
+      "likes": 0,
+      "timestamp": 1703289600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ivannjiki9185",
+      "author_id": "UCgxtHSSG9GkZ6dIQyyaC0xQ",
+      "text": "J’aimerai faire dans la Data science mais je dois faire mon université à l’extérieur de mon pays et j’aimerai avoir plus d’information sur le sujet pour mieux me mouler dans le domaine.\n\nMerci pour la vidéo",
+      "likes": 0,
+      "timestamp": 1671753600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@loopaddict4926",
+      "author_id": "UCyvGP0KxP51i02tZ575ze2g",
+      "text": "Franchement je sais pas ce que je fais la. Les maths me font chier ( exempté la géométrie ) l'ordi c'est du divertissement,  et je boss en extérieur.... mais j'adore ta chaîne c'est extrêmement intéressant !",
+      "likes": 0,
+      "timestamp": 1671753600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ivannjiki9185",
+      "author_id": "UCgxtHSSG9GkZ6dIQyyaC0xQ",
+      "text": "Bonjour monsieur",
+      "likes": 0,
+      "timestamp": 1671753600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@bayedembadiack1589",
+      "author_id": "UCDwEMbba4mZaSp5mQnrF0PA",
+      "text": "Parfaite vérité",
+      "likes": 0,
+      "timestamp": 1671753600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@trevanys",
+      "author_id": "UC5lCA3yruEFvVKJ5QTt0NPg",
+      "text": "Super ta video... je suis informaticien et je voudrais me lancer dans le cloud (faire des certifications...) que me conseilles tu ?",
+      "likes": 0,
+      "timestamp": 1671753600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@komimarcatsou1871",
+      "author_id": "UCpaMT_tbFUsndQouVQLtS-g",
+      "text": "Merci pour ces retours d'expérience très pertinents et très utiles.",
+      "likes": 1,
+      "timestamp": 1671753600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@AnthonyDjado",
+      "author_id": "UCnXkxRHYS5nIbnLz8MAeZYA",
+      "text": "Merci bien mais svp le marché sera t' il saturé pour les Data scientist juniors sortant d'école à l'horizon d'ici 2030!??",
+      "likes": 0,
+      "timestamp": 1766368800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@faridaboubakari1093",
+      "author_id": "UCmIeoI9UX_17muaSbubRg1g",
+      "text": "Merci pour la vidéo moi il y a une question qui me dérange depuis un certain temps c'est quoi le marché du travail pour un ingénieur en data et IA en France aujourd'hui",
+      "likes": 0,
+      "timestamp": 1737590400,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@jongbao1586",
+      "author_id": "UCh40TLurzGal_cVDU2Pdomg",
+      "text": "Ce n'est pas un travail pour moi très clairement ! Mais être curieux c'est quelque chose qui touche énormément de professions, tout comme être en formation continue.",
+      "likes": 1,
+      "timestamp": 1703289600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@zaimelalami8880",
+      "author_id": "UC2-kNeKmhZiftjnVec1rRzQ",
+      "text": "je  veux  faire  un  stage  au  canada  de  data  sintist  de  6  mois  fin  d.étude  comment   merci",
+      "likes": 0,
+      "timestamp": 1671753600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@kasmifreecg",
+      "author_id": "UCiVJc9YSouR_m5mvmHw5ahA",
+      "text": "Pour tous les métiers on peut faire un 10 raisons de ne pas faire tel ou tel métier.",
+      "likes": 0,
+      "timestamp": 1734912000,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@christhardy3317",
+      "author_id": "UCNrudaVnavh73Np9R4T7LPQ",
+      "text": "Évitez le data science si vous êtes nul en math optez pour le data analyste",
+      "likes": 1,
+      "timestamp": 1703289600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@audic2350",
+      "author_id": "UCYDYG0Fhmk2oN57LdKpWyzg",
+      "text": "Jsuis en licence d'info, j'aime bien récolter les notes de toute la promo et faire des stats. Allez go faire du data",
+      "likes": 0,
+      "timestamp": 1671753600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@meuh012",
+      "author_id": "UCN0hzGhe50gelaFdF-_lAiw",
+      "text": "J'ai atterri un peu par hasard en gestion des données, je suis arrivée en poste toute confiante avec une expérience d'entrée de données, des \"bonnes notes\" en stats et une compréhension correcte des principes de base en informatique/programmation. Ouais ben... je me suis pris une claque, hein. Moi qui avait l'impression de stagner et de ne rien apprendre dans mon ancien poste, disons que j'ai fait de l'apprentissage accéléré!\nSuper vidéo, j'aurais aimé tomber dessus en début de poste!",
+      "likes": 3,
+      "timestamp": 1740268800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@BérengerBICABA_CompteProf",
+      "author_id": "UC4NEBGWmso4iaARSbT5nXlA",
+      "text": "Bonjour merci pour la presentation quel formation de vase pour devenir DATA SCIENTIST?",
+      "likes": 0,
+      "timestamp": 1734912000,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@quiz_monarch1",
+      "author_id": "UC7j4eonSb0VBcDycyiKzShA",
+      "text": "SLT jaimerai devenir un ingénieur en IA ou en robotique c possible qu'on se communique",
+      "likes": 0,
+      "timestamp": 1671753600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Nioula-od9it",
+      "author_id": "UCs_AgQPNG25RWKj2XT1Kwxg",
+      "text": "Bonjour comment on peut servir en tant que data scientist dans d’autre domaine que le business ou le marketing",
+      "likes": 0,
+      "timestamp": 1750636800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@PierreMiniggio",
+      "author_id": "UCKbunxMnqxM8UFMEYF79CUQ",
+      "text": "3:41 C'est vrai pour le dev' aussi.\nSi quand t'es dev' t'es dans une entreprise où t'es en mode \"cahier des charges\" et ponds-moi ça, c'est du pissage de code que tu fais, mais oui c'est vrai il y a des entreprises qui raisonnent comme ça (surtout envers les débutants).\nEt de la même façon que j'imagine doit y avoir des entreprises qui voient les data scientists comme des mecs qui ne font rien d'autre que \"booster\" des métriques.\nça fait aussi parti du boulot de dev' d'être embarqué dans les process métiers pour comprendre vraiment ce qu'il se passe et répondre à un besoin, au même titre qu'un data scientist, qu'un graphiste, qu'un UX, qu'un UI, etc.",
+      "likes": 7,
+      "timestamp": 1671753600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@sidiabdelhaksbai6422",
+      "author_id": "UCD2tNq03PHh95llYhHDWOXQ",
+      "text": "Gardez du liquide  en échange..uniquement",
+      "likes": 0,
+      "timestamp": 1734912000,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@dominiquemartini7961",
+      "author_id": "UCuMgHP76xvN7-G2L-Q2QMNg",
+      "text": "il faut que les livrables apportent de la valeur à l'entreprise in fine, c'est souvent ce qui est reproché",
+      "likes": 0,
+      "timestamp": 1734912000,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@hamzasaouli8583",
+      "author_id": "UCdtoT75EjCSyTdQF3Y_M9zg",
+      "text": "Bien résumé, c'est exactement ce que j'ai constaté en entreprise! Mais y'a un autre point aussi: je pense que les data scientists les plus expérimentés  doivent penser à créer leurs propres boites de consulting ou des startups dans leurs domaines d'expertises pour la simple raison qu'un DS acquis plusieurs expériences durant son parcours (backend, analys, business, IA, ... etc) ce qui est unique pour un informaticien ce qui lui permets d'être vraiment libre de lancer son propre affaire sans avoir besoin de quique ce soit!",
+      "likes": 7,
+      "timestamp": 1671753600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@rootsgirl777",
+      "author_id": "UC0PLBeW0dnbTUvuJNBmTW2w",
+      "text": "Il faut effectivement être à fond de bout en bout, ça parait simple dit comme ça, mais ne pas perdre la motivation en cours de route (ou au moins être capable de la retrouver) malgré ces contions ce n'est pas donné à tout le monde, même pour ceux qui le souhaitent ardemment",
+      "likes": 7,
+      "timestamp": 1671753600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@logikmine01",
+      "author_id": "UCQYDBLscCYcVFaUbHlXI8Hw",
+      "text": "Helllloo. !! MERCI POUR LES ÉCLAIRCISSEMENTS ! \n-- UNE question : Par exemple dans le cas où il s'agit d'un médecin spécialiste de santé publique,  finalité épidémiologie et biostatistique qui a besoin de rendre plus puissant son domaine d'étude,  vue que meme l'épidémiologie moderne doit obligatoirement intégrer l'intelligence artificielle.  Et etre médecin  épidémiologiste et etre un généraliste dans la data scient dans le but de pouvoir faire et modéliser des meta_anlyses, il y'a de plus en plus des données big Data. Donc une spécialité du data scientist dans le domaine santé publique (purement médicale, car pour pouvoir y interpréter  certains résultats il faut tout de même être un medecin).\n?? Quel est votre avis sur ce point svp ?",
+      "likes": 1,
+      "timestamp": 1671753600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@monsieur_placard",
+      "author_id": "UCNrWHi7bmPRZntiUQIomfng",
+      "text": "Alors, c'est normal que cette vidéo m'a donné encore plus envie d'être data scientist 😅",
+      "likes": 6,
+      "timestamp": 1671753600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@blacktrosh",
+      "author_id": "UCwv2AvKbZz_pnehQb4Gm7ww",
+      "text": "La raison fondamentale de pourquoi ne pas le devenir est les maths 🤣",
+      "likes": 5,
+      "timestamp": 1671753600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@mutayan",
+      "author_id": "UCM7_Ikd7Tn5aJ0OOmBx2MAQ",
+      "text": "Rien à voir mais c'est toi qu'on voyait sur TF1 sur le champ de Mars ? J'ai cru te reconnaître.\nSinon je trouve cette vidéo très bien. J'avais visionné une vidéo au sujet similaire en anglais. Le métier m'intéresse toujours autant mais mon métier actuel aussi. Il me faudrait une deuxième vie 😁",
+      "likes": 1,
+      "timestamp": 1671753600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@madaragrothendieckottchiwa8648",
+      "author_id": "UCYdgTIDU4ovUlLAXYut2z7w",
+      "text": "De bonne connaissance en mathématiques c’est un peu cliché! Moi je dirais d’excellence connaissance en statistiques fondamentales et théoriques et optimisation",
+      "likes": 1,
+      "timestamp": 1671753600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@shibo2740",
+      "author_id": "UCLYeDWD5cuxe_fb5HTvChMg",
+      "text": "Super vidéo ! Pour ma part, j'ai bossé sur des projets data en tant que chef de projet. Je fais également du recrutement pour mon entreprise. J'ai l'impression que la data science est devenue une mode et qu'une partie des candidats se lance dedans sans vraiment savoir ce que ça signifie ou les compétences requises. Mais cela est également vrai pour nous les managers. L'entreprise se transforme avec des orientations data-driven mais on n'acculture pas notre strat de management qui n'y connaît rien... Heureusement c'est en train de changer. \nJe te rejoins totalement sur le 10ème point. J'ai eu un data scientist qui ne savait absolument pas vulgariser, quel enfer ! Impossible de savoir où il en est, de comprendre les problèmes qu'ils rencontrent ou de pouvoir lui apporter de l'aide. Et de ce fait, il s'est auto isolé du reste de l'équipe, ce qui était vraiment dommage surtout pour lui.",
+      "likes": 11,
+      "timestamp": 1671753600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ChampenoiZ",
+      "author_id": "UCWnof9NXcGVRSZOdFK5SKYQ",
+      "text": "Bonjour, avant de me lancer dans une formation complète dans la data (Je suis toujours dans le flou entre Data Analyst et Data Scientist), j’aimerai faire une semaine en immersion avec les 2, pensez-vous que c’est possible étant donner qu’on traite des données confidentielles ?",
+      "likes": 0,
+      "timestamp": 1737590400,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@MehrezMkaddem-zo2bt",
+      "author_id": "UCzqEivM4WA14aXlisgOV_LQ",
+      "text": "Je regrette voire ton védio, réel mais choquant",
+      "likes": 0,
+      "timestamp": 1734912000,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@HortenseCml",
+      "author_id": "UC2HPneBM75fzL8mc86q6rTw",
+      "text": "Qu'est ce qu'une métrique ?",
+      "likes": 0,
+      "timestamp": 1671753600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@lucaspichon3167",
+      "author_id": "UC2RGR3v7xcXMXwJu-SQln2A",
+      "text": "C'est pas plutôt \"10 mauvaises raisons de devenir data scientist\" ?",
+      "likes": 1,
+      "timestamp": 1671753600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@CallMeFensi",
+      "author_id": "UCIHz-pJXSbAn3f5hhURsR8A",
+      "text": "Desole pour le clavier qwerty...\nSuper video ! Merci encore pour ces informations...\nJe suis tout a fait d'accord avec les points abordes ! Le point 10 il est tres interessant et je pense qu'il s'acquiere avec l'experience, comme les autres points bien entendu. Je vois que meme si ca fait quelque temps que je fais du traitement automatique en langage naturel (text et audio inclus). Je suis loin de connaitre encore tout. Mais je suis content d'avoir le sentiment de progresser dans la vulgarisation.\n\nLes points importants(dans l'ordre): Capacite a vulgariser = apprentissage continu (vulgariser les dernieres innovations, etre a l'etat de l'art), la polyvalence, rigueur scientifique(reproductibilte des resultats, methodologie et demarche scientifique), comprendre ce que l'on fait (analyse des donnees: pourquoi, comment), livrables...\n\nC'est que mon avis, mais les qualites humaines sont importants et peuvent faire parfois faire la difference. On ne peut pas etre expert si on n'arrive pas a vulgariser et a repondre clairement a la problematique metier...\n\nJe finirais par dire ( experiences, experiences, experiences ...) Sans experience on ne peut pas s'ameliorer( j'enfonce une porte ouverte ahah)",
+      "likes": 3,
+      "timestamp": 1671753600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@mrzazzz",
+      "author_id": "UC-zlc3y1iwNIXH94twyxlDg",
+      "text": "Si tu le dis 😂",
+      "likes": 0,
+      "timestamp": 1734912000,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@clmtrz937",
+      "author_id": "UClGHD4uMF9mG4Fk8cep0NxQ",
+      "text": "Merci pour tes conseils perso ça m’a conforté dans mon choix de devenir data scientist !",
+      "likes": 1,
+      "timestamp": 1671753600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@joshanambungu8222",
+      "author_id": "UCOJVE8rpIUKW6zR_srW0uOA",
+      "text": "10 raisons pour le devenir ouais mdr",
+      "likes": 0,
+      "timestamp": 1671753600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@jean-yvesm.1592",
+      "author_id": "UCX5FHK8DgPD09BXEpWnmGWw",
+      "text": "Très bonne vidéo. Mais tu nous fais un test au point 2 non ? 😉 600 candidatures pour 3 annonces ça ne fait pas un taux d'intégration de 0,5%.Tu exclues de ton set d'annonces toutes celles qui existent et que ton organisation ne voit pas. Par contre le nombre d'annonces de data scientist a été divisé par 2 en trois ans. La plupart des organisations ne voit pas l'intérêt du data scientist (en fait elles ne lui permettent pas de bosser correctement)",
+      "likes": 1,
+      "timestamp": 1671753600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@asphaltking5870",
+      "author_id": "UCAaKcZIv8tPkrPdW2ahJxgQ",
+      "text": "1:5 beaucoup d'investissement c'est à dire ?",
+      "likes": 0,
+      "timestamp": 1703289600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@grogs777",
+      "author_id": "UCdS_CaqomU8EAjAK3VrQlyQ",
+      "text": "Salut, Quoi de neuf depuis 2 ans ?\r\nPerso lors du covid j'ai décidé de changé de cap, j'étais développeur PhP, du coup j'ai fait la formation Ingénieur IA d'OpenClassRooms que j'ai seulement terminée cet été, et là quand je vois le marché du travail, j'ai l'impression que l'intelligence Artificielle c'est comme les frites McCain à savoir que beaucoup de gens en parle mais pas beaucoup d'entreprise en consomme !!!\r\nJ'ai même l'impression que de grosses boites ne savent même pas ce que cela pourrait leur apporter !!!",
+      "likes": 0,
+      "timestamp": 1734912000,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@RisingSunLightRSL",
+      "author_id": "UCkPRwu0N0TQRQtKFZbVGIWQ",
+      "text": "Pour moi, le point où il faut apprendre continuellement est à appliquer dans tout le domaine de l'informatique. Bien que certains secteurs connaissent une courbe maintenant plus lente, des nouveautés apparaissent bien trop souvent pour rester fermer dans son coin, ne pas faire de veille.\nIl faut donc être CURIEUX.",
+      "likes": 18,
+      "timestamp": 1671753600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@dreamtim9962",
+      "author_id": "UC7TcgmGBoV-BXLUWtxS6bGA",
+      "text": "Raison 1 : Le SALAIRE. Faites de la finance et management, les épiciers incompétents techniquement gagnent beaucoup mieux !",
+      "likes": 1,
+      "timestamp": 1703289600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ehrms7713",
+      "author_id": "UCnukaLoiPnfh1rJBIgHWhzQ",
+      "text": "Raison n°3 : je suis pas d'accord sur ce que tu dis \"le côté business vous l'apprenez pas en école d'ingénieur ou en master\" \nDans la plupart des écoles d'ingénieur, des cours de gestion et business sont sélectionables par les étudiants, voire parfois obligatoires dans le tronc commun (je pense notamment à CentraleSupelec mais cest loin d'être la seule)",
+      "likes": 0,
+      "timestamp": 1703289600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Hyasol",
+      "author_id": "UCcbd2y6T4t71FoRcSi8uY9g",
+      "text": "très bonne vidéo. j'aimerais faire partir de vos groupes sociaux",
+      "likes": 0,
+      "timestamp": 1671753600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@yodasart",
+      "author_id": "UCyLSZXqPiFLB1nRWCR-zkZA",
+      "text": "on est d’accord que ce que tu dis est vraiment pour le data scientist et non le engineering ?",
+      "likes": 0,
+      "timestamp": 1734912000,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Elriogranade",
+      "author_id": "UCwbd7OWSjl9_q5OWdpRBL_Q",
+      "text": "Je pense même aujourd'hui le poste data scientist (et tout les postes autour de la data) ne veulent rien dire. Je regarde les offres je passe des entretiens et je le vois bien.\nAussi, je pense que le point 8 s'applique à n'importe quel métier du numérique même en tant que developpeur par exemple il faut apprendre tous les jours.",
+      "likes": 2,
+      "timestamp": 1671753600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@BakitiettaMoise",
+      "author_id": "UCbxHBy9vfn3Jv1iN7Jgj78w",
+      "text": "Tu es un data scientist je vois pas en quoi ça dérange on peut l'être quand on n'a vraiment envie🤷🏾‍♂️",
+      "likes": 0,
+      "timestamp": 1734912000,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@PrivatMengoumou",
+      "author_id": "UC0tHNy9_TG-BvhL1NEI-KJg",
+      "text": "Merci mais.. \nI'm gonna be data scientist même si je suis nul en maths je vais travailler",
+      "likes": 0,
+      "timestamp": 1763856000,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@mk-2",
+      "author_id": "UCe0n3hfifczYkWLhgbWGLbg",
+      "text": "5:27 je me sens visé ahahah. Mais en même temps, deux ans de master à bricoler des architectures de réseaux de neurones en PyTorch pour à la fin ne faire que de la manipulation de données pourries en PySpark, et laisser SageMaker faire toute la partie ML. Il est où le fun??",
+      "likes": 5,
+      "timestamp": 1671753600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@FabriceSERGENT-o8d",
+      "author_id": "UC3RiREgR5_GkojDAFgmV1TQ",
+      "text": "et donc vous avez quitté le job de DataScientist ? Pourquoi dégouter les autres ?",
+      "likes": 0,
+      "timestamp": 1734912000,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@rabeMa",
+      "author_id": "UCDDNx5q9OLhFc2Sn2XU9pKQ",
+      "text": "Moi ça me fume toujours de voir des data scientists qui ne savent pas ce qu'est la variance 😂",
+      "likes": 5,
+      "timestamp": 1671753600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@franklintikibonny5512",
+      "author_id": "UCuBeyiCYoLLLbizesFjBChQ",
+      "text": "Vous pouvez nous proposez des idées de projets pour débutants en Data science ?",
+      "likes": 0,
+      "timestamp": 1703289600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@luc_create",
+      "author_id": "UCDb2OF33EthJEbSVh9D4I2A",
+      "text": "Quelqu'un connais un site ou un truc du genre gratuit pour apprendre le domaine de la data et de la programmation niveau débutant (je suis au encore au lycée mais je veux former un minimum sur ce domaine)",
+      "likes": 2,
+      "timestamp": 1671753600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@rachidben-azouz793",
+      "author_id": "UCNkCOMkqCCJc7_8JniMRR7A",
+      "text": "quelle est la différence entre data analyst et data scientist ?\nmerci",
+      "likes": 1,
+      "timestamp": 1671753600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@YannickPodo",
+      "author_id": "UCLzVyStuDwl1BMM9bfRerWw",
+      "text": "Je suis étudiant en génie logiciel j'aimerais être data scientist quel est le parcours académique que vous pouvez me donner 🫡😎😊",
+      "likes": 0,
+      "timestamp": 1734912000,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@tandian7",
+      "author_id": "UCJqmG7kSuc8gOQhhhAkAubw",
+      "text": "10 raisons pour ne pas devenir un mauvais data scientist.",
+      "likes": 0,
+      "timestamp": 1703289600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@LounesMamou",
+      "author_id": "UCMBN3yJ86ASaHmSNkgDW40g",
+      "text": "Désolé mais le but de cette vidéo devrais être d'avertir un publique néofite dans ce domaine et non des personne déjà lancer dans ce projet ou en potentiel reconversion. Avertir c'est en amont qu'on le fait or ici les thermes employés sont destinés à des personnes déjà avertis dans ce domaine. Il n'y as donc pas un grand intérêt dû au fait que cela reste beaucoup trop abstrait et non concret. Si l'on évoque le salaire il faut donner des chiffre afin d'intégrer une corrélation entre parole et acte. Soyez plus direct car pour une personne souhaitant réellement découvrir ce métier sans le connaître dû tout cela n'est qu'un nuage de fumée. Même si je comprends qu'il es agréable de rependre ses connaissances et expériences de ce métier avec des mots et thermes pour une niche \" d' afficinados\", la cible de cette de vidéo es raté.",
+      "likes": 0,
+      "timestamp": 1734912000,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@molocofe",
+      "author_id": "UCCZHf4Zm_nD4BW3tJb65w8Q",
+      "text": "On peut être data analyst en étant nul en maths ?",
+      "likes": 1,
+      "timestamp": 1671753600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@pythagoretouck4361",
+      "author_id": "UCcZA_NLk_FWPtYa3HS4cLGA",
+      "text": "Bonjour merci pour ces conseils\nMoi je suis en complète reconversion et le domaine de la data me passionne vraiment j'aimerais vraiment être suivi pour avoir cette motivation j'apprends vite. Pouvez vous m'aider ?",
+      "likes": 0,
+      "timestamp": 1671753600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@PierreMiniggio",
+      "author_id": "UCKbunxMnqxM8UFMEYF79CUQ",
+      "text": "15eme com' pour l'algo :P",
+      "likes": 1,
+      "timestamp": 1671753600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Fx_3DA",
+      "author_id": "UCg3Kr9WKpeNnGFFUnvOBFeQ",
+      "text": "Moi à ta place j’allais analyser le flux de données des personnes qui regardent mes vidéos et ne like pas ni ne partage, comprendre le pourquoi pour une amélioration de ce qui fonctionne plus. \n\nContenu propre message de fond pas motivant pour un junior",
+      "likes": 0,
+      "timestamp": 1761177600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@yahyabeysami101",
+      "author_id": "UCyT2FATOBXhKe8rg6Af7Nag",
+      "text": "Y'a aussi le problème que c'est un domaine ou c'est presque impossible de trouver un boulot de data scientist quand t'es junior ou sortant de formation",
+      "likes": 2,
+      "timestamp": 1671753600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Lucas-nu1qc",
+      "author_id": "UCzjmBuH9kLC4PyaPnyEVJgA",
+      "text": "Pour l'argent c'est encore plus vrai lorsqu'on voit la diminution constante du salaire moyen d'un data scientist en dépit de l'inflation (et dans chaque pays).  Aujourd'hui toutes les écoles d'ingénieur fournissent des spécialités ou un majeur data science.",
+      "likes": 1,
+      "timestamp": 1671753600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@rasolomananatanjonamichael7145",
+      "author_id": "UCEGSu8KgklKvnzpRYvKK5Og",
+      "text": "Excellente vidéo qui mérite d'être relayée au max! surtout pour ceux qui n'ont que pour référence \" the sexiest job of 21th century\". krkrkr \nPerso je rajouterai qu'il faut être aussi prêt à accepter que la plupart du temps ce sont les méthodes les plus simples qui sont les plus efficaces, pas forcement l \"accuracy\" mais le time to market + facile à expliquer et à défendre.",
+      "likes": 1,
+      "timestamp": 1703289600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Wild-Instinct",
+      "author_id": "UCueJhy8tMr4Pl5pOTaCSuAw",
+      "text": "C’est très dissuasif. Ma question est pourquoi opter pour un modèle de vidéo dissuasif pour les personnes souhaitant se reconvertir / se former pour devenir Data Scientist ?",
+      "likes": 1,
+      "timestamp": 1703289600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ger.1855",
+      "author_id": "UCc7ptMG05dDwTcUUxdawISw",
+      "text": "Ah vraiment dommage pour le point 5 ... :-(  . J'avais fait un projet en école reconnaissance d'image sur des vrais jeux de donnés et la création du modèle c'est ce qui m'avait le plus passionné.  \nJ'ai une question que penses tu de la formation DataScientest ?",
+      "likes": 0,
+      "timestamp": 1703289600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@yosha313",
+      "author_id": "UCLtCORJdLgySmwa1QfUTFuw",
+      "text": "salut j'ai une question, les bails ou tu peux travailler chez Google TikTok... en data science c'est combien de % de probabilité pcq ca me fait rever ce genre de job et compétences ou tu influence 15% de la plantè mais bon si en vrai ce métier est pas si ouf",
+      "likes": 0,
+      "timestamp": 1671753600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@hawadembele5636",
+      "author_id": "UCaODD1kBzToYnXAxnQo6Kzw",
+      "text": "Hello ! Qu'en est-il du data Analyst ? Est-ce plus ou moins pareil ?",
+      "likes": 0,
+      "timestamp": 1671753600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@nankapmartin745",
+      "author_id": "UCA55fWa7TlK1MLRKJyTjucw",
+      "text": "Faux titre contenu biaisé",
+      "likes": 0,
+      "timestamp": 1703289600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ericclouzet6669",
+      "author_id": "UCYHWKktTBmlt3-4sBvSRVaw",
+      "text": "Je suis data scientist chez Airbus. Je suis très divisé sur cette vidéo. Est il possible de se parler ?",
+      "likes": 0,
+      "timestamp": 1671753600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@nourdinesaid5610",
+      "author_id": "UCpFimyfB4mD2cdACGeihU-A",
+      "text": "T'as trop raison !",
+      "likes": 0,
+      "timestamp": 1703289600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@mouhssineadioamzat737",
+      "author_id": "UC3FY6pbOX_6rImkzRJeQ8VA",
+      "text": "Merci",
+      "likes": 0,
+      "timestamp": 1703289600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@gabinio2",
+      "author_id": "UCfmIMvLnUxcHkVfKJXh-VPw",
+      "text": "Merci",
+      "likes": 0,
+      "timestamp": 1763856000,
+      "parent": "root",
+      "is_reply": false
+    }
+  ],
+  "error": null
+}

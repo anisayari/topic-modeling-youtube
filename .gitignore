@@ -1,6 +1,3 @@
-# Data files
-data/
-
 # Virtual environment
 .venv/
 venv/

@@ -1,0 +1,639 @@
+{
+  "video_id": "509G4WOeZzM",
+  "title": "Le GROS PROBLEME avec l'Intelligence Artificielle...",
+  "url": "https://www.youtube.com/watch?v=509G4WOeZzM",
+  "comment_count": 70,
+  "comments": [
+    {
+      "author": "@RaikamiTV",
+      "author_id": "UCNTcC3PPDdYpFkyEY4v2rWw",
+      "text": "Pour moi \"intelligence artificielle\" est déjà un abus de langage",
+      "likes": 23,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@simonthuillier9779",
+      "author_id": "UCs9iZ5l8NUtdg2L1LHgrq7A",
+      "text": "Je travaille pour une startup qui deploit des bornes de recharge pour voitures électriques et nous avons développé et déployé un système de répartition de puissance de charge sur les différentes bornes d'un site : utiliser un réseau de neurones pour calculer ça permet en théorie de prendre en compte les habitudes (probabilités d'utilisation) différentes pour chaque type de site ... mais en pratique à l'heure actuelle ça a été beaucoup d'effort pour un résultat similaire à celui qu'aurait un algorithme de commande classique (mais en bien plus lent ^^). Tout ça pour dire que je suis bien d'accord avec toi ; reste que faire des choses inutiles maintenant avec cette technologie aidera sans doute à faire des choses plus utiles avec à l'avenir.",
+      "likes": 4,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@jacquesunterlechner9893",
+      "author_id": "UCsdPiwEuz0DZRG2dQOCDT_Q",
+      "text": "Merci pour cette vidéo ; j'espère que tu touchera une partie du public qui n'est pas déjà convaincu par le propos. Perso dès que je parle à quelqu'un d'I A, je commence toujours par dire que l'expression est abusive et trop porteuse de fantasmes en tout sens. Je rappelle que l'on fait simplement du développement informatique mais qu'au lieu d'être basé sur de la programmation explicite, c'est basée sur de la programmation implicite. Je suis assez content car cela démystifie très rapidement et après on peut discuter sur des bases plus saines...😁",
+      "likes": 8,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Nmanti-Bullshit24",
+      "author_id": "UCkdu01LEd6nO6og1luN0DpQ",
+      "text": "Merci pour tes éclairages Anis👍",
+      "likes": 0,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@jeanmarccool5123",
+      "author_id": "UCIEs59Aqx4fjD28LP71_flA",
+      "text": "Merci beaucoup, pour cette vidéo.",
+      "likes": 1,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@kimbel_1425",
+      "author_id": "UCFVL7h5--DS8_JolbcFGn6A",
+      "text": "Tres intéressant merci",
+      "likes": 0,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Brolyfanss",
+      "author_id": "UCK6lY5cTlL8FGt_6jov9wRA",
+      "text": "Tu parle des médias mais ta miniature fait parti du même contexte",
+      "likes": 1,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@HFPhotographie",
+      "author_id": "UCV6A6A9Z2L0Xlg8ZQz0AXpQ",
+      "text": "Pour ton focus c'est moins Iron Man que le micro sombre en premier plan 😉",
+      "likes": 2,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@SandraGoladzevili",
+      "author_id": "UCnxGvt3pXuAkA-6Egqx09Rw",
+      "text": "Merci.",
+      "likes": 0,
+      "timestamp": 1671753600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@etiennelemieux472",
+      "author_id": "UCY7ydUhWREe-RBExvc9eUjg",
+      "text": "Quand t'as dit \"à quoi pensez vous\", ben j'ai pensé matrice & descente de gradient. Quelque part, j'étais pas loin de \"matrix\" ^^",
+      "likes": 2,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@tenchigreed",
+      "author_id": "UCNCEhPz2cbwMZ4r56_N_vKQ",
+      "text": "Nice, une nouvelle video",
+      "likes": 0,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@shannsagouma3442",
+      "author_id": "UCsvo_gFxc3MB6VCXoI0bjGA",
+      "text": "Vidéo très originale ! Super intéressant !",
+      "likes": 0,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@MrKinggames53",
+      "author_id": "UC43kxmpxavVEOajFlQh1_AQ",
+      "text": "Merci ! Cela fait du bien d'entendre ça!\nBonne vidéo en tout cas",
+      "likes": 0,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Systomd",
+      "author_id": "UCzpkJrFO24h6nmD5B9uvoEQ",
+      "text": "Merci ;) Bonne continuation, perso  je suis super touché par ton sens de transmission du savoir, et à mon avis ça touche beaucoup de monde. C'est vraiment ta fibre, et c'est cool de le partager sur youtube. Alors je te souhaite une bonne continuation! Ciao! (rdv sur une vidéo plus récente^^",
+      "likes": 0,
+      "timestamp": 1671753600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@MrAupire",
+      "author_id": "UCw22uk4eq8LfsC6eKx8ZTyg",
+      "text": "6:36 oui je pense que c'est la statue qui a du faire bugger l'auto focus xD\nSinon très bonne vidéo !\n\nJe suis sure que t'es un IA, t'es pas un humain enfaite lol",
+      "likes": 3,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@gbessikenedy5223",
+      "author_id": "UCKgCVdg90ZQ1mVRSokIjh3A",
+      "text": "C'est vraiment cool",
+      "likes": 0,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@SilvainceceGaming",
+      "author_id": "UCJUD1nC9PcEw4YyzF6Tc9Ew",
+      "text": "Très bonne vidéo",
+      "likes": 0,
+      "timestamp": 1750636800,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@rilesbabou2695",
+      "author_id": "UC7vQ4XtSgYyx78iPOpW_WwA",
+      "text": "Merci pour ta vidéo, toujours au top ! \nJe voudrais avoir ton avis sur la place de la France en intelligence artificielle par rapport au pays du monde ? Si on est bon ou on fait que suivre les autres ? Merci",
+      "likes": 0,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Maertaugh",
+      "author_id": "UCmPFolG_diQv9ugwTHig8JQ",
+      "text": "Je suis d'accord , et meme en plus général, quand on communique, ou vulgariser on ne devrait le faire que sur ce qu'on connaît avec humilite comme toi. Et à l'inverse, on devrait se renseigner et garder son esprit critique quand on s'intéresse à quelques chose.\nJ'pense que bcp de média ( mainstream ou non), et de communiquant cherche la course à la popularité sans en mesurer les conséquences...\nToujours autant de qualité tes vidéos.",
+      "likes": 0,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Killou",
+      "author_id": "UCHp0aV6IZSWsLRR0_0VVSRA",
+      "text": "Ca pourrait être intéressant d'aborder le sujet de la Chine, avec son crédit social, sa reconnaissance des humains et l'attribution ou soustraction automatique de points, ca pour moi c'est un vrai problème.",
+      "likes": 2,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@GregoryBonnet",
+      "author_id": "UC6JlNE_pISHs2qG7qZPxHsw",
+      "text": "Merci beaucoup pour cette clarification ! Même si aujourd'hui les médias ne sont pas à l'écoute de spécialistes comme toi, demain ils le seront. Donc je vous encourage à suivre votre intuition à fond comme vous nous le recommandez et à trouver les moyens de lever le voile pour nous sur cette mystérieuse IA.",
+      "likes": 0,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@DavidonP",
+      "author_id": "UCevFuJ8bHyPbsqLJFXRrzUw",
+      "text": "Je trouve ta vidéo pertinente. Même si il y a forcément le biais de l'homme passionné par ce sujet, qui voit que le grand public a une vision idealiste/schématique (renforcée par les médias) du sujet qui le passionne, et qui aimerait que ce sujet soit perçu dans sa singularité, complexité et en même temps simplicité, à forte valeur, différente de l'image idéalisée qui est promue. Je me demande dans quelle mesure le grand public s'intéresse vraiment à cette boîte à outil qu'est l'IA (dans sa complexité, etc). Et dans quelle mesure les articles sensationalistes ne seraient pas finalement promoteurs utiles de l'IA. Au début les gens vont être abreuvés de nouvelles limites 'science fiction' et plus l'IA va rentrer dans quotidiens, persos ou pros, plus la réalité de ce qu'est et permet l'IA se clarifiera pour le grand public. Et avec le temps, les médias apprendront à mieux parler de cette nouvelle révolution 'numerique'. Mais ça peut rester percu comme un 'outil d' industrie' (d'industriels, de professionnels du service, et de chercheurs) auxquels s'interessent surtout les passionnés.\nC'est mon avis nocturne spontané (peut être pas une conviction).\nMerci pour cette vidéo qui m'a fait réfléchir. Et merci pour toutes les autres, qui sont notamment un guide plaisant pour de futurs passionnés.",
+      "likes": 0,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@theoboyer3812",
+      "author_id": "UCm4u0qkvOe8ZOSITkLIt4PA",
+      "text": "Référencement pour le commentaire",
+      "likes": 0,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@JoutarouSensei",
+      "author_id": "UCtWSp2Qytnan-iy6TbMFFgg",
+      "text": "J'ai l'impression que tu parles de la hype autour de l'intelligence artificielle et je suis d'accord avec toi. La majorité des algorithmes ne s'appliquent qu'avec une base de donnée spécifique. Mais cela à toujours été le cas, depuis le début, il y a eu plusieurs hivers autour de l'IA, il y a toujours eu une hype puis un blanc sur une période plus ou moins longue. La dernière a été la percée du deep learning alors que personne ne pensait que ça allait fonctionner. \n\nCependant, je ne suis pas d'accord avec toi. L'intelligence artificielle a déjà modulé notre monde. La financiarisation a outrance, le déploiement d'IA dans beaucoup de domaines pour automatiser. Youtube, Google, Facebook qui ont un pouvoir immense sur la pensée et la psychologie des gens. \n\nSelon beaucoup de rapports et en reprenant l'essai philosophique de Bostrom, une intelligence artificielle super intelligente aurait des chances de naître, une automatisation des différents boulots aussi est envisageable. Le problème concerne le résultat, si la majorité de la population se retrouve au chômage, comment devons-nous gérer ça ? C'est une question légitime et on a intérêt à regarder ça de plus prêt. \n\nJe suis beaucoup les vidéos de science4all qui lui aussi parle beaucoup d'intelligence artificielle, j'ai aussi lu pas mal d'ouvrages, notamment superintelligence et j'étudie moi-même le machine learning pour avoir plus d'informations à cela. \n\nLa hype est plutôt, comme tu as dit, pour moi, un problème de non éducation, après ça reste du marketing et des charlatants tentant de vendre leur produit.\n\nBref, je pense qu'avoir viré Margaret Mitchell qui était en charge de l'éthique de l'IA à Google représente une menace plus grande que ce que tu viens de dire.",
+      "likes": 2,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@MathieuDeBrito",
+      "author_id": "UCnd2lB9pVwQTmGoWH9CVCBA",
+      "text": "C'est quoi les musiques ? Elles sont ouf !",
+      "likes": 0,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@DefendIntelligence",
+      "author_id": "UCnEHCrot2HkySxMTmDPhZyg",
+      "text": "Que pensez vous de mon point soulevé à la fin ? Ca peut être une solution, mais pas sur que les instances publiques donnent la parole aux bonnes personnes.",
+      "likes": 2,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@tomrim7640",
+      "author_id": "UC39W7GDKV8XoAweNg4_rvRw",
+      "text": "La liberté ; c’est la capacité de choisir soi-même ses propres chaînes !!!",
+      "likes": 1,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Juanolito",
+      "author_id": "UCN7gzSrLfKrn9jzDjcC7JKA",
+      "text": "Vidéo passionnante comme d’habitude. Ta caméra cependant ne semble pas être dotée d'intelligence artificielle, vu comment elle n'arrête pas d’alterner la mise au point entre toi et Iron Man 😀",
+      "likes": 0,
+      "timestamp": 1703289600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@droledequestionneur4550",
+      "author_id": "UC7rwUTGeNkFJxQth9k9U3OQ",
+      "text": "Quand on me dit IA, ce serait plutôt Alpha-Go, Réseaux de neurones, Base de données immense, langage python, Reconnaissance d'images bref tout ce qu'on voit dans les médias. \n\nLes exemples données, ce serait plutôt si on m'avait dit intelligence artificielle + Science-fiction (les robots de ce genre sont bien des êtres qui ont une intelligence non naturelle donc artificielle mais dans un imaginaire où cette technologie serait bien plus au point)\n\nedit : ah oui, on n'a pas les mêmes médias 😅",
+      "likes": 0,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Geminixx73",
+      "author_id": "UCoLdtyTNJZT6SIz8ypDPDxQ",
+      "text": "Nous n'avons pas les mêmes références, j'ai pensé à \"HAL9000\" :p",
+      "likes": 0,
+      "timestamp": 1671753600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@maximusart55rep5",
+      "author_id": "UC1pnkLA4V1TtjdH7bhLMsHg",
+      "text": "Bonjour, votre avis sur L'IA cameio?",
+      "likes": 0,
+      "timestamp": 1671753600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@emri2927",
+      "author_id": "UChtRE5NA_CIO228PXCQ799Q",
+      "text": "Tu as des sites d'infos concernant l'ia à nous conseiller ?",
+      "likes": 0,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@VAdu56",
+      "author_id": "UCCO6FGjFfRTL5-xa9TxRgeQ",
+      "text": "existe il un traducteur en simultané anglais francais pour comprendre Youtube en anglais ? Merci à l' avance... (Intelligence artificielle...!)",
+      "likes": 0,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@DataFromScratchWillis",
+      "author_id": "UCnblkfNg9uYsToP2hLXSjWA",
+      "text": "La première image qui me vient en tête quand on me parle d'IA c'est : quelqu'un qui code dans un notebook Jupyter ... \n\nPlus sérieusement, je suis un peu soulé de cette hype derrière l'IA aussi. L'IA pour ceci, l'IA pour cela. J'aurais aimé que les gens soient plus terre à terre, parce que derrière l'IA, il est à une multitude de métiers super intéressants : Machine Learning Engineer, Data Engineer, DevOps, Architecte Data, etc...\nGoogle avait sorti un papier parlant de l'importance du système d'IA dans un projet et il ne représente qu'autour de 6% ...\n\nBref, l'IA à toutes les sauces. Le plus dommage dans tout ça, c'est qu'avant de résoudre des problèmes avec l'IA, il y a d'autres moyens de les résoudre, via des outils analytiques plus classiques, entre autres.\n\nEn gros, hype means nothing !",
+      "likes": 0,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@rpzcoueron",
+      "author_id": "UCzPbOKKJcpwRCyi-0UA6M_A",
+      "text": "Quand t'as dit à quoi pensez vous, j'ai pensé à ma prof d'anglais qu'arrête pas de dire que ça va tous nous tuer et nous voler nos emplois. Voilà je suis complètement matrixé (mdr jeu de mot loooooooooool)",
+      "likes": 0,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@capitanna1120",
+      "author_id": "UCVNbMhQxOzigDFC7WGFjBzA",
+      "text": "Lorsque tu demande de visualiser l'IA en fermant les yeux. \nJ'ai vu des lignes de code 😆",
+      "likes": 0,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@wilfriedkouame5832",
+      "author_id": "UC8yITmnQV6AMAQIQeyGdA8A",
+      "text": "j'aime bien tes videos et vraiment merci pour ce que tu fait dejà,\nj'ai une petite suggestions , apres avoir lu et écouté tes conseils concernant l'IA , pour nous qui sommes pationné , nous attendions de toi une formation pratique ou la realisation d'un projet reel .\nmaintenant si tu as des formation payantes , nous voulons savoir tout ça , car nous on préfère pratiqué et monter des projets reel dans des secteurs moins developper ici en afrique.\nmerci",
+      "likes": 0,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@416clientdouteux6",
+      "author_id": "UCTccWdBeDwidqWbQL0Wc26Q",
+      "text": "Une composition qui va dans ton sens: https://www.youtube.com/watch?v=9tsBHbmiwm8",
+      "likes": 0,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ThePr0GaMeR95",
+      "author_id": "UCUwKOYeEGLli1p2Un4v5vlQ",
+      "text": "Bonsoir Anis, il me semble qu’au primaire ils commencent à étudier le Python ça les sensibilisent déjà à la programmation et d’eux même peut être en approfondissant ils peuvent rapidement arriver à voir l’Intelligence Artificielle avec Python. \n\nLe soucis c’est que l’Intelligence Artificielle (Les Réseaux de Neurones, KNN..) demande de grosses connaissances mathématiques (statistiques/proba) afin de bien comprendre l’intérêt alors pour sensibiliser des enfants au primaire c’est sans doute difficile. \nMais on pourrait dire la même chose pour la CyberSécurité elle devrait autant être mise en sensibilisation dès le primaire ?",
+      "likes": 0,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@galacticFredo",
+      "author_id": "UC9vUmfwGQPE2vEirKm3F0FQ",
+      "text": "Je suis on ne peut plus en accord avec ce que tu dis. Quelque soit le sujet auquel on s'intéresse, on se rend compte des erreurs et approximations des media généralistes (et même parfois spécialisés, genre S&V, pas assez spécialisés). Nucléaire, astronomie, mécanique quantique...",
+      "likes": 0,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@charegis",
+      "author_id": "UCzw0piPsFZBABd61Tet1rXg",
+      "text": "Lire le roman \"Un siècle de papillons\" !",
+      "likes": 0,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@egunonlalie",
+      "author_id": "UC46Na8NbrrGK2NBgEONwZag",
+      "text": "Et si ce n' était qu'avec l' IA que certains journalistes parlent sans connaître 🫤",
+      "likes": 0,
+      "timestamp": 1734912000,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Loinvoyant78",
+      "author_id": "UCkLheZvAfu6XYe-i6zFpSUg",
+      "text": "avec une IA générale on aura peut être ce genre de problématique qui sera plus fréquent, si toutefois on parvenait à en créer une.",
+      "likes": 1,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@TheGrindvince",
+      "author_id": "UCD3XSA4k3jzgFJuHe6JmICw",
+      "text": "Est-ce que le problème de l'intelligence artificielle n'est pas justement le fait d'employer le mot intelligence ? Finalement et en caricaturant vraiment la chose ce sont des calculs de probabilités affinés. Et le seul endroit où on trouve de l'intelligence c'est la personne qui a su bien rentrer les jeux de données ainsi que les sortie du modèle. Après ça l'ordinateur ne fait que calculer ce qu'on lui a demandé de calculer.\nPersonnellement je me dirais qu'il y a une intelligence artificielle le jour où mon ordinateur refusera de faire ce que je lui demande parce qu'il n'a pas envie. j'imagine que ça n'arrivera jamais...",
+      "likes": 0,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@sarahindata",
+      "author_id": "UC8zN5hTKRQw-Is2cB5SzIBg",
+      "text": "Le plus gros problème de l'IA : les données ! ;)",
+      "likes": 0,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@PierreMiniggio",
+      "author_id": "UCKbunxMnqxM8UFMEYF79CUQ",
+      "text": "First ! :D",
+      "likes": 1,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@rapheinerie4937",
+      "author_id": "UC-xfy3aMpQAnHjn-x6MT21w",
+      "text": "Je suis pas sur de l’intérêt d’éduquer les gens spécifiquement sur ça, c’est un domaine et une technologie comme il en existe pléthore en ingénierie, la déception vis à vis des métiers est pas propre uniquement à l’ia c’est pareil dans l’énergie et le nucléaire, dans l’armement.. c’est une déconnexion entre les techniciens et les commentateurs tout simplement. Je pense au contraire que les ingénieurs et concepteurs se doivent de faire avancer la science comme ils l’ont toujours fait et perpétuer un entre soit propre à la démarche scientifique jusqu’à ce que l’innovation puisse inonder le marché par une contre-démarche de communication. \n\nJ’ajouterais sur ta réflexion vis à vis de la « comm » des boites de l’ia, qu’elle est un peu rude parce que c’est le terme d’ia qui est galvaudé, les premiers systèmes experts étaient basés sur des règles et des conditions et oui c’est une branche de l’ia, quand tu parles de machine learning ou de deep learning c’est une autre branche mais cette comm est pas forcément infondée c’est pas parce que ça ne stimule pas les méninges des ingénieurs que ça n’est pas de l’ia à mon sens ^^",
+      "likes": 1,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@issamehtp",
+      "author_id": "UC6qP45X6EeLqptSMGnZL5Zg",
+      "text": "0:47 t'as biaisé cette expérience, perso je n'ai pu voir qu'une seule image : la miniature de ta vidéo",
+      "likes": 4,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@sangogoethe",
+      "author_id": "UCKqHwPRulEcdGbaOtF_ixbg",
+      "text": "hello, j'ai une question pour faire de l'IA quel niveau en math ou du moins quel branche en math qu'il faut étudier pour le faire? Merci 😁",
+      "likes": 0,
+      "timestamp": 1671753600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@UnknownSoundBase",
+      "author_id": "UCindkdUNVGGjpuDT0aAJZzg",
+      "text": "6:17 voila déjà 6mn de perdu à entendre des choses qu'on c'est tous",
+      "likes": 0,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@пьеро-д4х",
+      "author_id": "UCzpG5oi2rHEaFm7YTdgVS-A",
+      "text": "Pour résumer, l'intelligence artificielle restera artificielle, point barre - pas la peine de flipper c'est souvent de l'effet marketing.",
+      "likes": 0,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Theleme974",
+      "author_id": "UC-WuBz2FKsYAb-I2cJISKlg",
+      "text": "Est-ce que le terme \"intelligence artificielle\" n'est pas déjà trop hypé? ce n'est pas vraiment une inteligence vu qu'elle ne \"pense\" pas ou ne réfléchit pas d'elle même, mais applique juste une \"formule\" a un certain jeux de données. la preuve, tu change un petite paramètre dans le jeux de données, ca fonctionne plus.",
+      "likes": 4,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@gerardbastian8010",
+      "author_id": "UCpVk0CgQWQYLg_ORXkFCy5g",
+      "text": "Je suis désolée de le dire mais l'intelligence artificielle n'a pas vraiment de limite et du coup c'est pour ça que c'est dangereux .\nC'est le problème s'y on perd le contrôle et qu'on laisse une intelligence tout contrôler exemple on et de plus en plus dépendent à l'internet et s'y internet et en panne et qu'on c'est débarrasser des bibliothèques comment on fait .\nL'intelligence artificielle et un outil mais comme pour tout elle peut être à double tranchant , exemple un couteau peut nous permettre de nous nourrire plus facilement mais aussi à blessé quelq'un en réalité c'est se qu'on décide dans faire qui détermine ça nature !",
+      "likes": 0,
+      "timestamp": 1671753600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@stephanemineo",
+      "author_id": "UCe-CtB2LoZKUnLNxQ3pba3Q",
+      "text": "\"Intelligence Artificielle\"... quand je vois ton autofocus,  je m'interroge sur \" intelligence\" lol",
+      "likes": 0,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@John-rq6sd",
+      "author_id": "UC25W0Y6VjO_paP09sdNU3Lw",
+      "text": "On en parle des algorithmes de la FDJ ? Qui feront tout pour que personne gagne !?\nDes sites de pokers en ligne? Qui pareil vous feront toujours perdre !",
+      "likes": 0,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@IbrahimisPlaying",
+      "author_id": "UCTS_JY8unkjU9JEqH5EKEeQ",
+      "text": "Les charlatans qui disent faire de l'IA alors que c'est des conditions if c'est vraiment énervant !! Ils doivent sûrement faire des beaux contrats disant IA par ci IA par la alors que lorsque l'on creuse il y a des centaines de conditions a la suite ahah",
+      "likes": 0,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@dontmakemelaugh8502",
+      "author_id": "UCB1vUiT07fU1XPvGrqAxrDA",
+      "text": "J'aime bien ce que t'essaies de faire avec ta chaîne sur l'IA mais perso il me manque 1/3 de la vidéo plus technique & pratique, en nous prenant par la main pour tester avec toi un modèle pour expérimenter visuellement et découvrir des outils, logiciels, langages & raisonnements qu'un ingénieur IA utilise au jour le jour. Parce que sans ça, ça se limite à \"les autres n'y connaissent rien en IA, mais moi j'vais rien vous faire découvrir mais faîtes moi confiance je sais de quoi je parle!\" ... c'est pourquoi le seul réel éclairage utile de ta vidéo c'est les \"Papers With Code\", dommage!\nMais comme débuts c'est plutôt chouette, la narration est claire & agréable & ça annonce une future belle évolution exponentielle.",
+      "likes": 0,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ericphilippon287",
+      "author_id": "UCAfJTqxL4BsNHrTlzdQUHLQ",
+      "text": "Le plus gros problème avec les IA, c'est \"quels humains vont l'utiliser\"? Si c'est un outil au service du bien de chacun dans ses spécificités dans la diversité et l'entente, c'est ok pour moi. Trouver des solutions aux problèmes de santé par exemple, à permettre à l'humanité d'aller plus loin et mieux pour tous et pour chacun. Dans les mains d'une théocratie, d'une dictature, d'une présidentature, d'un gouvernement fasciste, ça devient atroce et absolument liberticide. C'est un outil extrêmement puissant pour affranchir l'être humain mais aussi pour le soumettre. C'est l'humanité qui doit faire son aggiornamento. Nous nous sommes beaucoup moins posé de questions en inventant les canons.",
+      "likes": 0,
+      "timestamp": 1703289600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@charlylsdckel2071",
+      "author_id": "UCCDOxxhr2TudNUjryQDhTkQ",
+      "text": "Perso si tu avais mis \"le plus gros problème avec la datascience\" non seulement j'aurai cliqué mais j'aurai eu une petite gaule🤣",
+      "likes": 0,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@YoutubeVoyageur",
+      "author_id": "UC3U9GRmn5yKiGucmmReE4VA",
+      "text": "J'ai hésité à clicker sur la vidéo à cause de la mignature putaclick (le genre de truc que tu critiques dans la vidéo elle-même) mais la vidéo est en fait très pertinente du début à la fin.",
+      "likes": 0,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@wiggins1852",
+      "author_id": "UCRYy7MdvFx3kYY_LB5EgHeQ",
+      "text": "\"ingénieur en intelligence artificielle\" ptdrrrr mec dis juste \"data scientist\" et on passe",
+      "likes": 0,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@TheGuillaume360",
+      "author_id": "UCSZNU67WecVDbGHeHY__DkQ",
+      "text": "l'accroche de l'intro est pas top",
+      "likes": 0,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@assasins353",
+      "author_id": "UCy_kdhEKpKJSJs_4-7qQ-tw",
+      "text": "Je ne comprends pas pourquoi révéler le pot aux roses au grand public, alors que Toutes les industries ne communiquent que sur le positif, nous data scientistes on se retrouve avec des gens comme toi qui ont ce besoin devant les gens lambda de dénigré indirectement la communauté (même si ce n’est pas ton but) avec des phrases du style \"ils utilisent des boucles if\" \"le modèle ne marchera pas sur d'autres données\" \"mais il n'est pas généralisable\" c'est normal que les start-ups vendent du rêve tu crois que les gens qui bossent chez coca-cola vont te parler du fait que leurs produits rendent diabétique et obèse ?\n Toi, tu as profité de cet hype autour de l'ia pour avoir un boulot et faire ta vie, nous aussi on veut profiter et se faire de l'argent et alors si des gens se font du fric avec une boucle if et vendent ça comme de l'ia tant mieux pour eux.",
+      "likes": 0,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@GamingDesCavernes",
+      "author_id": "UC5CGIi_4nHdt9ORG6lL0xcw",
+      "text": "Les petits moulitrons actuellement en école d'informatique, ils veulent tous s'orienter soit :\n\n-- vers du développement web front end ;\n-- vers du développement mobile ;\n-- vers l'intelligence artificielle ;\n-- vers les \"data science\".\n\nOn dirait qu'il n'existe rien d'autre. Et le plus gros problème est là : les effets de mode à la noix.\n\nJe m'intéressais à l'AI il y a vingt ans, sans la pratiquer moi-même. Je lisais des publications scientifiques sur le sujet, en particulier celles qui parlaient de \"computer vision\".\n\nActuellement je ne veux plus en entendre parler. La discipline est envahie par les Kevin à QI de teckel parce qu'elle est à la mode, et la nullité qui résulte de cela est masquée par les avancées technologiques et par la puissance des machines actuelles, comme à chaque fois que quelque chose devient trop à la mode.\n\nLe jour où autre chose sera à la mode, je m'y (re)mettrai peut-être.",
+      "likes": 2,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ProtossEver",
+      "author_id": "UCEdFTKCdDHtrgOr3lZyy5Jg",
+      "text": "Salut ! J’aime beaucoup le contenu de tes vidéos mais je trouve qu’elles manquent de dynamisme. C’est purement subjectif mais je trouve le rythme trop lent et au vu du contenu de qualité je trouve ça dommage. C’est rare que le fond soit aussi meilleure que la forme. \nA bon entendeur :)",
+      "likes": 0,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "",
+      "author_id": "UC6DSSTy7DgInedL-SkdKH1A",
+      "text": "Hello, j'apprécie beaucoup le travail que tu fais sur YouTube et je ne suis pas entièrement d'accord. \"Le plus gros problème de l'IA\" ce n'est pas le traitement que les journalistes/les journaux/les non-initiés peuvent faire publiquement ou la perception que le grand public a sur le sujet. \nJe te rejoins sur le fait qu'il est extrêmement important que tout le monde comprenne mieux l'AI/ML car nous sommes pratiquement tous concernés maintenant.\nMais par rapport aux news et à la perception, quid des biais dans les data, des mauvaises utilisations (par uniquement malintentionnées), de l'explicabilité et de la responsabilité des entreprises qui les développent.\nA mon avis, ce sont des problèmes plus importants et il y en a d'autres.",
+      "likes": 0,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@regisvoiclair",
+      "author_id": "UCi0pi9hbkjEEnyFjgZiFprA",
+      "text": "C'est plus le problème des médias et des journalistes...\nTu fais la même chose que ces gens par ton titre erroné destiné à faire du buzz... ^^",
+      "likes": 0,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ntumbabutshiteya6151",
+      "author_id": "UCra1W4Qg9oU1kioJWipU0kA",
+      "text": "tu ressemble au GRAND JD, Tu es son frère?",
+      "likes": 0,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@seblelorrain",
+      "author_id": "UCzmQsdiwFB7hA-E42JyI5pQ",
+      "text": "L'IA c'est un abus de language, ça n'existe pas, c'est juste de l'optimisation d'algorithmes et de la big data.",
+      "likes": 2,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@iwokssama4772",
+      "author_id": "UCNllR-BXyqs6tBwhfmOn3yQ",
+      "text": "L'IA toute suite me fait penser au principe de Système Expert.",
+      "likes": 0,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    }
+  ],
+  "error": null
+}

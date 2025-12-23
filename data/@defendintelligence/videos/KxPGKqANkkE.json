@@ -1,0 +1,117 @@
+{
+  "video_id": "KxPGKqANkkE",
+  "title": "#4   Apprendre à coder en Python pour l'Intelligence Artificielle  Programmation Objet avancée",
+  "url": "https://www.youtube.com/watch?v=KxPGKqANkkE",
+  "comment_count": 12,
+  "comments": [
+    {
+      "author": "@youbix3633",
+      "author_id": "UC706cOrktn1uhUa0TZO1BMg",
+      "text": "J'adore tes vidéos grâce à toi, j'ai passé le test de l'ESGI que j'ai réussi d'ailleurs pour leur filière IABD Merci ❤❤",
+      "likes": 0,
+      "timestamp": 1703289600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@marcmonestes3157",
+      "author_id": "UC_n_aZ-9gdwsNxNyu-0uLcg",
+      "text": "Merci pour ta pédagogie, je redécouvre python après la classe Prépa et grâce à toi j'y prend goût!",
+      "likes": 0,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@abeddambo6720",
+      "author_id": "UCW6gx84ItjFaW1iE9GDIHyw",
+      "text": "Super merci pour le live",
+      "likes": 0,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@issamehtp",
+      "author_id": "UC6qP45X6EeLqptSMGnZL5Zg",
+      "text": "5:26 t'es un thug, t'as dis ca \"je remet en pause et je riviens dans 5 secondes\" et bam une publicité exactement au moment de la coupure et qui a fait durer 5 secondes, bravo à toi et à l'algo youtube 😂😉",
+      "likes": 0,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@benchaibabdellatif4984",
+      "author_id": "UCD53R222_Dhm5OYRWMhB6Fw",
+      "text": "merci",
+      "likes": 0,
+      "timestamp": 1608681600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@elyseenonnonhou338",
+      "author_id": "UCnWhQAVqhEQtv2t9jK7NtRw",
+      "text": "Super Merci!!!!",
+      "likes": 2,
+      "timestamp": 1608681600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@salome_o.o",
+      "author_id": "UCfyTk6GmI2pp6D6HAH4zjCQ",
+      "text": "Tes vidéos sont vraiment top ! Merci pour ce que tu fais :)",
+      "likes": 1,
+      "timestamp": 1608681600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@DefendIntelligence",
+      "author_id": "UCnEHCrot2HkySxMTmDPhZyg",
+      "text": "[REUPLOAD DE LA VIDEO] Diffusé en Live le 18/04/2020 à 18h \r\nSupprimer Accidentellement :(....  Hésitez pas à vous abonner, iker et partager svp, c'est important pour m'aider à faire connaitre la chaine... merci beaucoup.",
+      "likes": 1,
+      "timestamp": 1608681600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@j4nch",
+      "author_id": "UCpTiMSiyMhF9f764jZhdVBg",
+      "text": "Je m'arrachais les yeux pour les get/set ;) Par curiosité, les get_XXX et set_XXX c'est une convention? \nEn regardant ta très bonne vidéo, ça donne quand même l'impression que python est surtout un langage de scripts auquel on a essayer d'ajouter des concepts objets(manque d'interfaces, attributs supplémentaires nécessaires pour des abstractions, classes sealed, types génériques) qui sont une des forces de l'orienté objet.\n\nAprès je pense qu'effectivement l'orienté objet n'est pas forcément le plus nécessaire dans le cadre de datascience",
+      "likes": 0,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@emeryloic4936",
+      "author_id": "UCjCnsg33B_NNbMlOS8O5LNQ",
+      "text": "tes videos sont genial ! un grand merci",
+      "likes": 0,
+      "timestamp": 1608681600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@a.8525",
+      "author_id": "UCEti7tG3GKmCK-Y2KCy59Eg",
+      "text": "Super vidéo ! vas-tu réupload les épisodes 2 et 3 ?",
+      "likes": 2,
+      "timestamp": 1608681600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@lma7435",
+      "author_id": "UCAiQdROt8wKUidkZxKPlnBA",
+      "text": "Hello ! Petite question, j'ai l'impression qu'un attribut de classe perd sa nature d'attribut de classe lorsqu'il est utilisé dans une méthode self ? \n\n\nclass Felin:\n\n\n    nombre_de_pattes = 4 #Ceci est un attribut de classe ! \n    carnivor = True\n    energie = 100\n\n\n    def __init__(self,couleur): #Constructeur d'attribut d'instance ! \n        self.__couleur = couleur \n    \n    def __str__(self):\n        return \"Je suis un félin !\"\n\n\n    def get_couleur(self):\n        return self.__couleur\n\n\n    def set_couleur(self, nouvelle_race):\n        self.__race = nouvelle_race\n        return\n\n\n    def manger_viande(self):\n        print(\"Merci pour ce festin !\")\n        self.energie = self.energie + 100\n\n\n    @classmethod #Décorateur, 2eme méthode pour définir une méthode de classe\n    def felins_courent(cls):\n        print(\"Ouf, quel effort !\")\n        cls.energie = cls.energie - 10\n\n\nGerard = Lion(espece='Lion de la savane',age=15,couleur='Jaune pâle')\nBernard = Lion(espece='Lion de la montagne',age=42,couleur='Jaune pâle')\n\n\nGerard.manger_viande()\n\n\nprint(Gerard.energie, Bernard.energie)\n\n\nFelin.felins_courent()\n\n\nprint(Gerard.energie, Bernard.energie)\n\n\n\n\nRenvoi : 200 - 100 (tout va bien) puis 200 - 90, seul l’énergie de Bernard a diminué, \n\n\nMerci comme d'hab top :)",
+      "likes": 2,
+      "timestamp": 1608681600,
+      "parent": "root",
+      "is_reply": false
+    }
+  ],
+  "error": null
+}

@@ -1,0 +1,558 @@
+{
+  "video_id": "MhMs2PNz84Q",
+  "title": "My AI bakes a cookie.",
+  "url": "https://www.youtube.com/watch?v=MhMs2PNz84Q",
+  "comment_count": 61,
+  "comments": [
+    {
+      "author": "@DefendIntelligence",
+      "author_id": "UCnEHCrot2HkySxMTmDPhZyg",
+      "text": "Alors vous en avez pensé quoi ? C'est un nouveau format de vidéo accès \"expérience\" pour vulgariser l'Intelligence Artificielle avec des choses concrètes. Ca vous plait ?",
+      "likes": 57,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@BenjaminCode",
+      "author_id": "UCLOAPb7ATQUs_nDs9ViLcMw",
+      "text": "Trop cool vidéo ! Idée méga cool, réalisation méga choeutte et dégustation des frangins au top ! \nUn gros big up Anis !",
+      "likes": 14,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@looka7673",
+      "author_id": "UCnpo5YMZGYe-QOH-s1lr0Zg",
+      "text": "Incroyable ce concept avec le vlog supermarché une petite",
+      "likes": 10,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@awemaagencewebmarketingci9346",
+      "author_id": "UC8b5rVA4Qe8xLBvj2aNIkUw",
+      "text": "Cette video tombe tellement à pique pour nous. on travail sur des apps à integrer dans la chaine de la restauration et grace à toi on va pouvoir explorer la piste d'une ia pour generer des listes de course  et des recettes. merci pour ton travail de qualité",
+      "likes": 0,
+      "timestamp": 1671753600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@dkems1717",
+      "author_id": "UCLkegLJwZnNZvKOHEjqk7Qw",
+      "text": "Ce serait sympas de poster ton code sur github. Perso le RNN je connaissais pas du coup ce serait cool de voir comment tu l'as codé... Sinon super vidéo",
+      "likes": 11,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@SeigneurDeGlace",
+      "author_id": "UCOADaCQkoUVNif3EQEX3hGw",
+      "text": "Salut, alors déjà merci au frangin qui malgré son inquiétude assez visible s'est prêté à ton expérience :-) Vidéo sympa et j'espère qu'il y aura d'autres exemples d'applications de l'IA ! \np.s. : il faut que tu déstresses dans les supermarchés, ça va bien se passer ;-)",
+      "likes": 2,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@sma2370",
+      "author_id": "UC8q8B90tKVgeLCucWdB4W1g",
+      "text": "Je suis tombé sur ta chaine et clairement, c'est une pépite ! Badum Tsss",
+      "likes": 0,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@TheScopeFun",
+      "author_id": "UCspmgCRFdhm_BshLWdJt_og",
+      "text": "masterclass la vidéo",
+      "likes": 0,
+      "timestamp": 1671753600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@nanieskellington4119",
+      "author_id": "UCVb_l5FS2CrgRbdlFVIyEXA",
+      "text": "Moi j'ai adoré!! Je kiffe le principe de nous montrer a quoi peuvent servir les IA de maniere concrète! Merci Anis 😘",
+      "likes": 2,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Batpolygon",
+      "author_id": "UC3KENz2_ZcV80IT_wrv1vOw",
+      "text": "Insane ! Vivement que je devienne Data Scientist mdr 😁",
+      "likes": 4,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@ntumbabutshiteya6151",
+      "author_id": "UCra1W4Qg9oU1kioJWipU0kA",
+      "text": "Je m'attendais à des cookies de site Web 😜",
+      "likes": 0,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Maertaugh",
+      "author_id": "UCmPFolG_diQv9ugwTHig8JQ",
+      "text": "J’veux voir ça sur des lasagnes",
+      "likes": 0,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@faxalbum",
+      "author_id": "UCCMUBwuzONvqwCuNIPUBzIQ",
+      "text": "Je vois aucun commentaire qui en parle mais quelqu'un a vraiment lu la recette finale à 5:28 ? On voit bien que c'est des réseaux de neurones qui l'ont fait (\"coupez le chocolat en pépites de 10 à 15 min selon votre four\" notamment 😂). Super vidéo d'ailleurs",
+      "likes": 1,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@daviddu26",
+      "author_id": "UCToK3csOh2iWxTmKzeb9O0Q",
+      "text": "merci oui  ça serait vraiment super d'avoir le code.",
+      "likes": 0,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@rodriguengalipe5366",
+      "author_id": "UCv7kB9FrMwO-gVfEzvkQL-w",
+      "text": "on en veut d'autre, bonne vidéo!",
+      "likes": 0,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@testizoizo7373",
+      "author_id": "UCM9jLGmkt9vfOhIVijqXyiQ",
+      "text": "👍✌️",
+      "likes": 0,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@hemi-prosopometamorphopsie999",
+      "author_id": "UCD8SN4SnzVQ22K84Fmbskiw",
+      "text": "super travail trop cool .. La prochaine fois va dans une école de pâtissier et demande qu'on te réalise tes cookies AI :)",
+      "likes": 0,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@victoretcompagnie5480",
+      "author_id": "UC0DK-s_rKdieTrEAzZtOyiw",
+      "text": "8:05 on attend la recette!!!",
+      "likes": 1,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@tdre2072",
+      "author_id": "UCP5uid0agM5J4gsm3jLVcKg",
+      "text": "WoW ta video et super",
+      "likes": 0,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@aot_tn",
+      "author_id": "UCke4geF2So2hwjJXozjcpCA",
+      "text": "Big up !! Le format est top\nTu pourrais fournir tes scripts càd partie scrapping et modélisation du système de prédiction stp ?",
+      "likes": 5,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@abouackerman2011",
+      "author_id": "UCYAVFhm8eyRP-AX8PZPkClg",
+      "text": "Oui oui également le code si possible",
+      "likes": 0,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@clement5001",
+      "author_id": "UCO52ehD396uYm33N1TTEb0g",
+      "text": "On attend le github",
+      "likes": 3,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@noice1123",
+      "author_id": "UC3qFzePKe1PQ9lSILwc3Lbw",
+      "text": "Insane le concept",
+      "likes": 1,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@denismarteleur899",
+      "author_id": "UCNl-W7aTSG0inYP4cBKsTTg",
+      "text": "Pour en avoir mangé à New York, la pâte doit être moelleus ;) et pour ça idéalement, la mettre au congèlateur avant la cuisson ;)",
+      "likes": 0,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@DavidonP",
+      "author_id": "UCevFuJ8bHyPbsqLJFXRrzUw",
+      "text": "Excellent ce principe d'expérience et de vidéo ! Merci !",
+      "likes": 1,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@minekiller123",
+      "author_id": "UCJWjwrIQjXsWsXZ-2weXSTA",
+      "text": "A cause des scènes en 3d maintenant je me demande si c'est vraiment une cuisine derrière",
+      "likes": 1,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@zackel9616",
+      "author_id": "UCnc6qcWXjpEstUdYtdm2Y9w",
+      "text": "Hello! As-tu pensé à vérifier la capacité de généralisation de ton modèle ? Qu'est ce qui te fait dire qu'il n'y a pas d'overfitting et que le modèle n'a pas simplement repris une \"recette\" parmi les données d'entrainement et l'a récité par coeur ?",
+      "likes": 2,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@benjyranald3593",
+      "author_id": "UCas5ilCyoSStykjO3qx6lgQ",
+      "text": "Chouette vidéo! Par contre, je n'aime pas trop qu'on dise \"une\" IA.",
+      "likes": 3,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@elodieduclot7948",
+      "author_id": "UColO2q8eDykK51k8XMAbPnA",
+      "text": "Marchmalo et bannan il faut suivre la revette a la lettre",
+      "likes": 0,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@theoboyer3812",
+      "author_id": "UCm4u0qkvOe8ZOSITkLIt4PA",
+      "text": "Avec tout le sucre de la recette t'aurais pu mettre comme titre \"OMG UNE IA ESSAYE DE ME TUER EN ME FILANT LE DIABETE 😱😱😱\"",
+      "likes": 0,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@MachineLinguist",
+      "author_id": "UCmCKnZChM3Umn-W0vnklDrw",
+      "text": "Once again, je kiffe !",
+      "likes": 0,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@skwadala-yt",
+      "author_id": "UCs9-2O0NUa4w8Gub-c-NKmA",
+      "text": "Haha super concept, j'ai adoré :)",
+      "likes": 0,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@divmerte8036",
+      "author_id": "UCgb3UZ_Li23ge9SNWL_oP5g",
+      "text": "moi j'aurais mis les 5 œufs ;)",
+      "likes": 0,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Elriogranade",
+      "author_id": "UCwbd7OWSjl9_q5OWdpRBL_Q",
+      "text": "Ca serait vraiment super d'avoir le code, j'ai fait une chose semblable mais sur des recettes de poulet il y a quelques mois mais ca marchait pas super bien.",
+      "likes": 2,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@lehoax6498",
+      "author_id": "UCY9_Jexxsx7uQ9OIYO0Kalw",
+      "text": "Je penser que c'était des cookies de session 😂😂",
+      "likes": 0,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@kunfu8085",
+      "author_id": "UCkHNv40kkrBAFJbVZA_oGBA",
+      "text": "Des la 1er lecture de la recette, tu vois direct que c'est pas viable ( l'étape 6 est priceless) et çà sans même avoir fait beaucoup de patisserie, va falloir améliorer les réseaux et/ou leurs données des données supplémentaires ^^",
+      "likes": 0,
+      "timestamp": 1671753600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Glitchiz57",
+      "author_id": "UC5av5FV5TEhZrefkBJIr0Xw",
+      "text": "Wooaa ça m'a donné faim tes bêtises !\nMerci de faire le premier pas vers la création de mon métier de rêve",
+      "likes": 1,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@makash7882",
+      "author_id": "UC9blGUaPhM0ZkNqyzAJZtkQ",
+      "text": "\"Une fois de plus il a bien réagit ce candidat \" avec la pizzacookie qui tourne en image :')",
+      "likes": 5,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@Starthoy",
+      "author_id": "UC3mVvxKIr3nm7IRmqhgbKig",
+      "text": "Très bon concept. Comment tu pourrais expliquer le fait que l'IA te conseille de mettre 5, 6 oeufs alors que dans une recette classique c'est seumement 2 en moyenne ? ça aurait été intéressant d'analyser le résultat.Sinon bonne continuation 👍",
+      "likes": 0,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@mohamedsylla7271",
+      "author_id": "UCPrZg_YPeLIMEd38AHxlikA",
+      "text": "Possible d'avoir le code dans un repo github? \nExcellent travail. I liiiiiiike it. Un cas d'IA très pratique. Bravo.",
+      "likes": 0,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@RebbyCraft",
+      "author_id": "UCqLOehKQESH2WcOd8QyBZXA",
+      "text": "La place de l'IA est dans la kouizine !",
+      "likes": 0,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@nokipowlonski94",
+      "author_id": "UCjIKosr7NmBhfTCzBz_kdyw",
+      "text": "Hello, Est ce que la recette proposée par l'IA est la recette qui aurait la meilleure note sur le site marmiton? Ou alors c'est une recette générée aléatoirement? Merci, c'est vraiment cool d'avoir réalisé ça. Bravo.",
+      "likes": 0,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@kawa38",
+      "author_id": "UC1gASnnxWjgD3iWwHj5PBIg",
+      "text": "Fallait faire un feat avec FastGoodCuisine, tu fais la recette grâce à un modèle et il teste ta recette",
+      "likes": 0,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@christopherthomias7278",
+      "author_id": "UCenmerRnpM6ELV9UHjv6VLQ",
+      "text": "Juste un kiffe  mdr mai d'où tes venu l'idée mdrr ?",
+      "likes": 0,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@moustiqu3",
+      "author_id": "UCQoMo0pRuXtjqItz5-ZSV6g",
+      "text": "Petite question :\nvous utilisez un IDE qui permet de voir l'état du scraping en même temps?\nQuel est le nom de cet IDE?\n\nJe veux dire, à 3:10 on voit le code et à côté, la page web scrappée.",
+      "likes": 0,
+      "timestamp": 1671753600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@daschannel7788",
+      "author_id": "UCLRTOTs5DnWzNni-5Rn5_WA",
+      "text": "Avoir entendu les pokémons,\n une idée m’ait venu c’est de créer une IA qui nous crée de nouveau pokémon :)",
+      "likes": 0,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@lucasverrier9699",
+      "author_id": "UCKjL_0xULPYtaSokhdxZdEg",
+      "text": "LA VIDEO LA PLUS PARFAITE POUR LA REF YOUTUBE AI COOKIE VLOG!!!",
+      "likes": 0,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@TheBendu73",
+      "author_id": "UC7l6FDIs5pmOAbv-xJlWXKQ",
+      "text": "Faut accepter les cookies sur marmiton ? 🤣",
+      "likes": 1,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@theoboyer3812",
+      "author_id": "UCm4u0qkvOe8ZOSITkLIt4PA",
+      "text": "0:07 Oui sur la chaîne de Yannick Kilcher",
+      "likes": 0,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@jfjdcentofo",
+      "author_id": "UCixuRiMKnxFqHDHxUpngceA",
+      "text": "Questions surement débiles vu que je fais pas d'ia :\nLe réseau pour le texte est déjà pré entrainé sur du français et tu le re entraines sur les recettes ou c'est un truc uniquement entrainé avec les recettes ?\nC'est pondéré par le score que les recettes ont sur marmiton ? Est-ce que si on demande au réseau de générer que des recettes qu'il va juger 5étoiles ça prend plus de temps que générer des recettes à la chaine ? C'est quoi le mot clé à chercher de manière générale pour pondérer par des scores ?\nLa vidéo est marrante en vrai",
+      "likes": 0,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@abouackerman2011",
+      "author_id": "UCYAVFhm8eyRP-AX8PZPkClg",
+      "text": "Bonsoir svp on peut avoir les data?",
+      "likes": 1,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@djetox13",
+      "author_id": "UCeiXRtbE401BUsLYA9zMV7w",
+      "text": "mdr ton frère a trop l'habitude de manger de l'industriel...",
+      "likes": 0,
+      "timestamp": 1671753600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@pseudounknow5559",
+      "author_id": "UCvCZUOItXuLu6CQONbd1aMw",
+      "text": "T'avais vraiment rien chez toi en ingrédient mdrrrrr Tu manges rien ou quoi  xD",
+      "likes": 2,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@semeglohlokoh8197",
+      "author_id": "UCWIVQy3JBktbmvC7EoRQmTQ",
+      "text": "Merci pour la vidéo.\n\nTu pourrais nous mettre le lien github vers le code stp?",
+      "likes": 0,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@didierdepraetere2587",
+      "author_id": "UC4KKLXBXS7uyDAUyt174ZWQ",
+      "text": "Sérieux achète des shamalows et je t'invite à la maison j'ai du saucisson et après on se fait un bbq à la belle étoile avec les brochettes de guimauve 😉",
+      "likes": 0,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@mathieus.484",
+      "author_id": "UCC0z81B1p9OnWMYwfTrxjrA",
+      "text": "les cookies sont mous parce que tu les as transporté dans un tupperware. Il fallait les déguster à la sortie du four.",
+      "likes": 0,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@abdelghani8181",
+      "author_id": "UCPtn1XE_J2UFL227S33u-IA",
+      "text": "Ça avait l'air super bon, les cuisiniers n’ont qu’a bien se tenir !!!",
+      "likes": 3,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@barberousse5112",
+      "author_id": "UCh7MARO_OiJQ2PU6eWyXl_w",
+      "text": "Tu conseilles quoi comme chaîne youtube anglophone sur l'IA ?",
+      "likes": 0,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@TheSliverside",
+      "author_id": "UCK9a7KgSmDncKlfLaQheuVg",
+      "text": "Pourquoi pas une \"IA\" pour écrire le script d'une vidéo 🤔",
+      "likes": 0,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@theoi3921",
+      "author_id": "UC-JwclantKzdN8sW-e7_3vg",
+      "text": "3Jours pour faire quelques cookies, je ne sais pas si ça valait du temps, les cookies moelleux ça compte par contre. ^^\n\nJe me demande est-ce que cette IA n'a pas fait une moyenne des ingredients de chaque recette ou c'est une génération aléatoire?\nSur quoi se base exactement la génération des ingredients (les critères selectionné par l'IA pour réaliser son cookie?)",
+      "likes": 0,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    },
+    {
+      "author": "@adolftylor859",
+      "author_id": "UC_Y6jsjVqgV9nMP8Rd1dGPQ",
+      "text": "Ton frères sa se voit il a l habitude des cookies premier prix avec un drapeau américain sur la paquet vous voyez c est lequel il a jamais manger de cookies fait maison lui sa se voit .",
+      "likes": 0,
+      "timestamp": 1640217600,
+      "parent": "root",
+      "is_reply": false
+    }
+  ],
+  "error": null
+}
